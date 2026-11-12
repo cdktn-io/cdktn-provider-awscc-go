@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccmediaconnectrouteroutput
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateSetInternalValueParameters(val *DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManager) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccMediaconnectRouterOutputConfigurationSourceEndpointDestinationTransitEncryptionSecretsManagerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

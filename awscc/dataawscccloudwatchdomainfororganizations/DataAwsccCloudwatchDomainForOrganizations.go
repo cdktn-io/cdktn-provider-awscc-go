@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_domain_for_organizations awscc_cloudwatch_domain_for_organizations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_domain_for_organizations awscc_cloudwatch_domain_for_organizations}.
 type DataAwsccCloudwatchDomainForOrganizations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchDomainForOrganizations) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_domain_for_organizations awscc_cloudwatch_domain_for_organizations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_domain_for_organizations awscc_cloudwatch_domain_for_organizations} Data Source.
 func NewDataAwsccCloudwatchDomainForOrganizations(scope constructs.Construct, id *string, config *DataAwsccCloudwatchDomainForOrganizationsConfig) DataAwsccCloudwatchDomainForOrganizations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudwatchDomainForOrganizations(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_domain_for_organizations awscc_cloudwatch_domain_for_organizations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_domain_for_organizations awscc_cloudwatch_domain_for_organizations} Data Source.
 func NewDataAwsccCloudwatchDomainForOrganizations_Override(d DataAwsccCloudwatchDomainForOrganizations, scope constructs.Construct, id *string, config *DataAwsccCloudwatchDomainForOrganizationsConfig) {
 	_init_.Initialize()
 

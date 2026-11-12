@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudfront_field_level_encryption_config awscc_cloudfront_field_level_encryption_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudfront_field_level_encryption_config awscc_cloudfront_field_level_encryption_config}.
 type DataAwsccCloudfrontFieldLevelEncryptionConfig interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontFieldLevelEncryptionConfig) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudfront_field_level_encryption_config awscc_cloudfront_field_level_encryption_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudfront_field_level_encryption_config awscc_cloudfront_field_level_encryption_config} Data Source.
 func NewDataAwsccCloudfrontFieldLevelEncryptionConfig(scope constructs.Construct, id *string, config *DataAwsccCloudfrontFieldLevelEncryptionConfigConfig) DataAwsccCloudfrontFieldLevelEncryptionConfig {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccCloudfrontFieldLevelEncryptionConfig(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudfront_field_level_encryption_config awscc_cloudfront_field_level_encryption_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudfront_field_level_encryption_config awscc_cloudfront_field_level_encryption_config} Data Source.
 func NewDataAwsccCloudfrontFieldLevelEncryptionConfig_Override(d DataAwsccCloudfrontFieldLevelEncryptionConfig, scope constructs.Construct, id *string, config *DataAwsccCloudfrontFieldLevelEncryptionConfigConfig) {
 	_init_.Initialize()
 

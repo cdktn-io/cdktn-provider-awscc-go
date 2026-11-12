@@ -1,0 +1,9 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package dataawsccmedialiveinput
+
+
+type DataAwsccMedialiveInputSmpte2110ReceiverGroupSettingsSmpte2110ReceiverGroups struct {
+}
+

@@ -32,6 +32,7 @@ type DataAwsccBedrockagentcoreGatewayRuleConditionsOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAwsccBedrockagentcoreGatewayRuleConditions
 	SetInternalValue(val *DataAwsccBedrockagentcoreGatewayRuleConditions)
+	MatchModels() DataAwsccBedrockagentcoreGatewayRuleConditionsMatchModelsOutputReference
 	MatchPaths() DataAwsccBedrockagentcoreGatewayRuleConditionsMatchPathsOutputReference
 	MatchPrincipals() DataAwsccBedrockagentcoreGatewayRuleConditionsMatchPrincipalsOutputReference
 	// Experimental.
@@ -126,6 +127,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRuleConditionsOutputReference
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRuleConditionsOutputReference) MatchModels() DataAwsccBedrockagentcoreGatewayRuleConditionsMatchModelsOutputReference {
+	var returns DataAwsccBedrockagentcoreGatewayRuleConditionsMatchModelsOutputReference
+	_jsii_.Get(
+		j,
+		"matchModels",
 		&returns,
 	)
 	return returns

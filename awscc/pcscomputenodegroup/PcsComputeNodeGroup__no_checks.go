@@ -143,6 +143,10 @@ func (j *jsiiProxy_PcsComputeNodeGroup) validateSetIamInstanceProfileArnParamete
 	return nil
 }
 
+func (j *jsiiProxy_PcsComputeNodeGroup) validateSetLaunchTemplateModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PcsComputeNodeGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
@@ -156,6 +160,14 @@ func (j *jsiiProxy_PcsComputeNodeGroup) validateSetProvisionersParameters(val *[
 }
 
 func (j *jsiiProxy_PcsComputeNodeGroup) validateSetPurchaseOptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroup) validateSetSecurityGroupIdsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroup) validateSetSshKeyNameParameters(val *string) error {
 	return nil
 }
 

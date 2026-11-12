@@ -47,6 +47,14 @@ func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOu
 	return nil
 }
 
+func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) validatePutAzureDevOpsCapabilitiesParameters(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilities) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) validatePutAzureDevOpsRepositoryParameters(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepository) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) validatePutBitbucketCapabilitiesParameters(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketCapabilities) error {
 	return nil
 }

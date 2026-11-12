@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger}.
 type CustomerprofilesEventTrigger interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -54,6 +54,8 @@ type CustomerprofilesEventTrigger interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
+	IntentFilterDefinition() CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference
+	IntentFilterDefinitionInput() interface{}
 	LastUpdatedAt() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
@@ -166,6 +168,7 @@ type CustomerprofilesEventTrigger interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEventTriggerConditions(value interface{})
 	PutEventTriggerLimits(value *CustomerprofilesEventTriggerEventTriggerLimits)
+	PutIntentFilterDefinition(value *CustomerprofilesEventTriggerIntentFilterDefinition)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -182,6 +185,7 @@ type CustomerprofilesEventTrigger interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDescription()
 	ResetEventTriggerLimits()
+	ResetIntentFilterDefinition()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -414,6 +418,26 @@ func (j *jsiiProxy_CustomerprofilesEventTrigger) Id() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CustomerprofilesEventTrigger) IntentFilterDefinition() CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference {
+	var returns CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference
+	_jsii_.Get(
+		j,
+		"intentFilterDefinition",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CustomerprofilesEventTrigger) IntentFilterDefinitionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"intentFilterDefinitionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CustomerprofilesEventTrigger) LastUpdatedAt() *string {
 	var returns *string
 	_jsii_.Get(
@@ -565,7 +589,7 @@ func (j *jsiiProxy_CustomerprofilesEventTrigger) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger} Resource.
 func NewCustomerprofilesEventTrigger(scope constructs.Construct, id *string, config *CustomerprofilesEventTriggerConfig) CustomerprofilesEventTrigger {
 	_init_.Initialize()
 
@@ -583,7 +607,7 @@ func NewCustomerprofilesEventTrigger(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger} Resource.
 func NewCustomerprofilesEventTrigger_Override(c CustomerprofilesEventTrigger, scope constructs.Construct, id *string, config *CustomerprofilesEventTriggerConfig) {
 	_init_.Initialize()
 
@@ -1108,6 +1132,17 @@ func (c *jsiiProxy_CustomerprofilesEventTrigger) PutEventTriggerLimits(value *Cu
 	)
 }
 
+func (c *jsiiProxy_CustomerprofilesEventTrigger) PutIntentFilterDefinition(value *CustomerprofilesEventTriggerIntentFilterDefinition) {
+	if err := c.validatePutIntentFilterDefinitionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putIntentFilterDefinition",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CustomerprofilesEventTrigger) PutTags(value interface{}) {
 	if err := c.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1142,6 +1177,14 @@ func (c *jsiiProxy_CustomerprofilesEventTrigger) ResetEventTriggerLimits() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetEventTriggerLimits",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CustomerprofilesEventTrigger) ResetIntentFilterDefinition() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetIntentFilterDefinition",
 		nil, // no parameters
 	)
 }

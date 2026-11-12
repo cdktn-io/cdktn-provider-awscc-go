@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/gamelift_game_session_queue awscc_gamelift_game_session_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/gamelift_game_session_queue awscc_gamelift_game_session_queue}.
 type DataAwsccGameliftGameSessionQueue interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -46,6 +46,7 @@ type DataAwsccGameliftGameSessionQueue interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	LogConfiguration() DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -275,6 +276,16 @@ func (j *jsiiProxy_DataAwsccGameliftGameSessionQueue) Lifecycle() *cdktn.Terrafo
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccGameliftGameSessionQueue) LogConfiguration() DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference {
+	var returns DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"logConfiguration",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccGameliftGameSessionQueue) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -396,7 +407,7 @@ func (j *jsiiProxy_DataAwsccGameliftGameSessionQueue) TimeoutInSeconds() *float6
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/gamelift_game_session_queue awscc_gamelift_game_session_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/gamelift_game_session_queue awscc_gamelift_game_session_queue} Data Source.
 func NewDataAwsccGameliftGameSessionQueue(scope constructs.Construct, id *string, config *DataAwsccGameliftGameSessionQueueConfig) DataAwsccGameliftGameSessionQueue {
 	_init_.Initialize()
 
@@ -414,7 +425,7 @@ func NewDataAwsccGameliftGameSessionQueue(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/gamelift_game_session_queue awscc_gamelift_game_session_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/gamelift_game_session_queue awscc_gamelift_game_session_queue} Data Source.
 func NewDataAwsccGameliftGameSessionQueue_Override(d DataAwsccGameliftGameSessionQueue, scope constructs.Construct, id *string, config *DataAwsccGameliftGameSessionQueueConfig) {
 	_init_.Initialize()
 

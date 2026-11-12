@@ -28,6 +28,9 @@ type BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DisableMcpListToolsPagination() interface{}
+	SetDisableMcpListToolsPagination(val interface{})
+	DisableMcpListToolsPaginationInput() interface{}
 	// Experimental.
 	Fqn() *string
 	Instructions() *string
@@ -79,6 +82,7 @@ type BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSessionConfiguration(value *BedrockagentcoreGatewayProtocolConfigurationMcpSessionConfiguration)
 	PutStreamingConfiguration(value *BedrockagentcoreGatewayProtocolConfigurationMcpStreamingConfiguration)
+	ResetDisableMcpListToolsPagination()
 	ResetInstructions()
 	ResetSearchType()
 	ResetSessionConfiguration()
@@ -124,6 +128,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReferenc
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) DisableMcpListToolsPagination() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableMcpListToolsPagination",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) DisableMcpListToolsPaginationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableMcpListToolsPaginationInput",
 		&returns,
 	)
 	return returns
@@ -315,6 +339,17 @@ func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReferenc
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference)SetDisableMcpListToolsPagination(val interface{}) {
+	if err := j.validateSetDisableMcpListToolsPaginationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"disableMcpListToolsPagination",
 		val,
 	)
 }
@@ -590,6 +625,14 @@ func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReferenc
 		b,
 		"putStreamingConfiguration",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) ResetDisableMcpListToolsPagination() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDisableMcpListToolsPagination",
+		nil, // no parameters
 	)
 }
 

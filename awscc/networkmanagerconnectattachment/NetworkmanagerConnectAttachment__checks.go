@@ -215,6 +215,37 @@ func (n *jsiiProxy_NetworkmanagerConnectAttachment) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (n *jsiiProxy_NetworkmanagerConnectAttachment) validatePutNatGatewayRulesParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*NetworkmanagerConnectAttachmentNatGatewayRules:
+		value := value.(*[]*NetworkmanagerConnectAttachmentNatGatewayRules)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*NetworkmanagerConnectAttachmentNatGatewayRules:
+		value_ := value.([]*NetworkmanagerConnectAttachmentNatGatewayRules)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NetworkmanagerConnectAttachmentNatGatewayRules; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (n *jsiiProxy_NetworkmanagerConnectAttachment) validatePutOptionsParameters(value *NetworkmanagerConnectAttachmentOptions) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -414,6 +445,14 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachment) validateSetEdgeLocationParam
 func (j *jsiiProxy_NetworkmanagerConnectAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerConnectAttachment) validateSetNatGatewaySupportParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

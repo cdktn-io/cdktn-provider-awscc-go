@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/transfer_workflow awscc_transfer_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/transfer_workflow awscc_transfer_workflow}.
 type DataAwsccTransferWorkflow interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -54,6 +54,7 @@ type DataAwsccTransferWorkflow interface {
 	// Experimental.
 	RawOverrides() interface{}
 	Steps() DataAwsccTransferWorkflowStepsList
+	StructuredLogDestinations() *[]*string
 	Tags() DataAwsccTransferWorkflowTagsList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -301,6 +302,16 @@ func (j *jsiiProxy_DataAwsccTransferWorkflow) Steps() DataAwsccTransferWorkflowS
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccTransferWorkflow) StructuredLogDestinations() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"structuredLogDestinations",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccTransferWorkflow) Tags() DataAwsccTransferWorkflowTagsList {
 	var returns DataAwsccTransferWorkflowTagsList
 	_jsii_.Get(
@@ -352,7 +363,7 @@ func (j *jsiiProxy_DataAwsccTransferWorkflow) WorkflowId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/transfer_workflow awscc_transfer_workflow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/transfer_workflow awscc_transfer_workflow} Data Source.
 func NewDataAwsccTransferWorkflow(scope constructs.Construct, id *string, config *DataAwsccTransferWorkflowConfig) DataAwsccTransferWorkflow {
 	_init_.Initialize()
 
@@ -370,7 +381,7 @@ func NewDataAwsccTransferWorkflow(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/transfer_workflow awscc_transfer_workflow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/transfer_workflow awscc_transfer_workflow} Data Source.
 func NewDataAwsccTransferWorkflow_Override(d DataAwsccTransferWorkflow, scope constructs.Construct, id *string, config *DataAwsccTransferWorkflowConfig) {
 	_init_.Initialize()
 

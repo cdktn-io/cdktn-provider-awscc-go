@@ -28,10 +28,12 @@ type DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputRe
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Fallback() DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteFallbackOutputReference
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetStaticRoute
 	SetInternalValue(val *DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetStaticRoute)
+	Model() *string
 	TargetName() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -110,6 +112,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetStati
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) Fallback() DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteFallbackOutputReference {
+	var returns DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteFallbackOutputReference
+	_jsii_.Get(
+		j,
+		"fallback",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -125,6 +137,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetStati
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) Model() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"model",
 		&returns,
 	)
 	return returns

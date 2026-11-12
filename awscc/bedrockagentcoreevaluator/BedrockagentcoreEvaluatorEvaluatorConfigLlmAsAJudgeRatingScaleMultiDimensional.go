@@ -7,15 +7,15 @@ package bedrockagentcoreevaluator
 type BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensional struct {
 	// The instruction to the evaluator model describing what to judge for this dimension.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrockagentcore_evaluator#dimension_instruction BedrockagentcoreEvaluator#dimension_instruction}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_evaluator#dimension_instruction BedrockagentcoreEvaluator#dimension_instruction}
 	DimensionInstruction *string `field:"optional" json:"dimensionInstruction" yaml:"dimensionInstruction"`
 	// The name of the dimension. Must be unique within the evaluator.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrockagentcore_evaluator#dimension_name BedrockagentcoreEvaluator#dimension_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_evaluator#dimension_name BedrockagentcoreEvaluator#dimension_name}
 	DimensionName *string `field:"optional" json:"dimensionName" yaml:"dimensionName"`
 	// The rating scale for one dimension of an LLM-as-a-Judge evaluator.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrockagentcore_evaluator#dimension_rating_scale BedrockagentcoreEvaluator#dimension_rating_scale}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_evaluator#dimension_rating_scale BedrockagentcoreEvaluator#dimension_rating_scale}
 	DimensionRatingScale *BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalDimensionRatingScale `field:"optional" json:"dimensionRatingScale" yaml:"dimensionRatingScale"`
 }
 

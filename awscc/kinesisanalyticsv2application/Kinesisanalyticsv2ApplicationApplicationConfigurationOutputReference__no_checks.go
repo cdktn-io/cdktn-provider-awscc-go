@@ -71,10 +71,6 @@ func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputRe
 	return nil
 }
 
-func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) validatePutSqlApplicationConfigurationParameters(value *Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfiguration) error {
-	return nil
-}
-
 func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) validatePutVpcConfigurationsParameters(value interface{}) error {
 	return nil
 }

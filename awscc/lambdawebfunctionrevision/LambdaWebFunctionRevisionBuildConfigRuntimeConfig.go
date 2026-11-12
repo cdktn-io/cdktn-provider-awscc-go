@@ -7,7 +7,7 @@ package lambdawebfunctionrevision
 type LambdaWebFunctionRevisionBuildConfigRuntimeConfig struct {
 	// The runtime identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#runtime LambdaWebFunctionRevision#runtime}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/lambda_web_function_revision#runtime LambdaWebFunctionRevision#runtime}
 	Runtime *string `field:"required" json:"runtime" yaml:"runtime"`
 }
 

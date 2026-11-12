@@ -41,6 +41,7 @@ type DataAwsccEcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateO
 	LocalStorageConfiguration() DataAwsccEcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationOutputReference
 	Monitoring() *string
 	NetworkConfiguration() DataAwsccEcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateNetworkConfigurationOutputReference
+	NitroEnclavesEnabled() cdktn.IResolvable
 	StorageConfiguration() DataAwsccEcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationOutputReference
 	// Experimental.
 	TerraformAttribute() *string
@@ -224,6 +225,16 @@ func (j *jsiiProxy_DataAwsccEcsCapacityProviderManagedInstancesProviderInstanceL
 	_jsii_.Get(
 		j,
 		"networkConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccEcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) NitroEnclavesEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"nitroEnclavesEnabled",
 		&returns,
 	)
 	return returns

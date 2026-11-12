@@ -24,41 +24,41 @@ type DmsMigrationProjectConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The optional description of the migration project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/dms_migration_project#description DmsMigrationProject#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dms_migration_project#description DmsMigrationProject#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The property describes an instance profile identifier for the migration project. For create.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/dms_migration_project#instance_profile_identifier DmsMigrationProject#instance_profile_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dms_migration_project#instance_profile_identifier DmsMigrationProject#instance_profile_identifier}
 	InstanceProfileIdentifier *string `field:"optional" json:"instanceProfileIdentifier" yaml:"instanceProfileIdentifier"`
 	// [DEPRECATED] This property is unused and will be ignored.
 	//
 	// Identity is managed via the resource ARN (primaryIdentifier) and Name (additionalIdentifier).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/dms_migration_project#migration_project_identifier DmsMigrationProject#migration_project_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dms_migration_project#migration_project_identifier DmsMigrationProject#migration_project_identifier}
 	MigrationProjectIdentifier *string `field:"optional" json:"migrationProjectIdentifier" yaml:"migrationProjectIdentifier"`
 	// The property describes a name to identify the migration project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/dms_migration_project#migration_project_name DmsMigrationProject#migration_project_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dms_migration_project#migration_project_name DmsMigrationProject#migration_project_name}
 	MigrationProjectName *string `field:"optional" json:"migrationProjectName" yaml:"migrationProjectName"`
 	// The property describes schema conversion application attributes for the migration project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/dms_migration_project#schema_conversion_application_attributes DmsMigrationProject#schema_conversion_application_attributes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dms_migration_project#schema_conversion_application_attributes DmsMigrationProject#schema_conversion_application_attributes}
 	SchemaConversionApplicationAttributes *DmsMigrationProjectSchemaConversionApplicationAttributes `field:"optional" json:"schemaConversionApplicationAttributes" yaml:"schemaConversionApplicationAttributes"`
 	// The property describes source data provider descriptors for the migration project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/dms_migration_project#source_data_provider_descriptors DmsMigrationProject#source_data_provider_descriptors}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dms_migration_project#source_data_provider_descriptors DmsMigrationProject#source_data_provider_descriptors}
 	SourceDataProviderDescriptors interface{} `field:"optional" json:"sourceDataProviderDescriptors" yaml:"sourceDataProviderDescriptors"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/dms_migration_project#tags DmsMigrationProject#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dms_migration_project#tags DmsMigrationProject#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The property describes target data provider descriptors for the migration project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/dms_migration_project#target_data_provider_descriptors DmsMigrationProject#target_data_provider_descriptors}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dms_migration_project#target_data_provider_descriptors DmsMigrationProject#target_data_provider_descriptors}
 	TargetDataProviderDescriptors interface{} `field:"optional" json:"targetDataProviderDescriptors" yaml:"targetDataProviderDescriptors"`
 	// The property describes transformation rules for the migration project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/dms_migration_project#transformation_rules DmsMigrationProject#transformation_rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dms_migration_project#transformation_rules DmsMigrationProject#transformation_rules}
 	TransformationRules *string `field:"optional" json:"transformationRules" yaml:"transformationRules"`
 }
 

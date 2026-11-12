@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group}.
 type PcsComputeNodeGroup interface {
 	cdktn.TerraformResource
 	AmiId() *string
@@ -56,6 +56,9 @@ type PcsComputeNodeGroup interface {
 	Id() *string
 	InstanceConfigs() PcsComputeNodeGroupInstanceConfigsList
 	InstanceConfigsInput() interface{}
+	LaunchTemplateMode() *string
+	SetLaunchTemplateMode(val *string)
+	LaunchTemplateModeInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -82,10 +85,16 @@ type PcsComputeNodeGroup interface {
 	RawOverrides() interface{}
 	ScalingConfiguration() PcsComputeNodeGroupScalingConfigurationOutputReference
 	ScalingConfigurationInput() interface{}
+	SecurityGroupIds() *[]*string
+	SetSecurityGroupIds(val *[]*string)
+	SecurityGroupIdsInput() *[]*string
 	SlurmConfiguration() PcsComputeNodeGroupSlurmConfigurationOutputReference
 	SlurmConfigurationInput() interface{}
 	SpotOptions() PcsComputeNodeGroupSpotOptionsOutputReference
 	SpotOptionsInput() interface{}
+	SshKeyName() *string
+	SetSshKeyName(val *string)
+	SshKeyNameInput() *string
 	Status() *string
 	SubnetIds() *[]*string
 	SetSubnetIds(val *[]*string)
@@ -199,14 +208,17 @@ type PcsComputeNodeGroup interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAmiId()
 	ResetCustomLaunchTemplate()
+	ResetLaunchTemplateMode()
 	ResetName()
 	ResetNodeLifecycleActions()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPurchaseOption()
+	ResetSecurityGroupIds()
 	ResetSlurmConfiguration()
 	ResetSpotOptions()
+	ResetSshKeyName()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -455,6 +467,26 @@ func (j *jsiiProxy_PcsComputeNodeGroup) InstanceConfigsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_PcsComputeNodeGroup) LaunchTemplateMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"launchTemplateMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroup) LaunchTemplateModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"launchTemplateModeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PcsComputeNodeGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -585,6 +617,26 @@ func (j *jsiiProxy_PcsComputeNodeGroup) ScalingConfigurationInput() interface{} 
 	return returns
 }
 
+func (j *jsiiProxy_PcsComputeNodeGroup) SecurityGroupIds() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"securityGroupIds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroup) SecurityGroupIdsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"securityGroupIdsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PcsComputeNodeGroup) SlurmConfiguration() PcsComputeNodeGroupSlurmConfigurationOutputReference {
 	var returns PcsComputeNodeGroupSlurmConfigurationOutputReference
 	_jsii_.Get(
@@ -620,6 +672,26 @@ func (j *jsiiProxy_PcsComputeNodeGroup) SpotOptionsInput() interface{} {
 	_jsii_.Get(
 		j,
 		"spotOptionsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroup) SshKeyName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sshKeyName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroup) SshKeyNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sshKeyNameInput",
 		&returns,
 	)
 	return returns
@@ -706,7 +778,7 @@ func (j *jsiiProxy_PcsComputeNodeGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource.
 func NewPcsComputeNodeGroup(scope constructs.Construct, id *string, config *PcsComputeNodeGroupConfig) PcsComputeNodeGroup {
 	_init_.Initialize()
 
@@ -724,7 +796,7 @@ func NewPcsComputeNodeGroup(scope constructs.Construct, id *string, config *PcsC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource.
 func NewPcsComputeNodeGroup_Override(p PcsComputeNodeGroup, scope constructs.Construct, id *string, config *PcsComputeNodeGroupConfig) {
 	_init_.Initialize()
 
@@ -806,6 +878,17 @@ func (j *jsiiProxy_PcsComputeNodeGroup)SetIamInstanceProfileArn(val *string) {
 	)
 }
 
+func (j *jsiiProxy_PcsComputeNodeGroup)SetLaunchTemplateMode(val *string) {
+	if err := j.validateSetLaunchTemplateModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"launchTemplateMode",
+		val,
+	)
+}
+
 func (j *jsiiProxy_PcsComputeNodeGroup)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
@@ -854,6 +937,28 @@ func (j *jsiiProxy_PcsComputeNodeGroup)SetPurchaseOption(val *string) {
 	_jsii_.Set(
 		j,
 		"purchaseOption",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroup)SetSecurityGroupIds(val *[]*string) {
+	if err := j.validateSetSecurityGroupIdsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"securityGroupIds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroup)SetSshKeyName(val *string) {
+	if err := j.validateSetSshKeyNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sshKeyName",
 		val,
 	)
 }
@@ -1342,6 +1447,14 @@ func (p *jsiiProxy_PcsComputeNodeGroup) ResetCustomLaunchTemplate() {
 	)
 }
 
+func (p *jsiiProxy_PcsComputeNodeGroup) ResetLaunchTemplateMode() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetLaunchTemplateMode",
+		nil, // no parameters
+	)
+}
+
 func (p *jsiiProxy_PcsComputeNodeGroup) ResetName() {
 	_jsii_.InvokeVoid(
 		p,
@@ -1374,6 +1487,14 @@ func (p *jsiiProxy_PcsComputeNodeGroup) ResetPurchaseOption() {
 	)
 }
 
+func (p *jsiiProxy_PcsComputeNodeGroup) ResetSecurityGroupIds() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetSecurityGroupIds",
+		nil, // no parameters
+	)
+}
+
 func (p *jsiiProxy_PcsComputeNodeGroup) ResetSlurmConfiguration() {
 	_jsii_.InvokeVoid(
 		p,
@@ -1386,6 +1507,14 @@ func (p *jsiiProxy_PcsComputeNodeGroup) ResetSpotOptions() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetSpotOptions",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PcsComputeNodeGroup) ResetSshKeyName() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetSshKeyName",
 		nil, // no parameters
 	)
 }

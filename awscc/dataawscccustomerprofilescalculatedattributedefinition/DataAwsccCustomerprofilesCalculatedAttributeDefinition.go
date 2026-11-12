@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition}.
 type DataAwsccCustomerprofilesCalculatedAttributeDefinition interface {
 	cdktn.TerraformDataSource
 	AttributeDetails() DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsOutputReference
@@ -34,6 +34,7 @@ type DataAwsccCustomerprofilesCalculatedAttributeDefinition interface {
 	Description() *string
 	DisplayName() *string
 	DomainName() *string
+	Filter() DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterOutputReference
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -248,6 +249,16 @@ func (j *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinition) Domai
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinition) Filter() DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterOutputReference {
+	var returns DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterOutputReference
+	_jsii_.Get(
+		j,
+		"filter",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinition) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -429,7 +440,7 @@ func (j *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinition) UseHi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Data Source.
 func NewDataAwsccCustomerprofilesCalculatedAttributeDefinition(scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesCalculatedAttributeDefinitionConfig) DataAwsccCustomerprofilesCalculatedAttributeDefinition {
 	_init_.Initialize()
 
@@ -447,7 +458,7 @@ func NewDataAwsccCustomerprofilesCalculatedAttributeDefinition(scope constructs.
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Data Source.
 func NewDataAwsccCustomerprofilesCalculatedAttributeDefinition_Override(d DataAwsccCustomerprofilesCalculatedAttributeDefinition, scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesCalculatedAttributeDefinitionConfig) {
 	_init_.Initialize()
 

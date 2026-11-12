@@ -7,11 +7,11 @@ package iototaupdate
 type IotOtaUpdateFilesCodeSigningStartSigningJobParameterDestinationS3Destination struct {
 	// The S3 bucket that contains the updated firmware.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_ota_update#bucket IotOtaUpdate#bucket}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/iot_ota_update#bucket IotOtaUpdate#bucket}
 	Bucket *string `field:"optional" json:"bucket" yaml:"bucket"`
 	// The S3 prefix.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_ota_update#prefix IotOtaUpdate#prefix}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/iot_ota_update#prefix IotOtaUpdate#prefix}
 	Prefix *string `field:"optional" json:"prefix" yaml:"prefix"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_gateway_cluster_associations awscc_ecs_gateway_cluster_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_gateway_cluster_associations awscc_ecs_gateway_cluster_associations}.
 type DataAwsccEcsGatewayClusterAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccEcsGatewayClusterAssociations) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_gateway_cluster_associations awscc_ecs_gateway_cluster_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_gateway_cluster_associations awscc_ecs_gateway_cluster_associations} Data Source.
 func NewDataAwsccEcsGatewayClusterAssociations(scope constructs.Construct, id *string, config *DataAwsccEcsGatewayClusterAssociationsConfig) DataAwsccEcsGatewayClusterAssociations {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccEcsGatewayClusterAssociations(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_gateway_cluster_associations awscc_ecs_gateway_cluster_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_gateway_cluster_associations awscc_ecs_gateway_cluster_associations} Data Source.
 func NewDataAwsccEcsGatewayClusterAssociations_Override(d DataAwsccEcsGatewayClusterAssociations, scope constructs.Construct, id *string, config *DataAwsccEcsGatewayClusterAssociationsConfig) {
 	_init_.Initialize()
 

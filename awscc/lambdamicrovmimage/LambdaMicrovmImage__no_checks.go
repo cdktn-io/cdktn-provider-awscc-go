@@ -159,6 +159,10 @@ func (j *jsiiProxy_LambdaMicrovmImage) validateSetEgressNetworkConnectorsParamet
 	return nil
 }
 
+func (j *jsiiProxy_LambdaMicrovmImage) validateSetKmsKeyIdentifierParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LambdaMicrovmImage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

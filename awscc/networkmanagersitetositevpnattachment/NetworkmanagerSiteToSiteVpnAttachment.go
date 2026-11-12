@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment}.
 type NetworkmanagerSiteToSiteVpnAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -54,6 +54,14 @@ type NetworkmanagerSiteToSiteVpnAttachment interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	NatGatewayRules() NetworkmanagerSiteToSiteVpnAttachmentNatGatewayRulesList
+	NatGatewayRulesInput() interface{}
+	NatGatewaySupport() *string
+	SetNatGatewaySupport(val *string)
+	NatGatewaySupportInput() *string
+	NatSystemRouteSupport() interface{}
+	SetNatSystemRouteSupport(val interface{})
+	NatSystemRouteSupportInput() interface{}
 	NetworkFunctionGroupName() *string
 	SetNetworkFunctionGroupName(val *string)
 	NetworkFunctionGroupNameInput() *string
@@ -169,6 +177,7 @@ type NetworkmanagerSiteToSiteVpnAttachment interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutNatGatewayRules(value interface{})
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -183,6 +192,9 @@ type NetworkmanagerSiteToSiteVpnAttachment interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetNatGatewayRules()
+	ResetNatGatewaySupport()
+	ResetNatSystemRouteSupport()
 	ResetNetworkFunctionGroupName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -401,6 +413,66 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) Lifecycle() *cdktn.Ter
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) NatGatewayRules() NetworkmanagerSiteToSiteVpnAttachmentNatGatewayRulesList {
+	var returns NetworkmanagerSiteToSiteVpnAttachmentNatGatewayRulesList
+	_jsii_.Get(
+		j,
+		"natGatewayRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) NatGatewayRulesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"natGatewayRulesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) NatGatewaySupport() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"natGatewaySupport",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) NatGatewaySupportInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"natGatewaySupportInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) NatSystemRouteSupport() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"natSystemRouteSupport",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) NatSystemRouteSupportInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"natSystemRouteSupportInput",
 		&returns,
 	)
 	return returns
@@ -627,7 +699,7 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) VpnConnectionArnInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment} Resource.
 func NewNetworkmanagerSiteToSiteVpnAttachment(scope constructs.Construct, id *string, config *NetworkmanagerSiteToSiteVpnAttachmentConfig) NetworkmanagerSiteToSiteVpnAttachment {
 	_init_.Initialize()
 
@@ -645,7 +717,7 @@ func NewNetworkmanagerSiteToSiteVpnAttachment(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment} Resource.
 func NewNetworkmanagerSiteToSiteVpnAttachment_Override(n NetworkmanagerSiteToSiteVpnAttachment, scope constructs.Construct, id *string, config *NetworkmanagerSiteToSiteVpnAttachmentConfig) {
 	_init_.Initialize()
 
@@ -712,6 +784,28 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment)SetLifecycle(val *cdktn
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment)SetNatGatewaySupport(val *string) {
+	if err := j.validateSetNatGatewaySupportParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"natGatewaySupport",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment)SetNatSystemRouteSupport(val interface{}) {
+	if err := j.validateSetNatSystemRouteSupportParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"natSystemRouteSupport",
 		val,
 	)
 }
@@ -1137,6 +1231,17 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) OverrideLogicalId(newL
 	)
 }
 
+func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) PutNatGatewayRules(value interface{}) {
+	if err := n.validatePutNatGatewayRulesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putNatGatewayRules",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) PutTags(value interface{}) {
 	if err := n.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1156,6 +1261,30 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) RegisterProviderFeatur
 		n,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ResetNatGatewayRules() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNatGatewayRules",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ResetNatGatewaySupport() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNatGatewaySupport",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ResetNatSystemRouteSupport() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNatSystemRouteSupport",
+		nil, // no parameters
 	)
 }
 

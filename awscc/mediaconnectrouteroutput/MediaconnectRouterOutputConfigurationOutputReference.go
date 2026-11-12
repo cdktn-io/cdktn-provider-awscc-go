@@ -36,6 +36,8 @@ type MediaconnectRouterOutputConfigurationOutputReference interface {
 	MediaConnectFlowInput() interface{}
 	MediaLiveInput() MediaconnectRouterOutputConfigurationMediaLiveInputOutputReference
 	MediaLiveInputInput() interface{}
+	SourceEndpoint() MediaconnectRouterOutputConfigurationSourceEndpointOutputReference
+	SourceEndpointInput() interface{}
 	Standard() MediaconnectRouterOutputConfigurationStandardOutputReference
 	StandardInput() interface{}
 	// Experimental.
@@ -72,9 +74,11 @@ type MediaconnectRouterOutputConfigurationOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMediaConnectFlow(value *MediaconnectRouterOutputConfigurationMediaConnectFlow)
 	PutMediaLiveInput(value *MediaconnectRouterOutputConfigurationMediaLiveInput)
+	PutSourceEndpoint(value *MediaconnectRouterOutputConfigurationSourceEndpoint)
 	PutStandard(value *MediaconnectRouterOutputConfigurationStandard)
 	ResetMediaConnectFlow()
 	ResetMediaLiveInput()
+	ResetSourceEndpoint()
 	ResetStandard()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -176,6 +180,26 @@ func (j *jsiiProxy_MediaconnectRouterOutputConfigurationOutputReference) MediaLi
 	_jsii_.Get(
 		j,
 		"mediaLiveInputInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectRouterOutputConfigurationOutputReference) SourceEndpoint() MediaconnectRouterOutputConfigurationSourceEndpointOutputReference {
+	var returns MediaconnectRouterOutputConfigurationSourceEndpointOutputReference
+	_jsii_.Get(
+		j,
+		"sourceEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectRouterOutputConfigurationOutputReference) SourceEndpointInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sourceEndpointInput",
 		&returns,
 	)
 	return returns
@@ -512,6 +536,17 @@ func (m *jsiiProxy_MediaconnectRouterOutputConfigurationOutputReference) PutMedi
 	)
 }
 
+func (m *jsiiProxy_MediaconnectRouterOutputConfigurationOutputReference) PutSourceEndpoint(value *MediaconnectRouterOutputConfigurationSourceEndpoint) {
+	if err := m.validatePutSourceEndpointParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putSourceEndpoint",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MediaconnectRouterOutputConfigurationOutputReference) PutStandard(value *MediaconnectRouterOutputConfigurationStandard) {
 	if err := m.validatePutStandardParameters(value); err != nil {
 		panic(err)
@@ -535,6 +570,14 @@ func (m *jsiiProxy_MediaconnectRouterOutputConfigurationOutputReference) ResetMe
 	_jsii_.InvokeVoid(
 		m,
 		"resetMediaLiveInput",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediaconnectRouterOutputConfigurationOutputReference) ResetSourceEndpoint() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetSourceEndpoint",
 		nil, // no parameters
 	)
 }

@@ -5,7 +5,7 @@ package ecstaskdefinition
 
 
 type EcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_task_definition#nvidia_mps EcsTaskDefinition#nvidia_mps}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecs_task_definition#nvidia_mps EcsTaskDefinition#nvidia_mps}.
 	NvidiaMps *EcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMps `field:"optional" json:"nvidiaMps" yaml:"nvidiaMps"`
 }
 

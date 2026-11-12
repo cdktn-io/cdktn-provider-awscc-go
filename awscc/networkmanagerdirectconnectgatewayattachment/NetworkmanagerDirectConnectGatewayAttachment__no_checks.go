@@ -79,6 +79,10 @@ func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) validateOverrid
 	return nil
 }
 
+func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) validatePutNatGatewayRulesParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) validatePutTagsParameters(value interface{}) error {
 	return nil
 }
@@ -124,6 +128,14 @@ func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) validateSetEdge
 }
 
 func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) validateSetNatGatewaySupportParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) validateSetNatSystemRouteSupportParameters(val interface{}) error {
 	return nil
 }
 

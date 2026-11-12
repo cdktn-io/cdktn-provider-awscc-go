@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_db_cluster awscc_rds_db_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/rds_db_cluster awscc_rds_db_cluster}.
 type RdsDbCluster interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -246,6 +246,9 @@ type RdsDbCluster interface {
 	VpcSecurityGroupIds() *[]*string
 	SetVpcSecurityGroupIds(val *[]*string)
 	VpcSecurityGroupIdsInput() *[]*string
+	WithExpressConfiguration() interface{}
+	SetWithExpressConfiguration(val interface{})
+	WithExpressConfigurationInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -407,6 +410,7 @@ type RdsDbCluster interface {
 	ResetTags()
 	ResetUseLatestRestorableTime()
 	ResetVpcSecurityGroupIds()
+	ResetWithExpressConfiguration()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -1884,8 +1888,28 @@ func (j *jsiiProxy_RdsDbCluster) VpcSecurityGroupIdsInput() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_RdsDbCluster) WithExpressConfiguration() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"withExpressConfiguration",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_db_cluster awscc_rds_db_cluster} Resource.
+func (j *jsiiProxy_RdsDbCluster) WithExpressConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"withExpressConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/rds_db_cluster awscc_rds_db_cluster} Resource.
 func NewRdsDbCluster(scope constructs.Construct, id *string, config *RdsDbClusterConfig) RdsDbCluster {
 	_init_.Initialize()
 
@@ -1903,7 +1927,7 @@ func NewRdsDbCluster(scope constructs.Construct, id *string, config *RdsDbCluste
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_db_cluster awscc_rds_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/rds_db_cluster awscc_rds_db_cluster} Resource.
 func NewRdsDbCluster_Override(r RdsDbCluster, scope constructs.Construct, id *string, config *RdsDbClusterConfig) {
 	_init_.Initialize()
 
@@ -2594,6 +2618,17 @@ func (j *jsiiProxy_RdsDbCluster)SetVpcSecurityGroupIds(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"vpcSecurityGroupIds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RdsDbCluster)SetWithExpressConfiguration(val interface{}) {
+	if err := j.validateSetWithExpressConfigurationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"withExpressConfiguration",
 		val,
 	)
 }
@@ -3525,6 +3560,14 @@ func (r *jsiiProxy_RdsDbCluster) ResetVpcSecurityGroupIds() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetVpcSecurityGroupIds",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RdsDbCluster) ResetWithExpressConfiguration() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetWithExpressConfiguration",
 		nil, // no parameters
 	)
 }

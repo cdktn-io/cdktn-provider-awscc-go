@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}.
 type DataAwsccNetworkmanagerVpcAttachment interface {
 	cdktn.TerraformDataSource
 	AttachmentId() *string
@@ -50,6 +50,9 @@ type DataAwsccNetworkmanagerVpcAttachment interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	NatGatewayRules() DataAwsccNetworkmanagerVpcAttachmentNatGatewayRulesList
+	NatGatewaySupport() *string
+	NatSystemRouteSupport() cdktn.IResolvable
 	NetworkFunctionGroupName() *string
 	// The tree node.
 	Node() constructs.Node
@@ -326,6 +329,36 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerVpcAttachment) Lifecycle() *cdktn.Terr
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccNetworkmanagerVpcAttachment) NatGatewayRules() DataAwsccNetworkmanagerVpcAttachmentNatGatewayRulesList {
+	var returns DataAwsccNetworkmanagerVpcAttachmentNatGatewayRulesList
+	_jsii_.Get(
+		j,
+		"natGatewayRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccNetworkmanagerVpcAttachment) NatGatewaySupport() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"natGatewaySupport",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccNetworkmanagerVpcAttachment) NatSystemRouteSupport() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"natSystemRouteSupport",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccNetworkmanagerVpcAttachment) NetworkFunctionGroupName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -517,7 +550,7 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerVpcAttachment) VpcArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Data Source.
 func NewDataAwsccNetworkmanagerVpcAttachment(scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerVpcAttachmentConfig) DataAwsccNetworkmanagerVpcAttachment {
 	_init_.Initialize()
 
@@ -535,7 +568,7 @@ func NewDataAwsccNetworkmanagerVpcAttachment(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Data Source.
 func NewDataAwsccNetworkmanagerVpcAttachment_Override(d DataAwsccNetworkmanagerVpcAttachment, scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerVpcAttachmentConfig) {
 	_init_.Initialize()
 

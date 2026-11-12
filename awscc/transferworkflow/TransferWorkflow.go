@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow awscc_transfer_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow awscc_transfer_workflow}.
 type TransferWorkflow interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -64,6 +64,9 @@ type TransferWorkflow interface {
 	RawOverrides() interface{}
 	Steps() TransferWorkflowStepsList
 	StepsInput() interface{}
+	StructuredLogDestinations() *[]*string
+	SetStructuredLogDestinations(val *[]*string)
+	StructuredLogDestinationsInput() *[]*string
 	Tags() TransferWorkflowTagsList
 	TagsInput() interface{}
 	// Experimental.
@@ -173,6 +176,7 @@ type TransferWorkflow interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetStructuredLogDestinations()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -411,6 +415,26 @@ func (j *jsiiProxy_TransferWorkflow) StepsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_TransferWorkflow) StructuredLogDestinations() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"structuredLogDestinations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferWorkflow) StructuredLogDestinationsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"structuredLogDestinationsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_TransferWorkflow) Tags() TransferWorkflowTagsList {
 	var returns TransferWorkflowTagsList
 	_jsii_.Get(
@@ -472,7 +496,7 @@ func (j *jsiiProxy_TransferWorkflow) WorkflowId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow awscc_transfer_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow awscc_transfer_workflow} Resource.
 func NewTransferWorkflow(scope constructs.Construct, id *string, config *TransferWorkflowConfig) TransferWorkflow {
 	_init_.Initialize()
 
@@ -490,7 +514,7 @@ func NewTransferWorkflow(scope constructs.Construct, id *string, config *Transfe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow awscc_transfer_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow awscc_transfer_workflow} Resource.
 func NewTransferWorkflow_Override(t TransferWorkflow, scope constructs.Construct, id *string, config *TransferWorkflowConfig) {
 	_init_.Initialize()
 
@@ -576,6 +600,17 @@ func (j *jsiiProxy_TransferWorkflow)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TransferWorkflow)SetStructuredLogDestinations(val *[]*string) {
+	if err := j.validateSetStructuredLogDestinationsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"structuredLogDestinations",
 		val,
 	)
 }
@@ -1013,6 +1048,14 @@ func (t *jsiiProxy_TransferWorkflow) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		t,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TransferWorkflow) ResetStructuredLogDestinations() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetStructuredLogDestinations",
 		nil, // no parameters
 	)
 }

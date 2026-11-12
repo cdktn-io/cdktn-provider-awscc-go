@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_ota_update awscc_iot_ota_update}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/iot_ota_update awscc_iot_ota_update}.
 type IotOtaUpdate interface {
 	cdktn.TerraformResource
 	AdditionalParameters() *map[string]*string
@@ -708,7 +708,7 @@ func (j *jsiiProxy_IotOtaUpdate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_ota_update awscc_iot_ota_update} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/iot_ota_update awscc_iot_ota_update} Resource.
 func NewIotOtaUpdate(scope constructs.Construct, id *string, config *IotOtaUpdateConfig) IotOtaUpdate {
 	_init_.Initialize()
 
@@ -726,7 +726,7 @@ func NewIotOtaUpdate(scope constructs.Construct, id *string, config *IotOtaUpdat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_ota_update awscc_iot_ota_update} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/iot_ota_update awscc_iot_ota_update} Resource.
 func NewIotOtaUpdate_Override(i IotOtaUpdate, scope constructs.Construct, id *string, config *IotOtaUpdateConfig) {
 	_init_.Initialize()
 

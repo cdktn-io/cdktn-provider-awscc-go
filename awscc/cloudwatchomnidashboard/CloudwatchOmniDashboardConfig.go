@@ -22,25 +22,25 @@ type CloudwatchOmniDashboardConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// The dashboard body, a JSON document describing the dashboard's widgets and layout.
+	// The dashboard definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#body CloudwatchOmniDashboard#body}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#body CloudwatchOmniDashboard#body}
 	Body *string `field:"required" json:"body" yaml:"body"`
-	// The name of the dashboard.
+	// A name that identifies the dashboard.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#name CloudwatchOmniDashboard#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#name CloudwatchOmniDashboard#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// The unique identifier of the space the dashboard belongs to.
+	// The unique ID of the space to create the dashboard in.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#space_id CloudwatchOmniDashboard#space_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#space_id CloudwatchOmniDashboard#space_id}
 	SpaceId *string `field:"required" json:"spaceId" yaml:"spaceId"`
-	// The description of the dashboard.
+	// An optional description of the dashboard.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#description CloudwatchOmniDashboard#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#description CloudwatchOmniDashboard#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#tags CloudwatchOmniDashboard#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#tags CloudwatchOmniDashboard#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

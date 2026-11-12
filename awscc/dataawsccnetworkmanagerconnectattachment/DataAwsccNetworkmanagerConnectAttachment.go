@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}.
 type DataAwsccNetworkmanagerConnectAttachment interface {
 	cdktn.TerraformDataSource
 	AttachmentId() *string
@@ -50,6 +50,9 @@ type DataAwsccNetworkmanagerConnectAttachment interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	NatGatewayRules() DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList
+	NatGatewaySupport() *string
+	NatSystemRouteSupport() cdktn.IResolvable
 	NetworkFunctionGroupName() *string
 	// The tree node.
 	Node() constructs.Node
@@ -325,6 +328,36 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerConnectAttachment) Lifecycle() *cdktn.
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccNetworkmanagerConnectAttachment) NatGatewayRules() DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList {
+	var returns DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList
+	_jsii_.Get(
+		j,
+		"natGatewayRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccNetworkmanagerConnectAttachment) NatGatewaySupport() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"natGatewaySupport",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccNetworkmanagerConnectAttachment) NatSystemRouteSupport() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"natSystemRouteSupport",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccNetworkmanagerConnectAttachment) NetworkFunctionGroupName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -506,7 +539,7 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerConnectAttachment) UpdatedAt() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Data Source.
 func NewDataAwsccNetworkmanagerConnectAttachment(scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerConnectAttachmentConfig) DataAwsccNetworkmanagerConnectAttachment {
 	_init_.Initialize()
 
@@ -524,7 +557,7 @@ func NewDataAwsccNetworkmanagerConnectAttachment(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Data Source.
 func NewDataAwsccNetworkmanagerConnectAttachment_Override(d DataAwsccNetworkmanagerConnectAttachment, scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerConnectAttachmentConfig) {
 	_init_.Initialize()
 

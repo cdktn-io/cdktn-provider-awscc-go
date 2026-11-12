@@ -67,6 +67,10 @@ func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReferenc
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) validateSetDisableMcpListToolsPaginationParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) validateSetInstructionsParameters(val *string) error {
 	return nil
 }

@@ -63,6 +63,10 @@ func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationApplicat
 	return nil
 }
 
+func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfigurationOutputReference) validateSetSnapshotModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfigurationOutputReference) validateSetSnapshotsEnabledParameters(val interface{}) error {
 	return nil
 }

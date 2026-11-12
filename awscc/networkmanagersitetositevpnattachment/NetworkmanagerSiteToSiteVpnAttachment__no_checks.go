@@ -79,6 +79,10 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateOverrideLogica
 	return nil
 }
 
+func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validatePutNatGatewayRulesParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validatePutTagsParameters(value interface{}) error {
 	return nil
 }
@@ -116,6 +120,14 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateSetCountParame
 }
 
 func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateSetNatGatewaySupportParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateSetNatSystemRouteSupportParameters(val interface{}) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mgn_waves awscc_mgn_waves}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mgn_waves awscc_mgn_waves}.
 type DataAwsccMgnWaves interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMgnWaves) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mgn_waves awscc_mgn_waves} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mgn_waves awscc_mgn_waves} Data Source.
 func NewDataAwsccMgnWaves(scope constructs.Construct, id *string, config *DataAwsccMgnWavesConfig) DataAwsccMgnWaves {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMgnWaves(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mgn_waves awscc_mgn_waves} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mgn_waves awscc_mgn_waves} Data Source.
 func NewDataAwsccMgnWaves_Override(d DataAwsccMgnWaves, scope constructs.Construct, id *string, config *DataAwsccMgnWavesConfig) {
 	_init_.Initialize()
 

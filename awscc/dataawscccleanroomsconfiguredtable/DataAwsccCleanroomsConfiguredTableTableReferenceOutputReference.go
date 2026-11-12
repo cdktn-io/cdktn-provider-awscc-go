@@ -29,6 +29,7 @@ type DataAwsccCleanroomsConfiguredTableTableReferenceOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Databricks() DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksOutputReference
 	// Experimental.
 	Fqn() *string
 	Glue() DataAwsccCleanroomsConfiguredTableTableReferenceGlueOutputReference
@@ -117,6 +118,16 @@ func (j *jsiiProxy_DataAwsccCleanroomsConfiguredTableTableReferenceOutputReferen
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccCleanroomsConfiguredTableTableReferenceOutputReference) Databricks() DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksOutputReference {
+	var returns DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksOutputReference
+	_jsii_.Get(
+		j,
+		"databricks",
 		&returns,
 	)
 	return returns

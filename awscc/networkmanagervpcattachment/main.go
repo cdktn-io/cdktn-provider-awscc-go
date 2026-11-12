@@ -51,6 +51,11 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "moveFromId", GoMethod: "MoveFromId"},
 			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
 			_jsii_.MemberMethod{JsiiMethod: "moveToId", GoMethod: "MoveToId"},
+			_jsii_.MemberProperty{JsiiProperty: "natGatewayRules", GoGetter: "NatGatewayRules"},
+			_jsii_.MemberProperty{JsiiProperty: "natGatewayRulesInput", GoGetter: "NatGatewayRulesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "natGatewaySupport", GoGetter: "NatGatewaySupport"},
+			_jsii_.MemberProperty{JsiiProperty: "natGatewaySupportInput", GoGetter: "NatGatewaySupportInput"},
+			_jsii_.MemberProperty{JsiiProperty: "natSystemRouteSupport", GoGetter: "NatSystemRouteSupport"},
 			_jsii_.MemberProperty{JsiiProperty: "networkFunctionGroupName", GoGetter: "NetworkFunctionGroupName"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberProperty{JsiiProperty: "options", GoGetter: "Options"},
@@ -61,10 +66,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "proposedSegmentChange", GoGetter: "ProposedSegmentChange"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberMethod{JsiiMethod: "putNatGatewayRules", GoMethod: "PutNatGatewayRules"},
 			_jsii_.MemberMethod{JsiiMethod: "putOptions", GoMethod: "PutOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putTags", GoMethod: "PutTags"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNatGatewayRules", GoMethod: "ResetNatGatewayRules"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNatGatewaySupport", GoMethod: "ResetNatGatewaySupport"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOptions", GoMethod: "ResetOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRoutingPolicyLabel", GoMethod: "ResetRoutingPolicyLabel"},
@@ -101,6 +109,73 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentConfig",
 		reflect.TypeOf((*NetworkmanagerVpcAttachmentConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentNatGatewayRules",
+		reflect.TypeOf((*NetworkmanagerVpcAttachmentNatGatewayRules)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentNatGatewayRulesList",
+		reflect.TypeOf((*NetworkmanagerVpcAttachmentNatGatewayRulesList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_NetworkmanagerVpcAttachmentNatGatewayRulesList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentNatGatewayRulesOutputReference",
+		reflect.TypeOf((*NetworkmanagerVpcAttachmentNatGatewayRulesOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "matchSourceCidr", GoGetter: "MatchSourceCidr"},
+			_jsii_.MemberProperty{JsiiProperty: "matchSourceCidrInput", GoGetter: "MatchSourceCidrInput"},
+			_jsii_.MemberProperty{JsiiProperty: "natCidr", GoGetter: "NatCidr"},
+			_jsii_.MemberProperty{JsiiProperty: "natCidrInput", GoGetter: "NatCidrInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMatchSourceCidr", GoMethod: "ResetMatchSourceCidr"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNatCidr", GoMethod: "ResetNatCidr"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRuleNumber", GoMethod: "ResetRuleNumber"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "ruleNumber", GoGetter: "RuleNumber"},
+			_jsii_.MemberProperty{JsiiProperty: "ruleNumberInput", GoGetter: "RuleNumberInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_NetworkmanagerVpcAttachmentNatGatewayRulesOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentOptions",

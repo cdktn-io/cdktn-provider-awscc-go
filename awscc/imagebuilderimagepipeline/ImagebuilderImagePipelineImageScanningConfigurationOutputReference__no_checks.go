@@ -51,6 +51,10 @@ func (i *jsiiProxy_ImagebuilderImagePipelineImageScanningConfigurationOutputRefe
 	return nil
 }
 
+func (i *jsiiProxy_ImagebuilderImagePipelineImageScanningConfigurationOutputReference) validatePutScanResultConditionParameters(value *ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition) error {
+	return nil
+}
+
 func (i *jsiiProxy_ImagebuilderImagePipelineImageScanningConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -64,6 +68,10 @@ func (j *jsiiProxy_ImagebuilderImagePipelineImageScanningConfigurationOutputRefe
 }
 
 func (j *jsiiProxy_ImagebuilderImagePipelineImageScanningConfigurationOutputReference) validateSetImageScanningEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ImagebuilderImagePipelineImageScanningConfigurationOutputReference) validateSetImageScanningTypesParameters(val *[]*string) error {
 	return nil
 }
 

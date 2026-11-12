@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconvert_certificate_associations awscc_mediaconvert_certificate_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconvert_certificate_associations awscc_mediaconvert_certificate_associations}.
 type DataAwsccMediaconvertCertificateAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediaconvertCertificateAssociations) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconvert_certificate_associations awscc_mediaconvert_certificate_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconvert_certificate_associations awscc_mediaconvert_certificate_associations} Data Source.
 func NewDataAwsccMediaconvertCertificateAssociations(scope constructs.Construct, id *string, config *DataAwsccMediaconvertCertificateAssociationsConfig) DataAwsccMediaconvertCertificateAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediaconvertCertificateAssociations(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconvert_certificate_associations awscc_mediaconvert_certificate_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconvert_certificate_associations awscc_mediaconvert_certificate_associations} Data Source.
 func NewDataAwsccMediaconvertCertificateAssociations_Override(d DataAwsccMediaconvertCertificateAssociations, scope constructs.Construct, id *string, config *DataAwsccMediaconvertCertificateAssociationsConfig) {
 	_init_.Initialize()
 

@@ -93,6 +93,28 @@ func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOu
 	return nil
 }
 
+func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) validatePutAzureDevOpsCapabilitiesParameters(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilities) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) validatePutAzureDevOpsRepositoryParameters(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepository) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) validatePutBitbucketCapabilitiesParameters(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketCapabilities) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

@@ -44,8 +44,6 @@ type Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference interf
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
-	SqlApplicationConfiguration() Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationOutputReference
-	SqlApplicationConfigurationInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -88,7 +86,6 @@ type Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference interf
 	PutApplicationSystemRollbackConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSystemRollbackConfiguration)
 	PutEnvironmentProperties(value *Kinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentProperties)
 	PutFlinkApplicationConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicationConfiguration)
-	PutSqlApplicationConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfiguration)
 	PutVpcConfigurations(value interface{})
 	PutZeppelinApplicationConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplicationConfiguration)
 	ResetApplicationCodeConfiguration()
@@ -97,7 +94,6 @@ type Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference interf
 	ResetApplicationSystemRollbackConfiguration()
 	ResetEnvironmentProperties()
 	ResetFlinkApplicationConfiguration()
-	ResetSqlApplicationConfiguration()
 	ResetVpcConfigurations()
 	ResetZeppelinApplicationConfiguration()
 	// Produce the Token's value at resolution time.
@@ -280,26 +276,6 @@ func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputRe
 	_jsii_.Get(
 		j,
 		"internalValue",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) SqlApplicationConfiguration() Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationOutputReference {
-	var returns Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationOutputReference
-	_jsii_.Get(
-		j,
-		"sqlApplicationConfiguration",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) SqlApplicationConfigurationInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"sqlApplicationConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -700,17 +676,6 @@ func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputRe
 	)
 }
 
-func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) PutSqlApplicationConfiguration(value *Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfiguration) {
-	if err := k.validatePutSqlApplicationConfigurationParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		k,
-		"putSqlApplicationConfiguration",
-		[]interface{}{value},
-	)
-}
-
 func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) PutVpcConfigurations(value interface{}) {
 	if err := k.validatePutVpcConfigurationsParameters(value); err != nil {
 		panic(err)
@@ -777,14 +742,6 @@ func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputRe
 	_jsii_.InvokeVoid(
 		k,
 		"resetFlinkApplicationConfiguration",
-		nil, // no parameters
-	)
-}
-
-func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) ResetSqlApplicationConfiguration() {
-	_jsii_.InvokeVoid(
-		k,
-		"resetSqlApplicationConfiguration",
 		nil, // no parameters
 	)
 }

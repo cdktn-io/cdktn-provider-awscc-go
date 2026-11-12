@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/rds_db_cluster awscc_rds_db_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/rds_db_cluster awscc_rds_db_cluster}.
 type DataAwsccRdsDbCluster interface {
 	cdktn.TerraformDataSource
 	AllocatedStorage() *float64
@@ -123,6 +123,7 @@ type DataAwsccRdsDbCluster interface {
 	TerraformResourceType() *string
 	UseLatestRestorableTime() cdktn.IResolvable
 	VpcSecurityGroupIds() *[]*string
+	WithExpressConfiguration() cdktn.IResolvable
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
@@ -1022,8 +1023,18 @@ func (j *jsiiProxy_DataAwsccRdsDbCluster) VpcSecurityGroupIds() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccRdsDbCluster) WithExpressConfiguration() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"withExpressConfiguration",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/rds_db_cluster awscc_rds_db_cluster} Data Source.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/rds_db_cluster awscc_rds_db_cluster} Data Source.
 func NewDataAwsccRdsDbCluster(scope constructs.Construct, id *string, config *DataAwsccRdsDbClusterConfig) DataAwsccRdsDbCluster {
 	_init_.Initialize()
 
@@ -1041,7 +1052,7 @@ func NewDataAwsccRdsDbCluster(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/rds_db_cluster awscc_rds_db_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/rds_db_cluster awscc_rds_db_cluster} Data Source.
 func NewDataAwsccRdsDbCluster_Override(d DataAwsccRdsDbCluster, scope constructs.Construct, id *string, config *DataAwsccRdsDbClusterConfig) {
 	_init_.Initialize()
 

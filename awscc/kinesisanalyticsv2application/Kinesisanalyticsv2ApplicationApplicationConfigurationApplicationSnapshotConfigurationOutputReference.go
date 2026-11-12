@@ -32,6 +32,9 @@ type Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotCon
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	SnapshotMode() *string
+	SetSnapshotMode(val *string)
+	SnapshotModeInput() *string
 	SnapshotsEnabled() interface{}
 	SetSnapshotsEnabled(val interface{})
 	SnapshotsEnabledInput() interface{}
@@ -67,6 +70,7 @@ type Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotCon
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetSnapshotMode()
 	ResetSnapshotsEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -128,6 +132,26 @@ func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationApplicat
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfigurationOutputReference) SnapshotMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"snapshotMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfigurationOutputReference) SnapshotModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"snapshotModeInput",
 		&returns,
 	)
 	return returns
@@ -230,6 +254,17 @@ func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationApplicat
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfigurationOutputReference)SetSnapshotMode(val *string) {
+	if err := j.validateSetSnapshotModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"snapshotMode",
 		val,
 	)
 }
@@ -451,6 +486,14 @@ func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationApplicat
 	)
 
 	return returns
+}
+
+func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfigurationOutputReference) ResetSnapshotMode() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetSnapshotMode",
+		nil, // no parameters
+	)
 }
 
 func (k *jsiiProxy_Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfigurationOutputReference) ResetSnapshotsEnabled() {

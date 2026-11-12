@@ -46,6 +46,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "imageArn", GoGetter: "ImageArn"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "kmsKeyIdentifier", GoGetter: "KmsKeyIdentifier"},
 			_jsii_.MemberProperty{JsiiProperty: "latestActiveImageVersion", GoGetter: "LatestActiveImageVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "latestFailedImageVersion", GoGetter: "LatestFailedImageVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},

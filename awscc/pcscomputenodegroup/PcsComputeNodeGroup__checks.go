@@ -463,6 +463,14 @@ func (j *jsiiProxy_PcsComputeNodeGroup) validateSetIamInstanceProfileArnParamete
 	return nil
 }
 
+func (j *jsiiProxy_PcsComputeNodeGroup) validateSetLaunchTemplateModeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_PcsComputeNodeGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
@@ -526,6 +534,22 @@ func (j *jsiiProxy_PcsComputeNodeGroup) validateSetProvisionersParameters(val *[
 }
 
 func (j *jsiiProxy_PcsComputeNodeGroup) validateSetPurchaseOptionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroup) validateSetSecurityGroupIdsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroup) validateSetSshKeyNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

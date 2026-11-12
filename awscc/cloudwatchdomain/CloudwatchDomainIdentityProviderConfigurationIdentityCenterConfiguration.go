@@ -7,7 +7,7 @@ package cloudwatchdomain
 type CloudwatchDomainIdentityProviderConfigurationIdentityCenterConfiguration struct {
 	// Identity Center instance ARN.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#identity_center_instance_arn CloudwatchDomain#identity_center_instance_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#identity_center_instance_arn CloudwatchDomain#identity_center_instance_arn}
 	IdentityCenterInstanceArn *string `field:"optional" json:"identityCenterInstanceArn" yaml:"identityCenterInstanceArn"`
 }
 

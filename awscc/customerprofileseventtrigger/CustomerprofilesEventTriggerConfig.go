@@ -24,35 +24,39 @@ type CustomerprofilesEventTriggerConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The unique name of the domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#domain_name CustomerprofilesEventTrigger#domain_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#domain_name CustomerprofilesEventTrigger#domain_name}
 	DomainName *string `field:"required" json:"domainName" yaml:"domainName"`
 	// A list of conditions that determine when an event should trigger the destination.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_conditions CustomerprofilesEventTrigger#event_trigger_conditions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_conditions CustomerprofilesEventTrigger#event_trigger_conditions}
 	EventTriggerConditions interface{} `field:"required" json:"eventTriggerConditions" yaml:"eventTriggerConditions"`
 	// The unique name of the event trigger.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_name CustomerprofilesEventTrigger#event_trigger_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_name CustomerprofilesEventTrigger#event_trigger_name}
 	EventTriggerName *string `field:"required" json:"eventTriggerName" yaml:"eventTriggerName"`
 	// The unique name of the object type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#object_type_name CustomerprofilesEventTrigger#object_type_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#object_type_name CustomerprofilesEventTrigger#object_type_name}
 	ObjectTypeName *string `field:"required" json:"objectTypeName" yaml:"objectTypeName"`
 	// The description of the event trigger.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#description CustomerprofilesEventTrigger#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#description CustomerprofilesEventTrigger#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Defines limits controlling whether an event triggers the destination, based on ingestion latency and the number of invocations per profile over specific time periods.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_limits CustomerprofilesEventTrigger#event_trigger_limits}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_limits CustomerprofilesEventTrigger#event_trigger_limits}
 	EventTriggerLimits *CustomerprofilesEventTriggerEventTriggerLimits `field:"optional" json:"eventTriggerLimits" yaml:"eventTriggerLimits"`
+	// Filters the destination to profiles whose predicted intents meet the specified conditions.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#intent_filter_definition CustomerprofilesEventTrigger#intent_filter_definition}
+	IntentFilterDefinition *CustomerprofilesEventTriggerIntentFilterDefinition `field:"optional" json:"intentFilterDefinition" yaml:"intentFilterDefinition"`
 	// The destination is triggered only for profiles that meet the criteria of a segment definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#segment_filter CustomerprofilesEventTrigger#segment_filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#segment_filter CustomerprofilesEventTrigger#segment_filter}
 	SegmentFilter *string `field:"optional" json:"segmentFilter" yaml:"segmentFilter"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#tags CustomerprofilesEventTrigger#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#tags CustomerprofilesEventTrigger#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

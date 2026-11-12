@@ -775,6 +775,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "localStorageConfiguration", GoGetter: "LocalStorageConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "monitoring", GoGetter: "Monitoring"},
 			_jsii_.MemberProperty{JsiiProperty: "networkConfiguration", GoGetter: "NetworkConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "nitroEnclavesEnabled", GoGetter: "NitroEnclavesEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "storageConfiguration", GoGetter: "StorageConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},

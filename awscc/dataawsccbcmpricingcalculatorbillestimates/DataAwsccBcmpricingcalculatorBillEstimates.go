@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/bcmpricingcalculator_bill_estimates awscc_bcmpricingcalculator_bill_estimates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bcmpricingcalculator_bill_estimates awscc_bcmpricingcalculator_bill_estimates}.
 type DataAwsccBcmpricingcalculatorBillEstimates interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBcmpricingcalculatorBillEstimates) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/bcmpricingcalculator_bill_estimates awscc_bcmpricingcalculator_bill_estimates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bcmpricingcalculator_bill_estimates awscc_bcmpricingcalculator_bill_estimates} Data Source.
 func NewDataAwsccBcmpricingcalculatorBillEstimates(scope constructs.Construct, id *string, config *DataAwsccBcmpricingcalculatorBillEstimatesConfig) DataAwsccBcmpricingcalculatorBillEstimates {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBcmpricingcalculatorBillEstimates(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/bcmpricingcalculator_bill_estimates awscc_bcmpricingcalculator_bill_estimates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bcmpricingcalculator_bill_estimates awscc_bcmpricingcalculator_bill_estimates} Data Source.
 func NewDataAwsccBcmpricingcalculatorBillEstimates_Override(d DataAwsccBcmpricingcalculatorBillEstimates, scope constructs.Construct, id *string, config *DataAwsccBcmpricingcalculatorBillEstimatesConfig) {
 	_init_.Initialize()
 

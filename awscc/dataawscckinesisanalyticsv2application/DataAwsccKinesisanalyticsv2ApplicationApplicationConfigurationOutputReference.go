@@ -38,7 +38,6 @@ type DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationOutputReferen
 	Fqn() *string
 	InternalValue() *DataAwsccKinesisanalyticsv2ApplicationApplicationConfiguration
 	SetInternalValue(val *DataAwsccKinesisanalyticsv2ApplicationApplicationConfiguration)
-	SqlApplicationConfiguration() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationOutputReference
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -193,16 +192,6 @@ func (j *jsiiProxy_DataAwsccKinesisanalyticsv2ApplicationApplicationConfiguratio
 	_jsii_.Get(
 		j,
 		"internalValue",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationOutputReference) SqlApplicationConfiguration() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationOutputReference {
-	var returns DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationSqlApplicationConfigurationOutputReference
-	_jsii_.Get(
-		j,
-		"sqlApplicationConfiguration",
 		&returns,
 	)
 	return returns

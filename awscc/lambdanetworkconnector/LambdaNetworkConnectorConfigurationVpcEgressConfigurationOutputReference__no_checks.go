@@ -63,10 +63,6 @@ func (j *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutp
 	return nil
 }
 
-func (j *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference) validateSetElasticIpConfigurationParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }

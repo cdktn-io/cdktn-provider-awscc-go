@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmonitor_probe awscc_networkmonitor_probe}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmonitor_probe awscc_networkmonitor_probe}.
 type DataAwsccNetworkmonitorProbe interface {
 	cdktn.TerraformDataSource
 	AddressFamily() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccNetworkmonitorProbe) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmonitor_probe awscc_networkmonitor_probe} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmonitor_probe awscc_networkmonitor_probe} Data Source.
 func NewDataAwsccNetworkmonitorProbe(scope constructs.Construct, id *string, config *DataAwsccNetworkmonitorProbeConfig) DataAwsccNetworkmonitorProbe {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccNetworkmonitorProbe(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmonitor_probe awscc_networkmonitor_probe} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmonitor_probe awscc_networkmonitor_probe} Data Source.
 func NewDataAwsccNetworkmonitorProbe_Override(d DataAwsccNetworkmonitorProbe, scope constructs.Construct, id *string, config *DataAwsccNetworkmonitorProbeConfig) {
 	_init_.Initialize()
 

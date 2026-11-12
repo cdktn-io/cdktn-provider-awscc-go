@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender awscc_personalize_recommender}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender awscc_personalize_recommender}.
 type PersonalizeRecommender interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -516,7 +516,7 @@ func (j *jsiiProxy_PersonalizeRecommender) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender awscc_personalize_recommender} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender awscc_personalize_recommender} Resource.
 func NewPersonalizeRecommender(scope constructs.Construct, id *string, config *PersonalizeRecommenderConfig) PersonalizeRecommender {
 	_init_.Initialize()
 
@@ -534,7 +534,7 @@ func NewPersonalizeRecommender(scope constructs.Construct, id *string, config *P
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender awscc_personalize_recommender} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender awscc_personalize_recommender} Resource.
 func NewPersonalizeRecommender_Override(p PersonalizeRecommender, scope constructs.Construct, id *string, config *PersonalizeRecommenderConfig) {
 	_init_.Initialize()
 

@@ -33,6 +33,7 @@ type DataAwsccKinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreCon
 	Fqn() *string
 	InternalValue() *DataAwsccKinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfiguration
 	SetInternalValue(val *DataAwsccKinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfiguration)
+	SnapshotArn() *string
 	SnapshotName() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -136,6 +137,16 @@ func (j *jsiiProxy_DataAwsccKinesisanalyticsv2ApplicationRunConfigurationApplica
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccKinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfigurationOutputReference) SnapshotArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"snapshotArn",
 		&returns,
 	)
 	return returns

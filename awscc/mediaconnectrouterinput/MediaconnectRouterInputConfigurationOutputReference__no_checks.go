@@ -47,6 +47,10 @@ func (m *jsiiProxy_MediaconnectRouterInputConfigurationOutputReference) validate
 	return nil
 }
 
+func (m *jsiiProxy_MediaconnectRouterInputConfigurationOutputReference) validatePutDestinationEndpointParameters(value *MediaconnectRouterInputConfigurationDestinationEndpoint) error {
+	return nil
+}
+
 func (m *jsiiProxy_MediaconnectRouterInputConfigurationOutputReference) validatePutFailoverParameters(value *MediaconnectRouterInputConfigurationFailover) error {
 	return nil
 }

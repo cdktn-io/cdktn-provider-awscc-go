@@ -508,6 +508,14 @@ func (j *jsiiProxy_TransferWorkflow) validateSetProvisionersParameters(val *[]in
 	return nil
 }
 
+func (j *jsiiProxy_TransferWorkflow) validateSetStructuredLogDestinationsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewTransferWorkflowParameters(scope constructs.Construct, id *string, config *TransferWorkflowConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

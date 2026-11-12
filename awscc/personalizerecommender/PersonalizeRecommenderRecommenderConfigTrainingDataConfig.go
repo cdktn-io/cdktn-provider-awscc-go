@@ -9,7 +9,7 @@ type PersonalizeRecommenderRecommenderConfigTrainingDataConfig struct {
 	//
 	// Each key is a dataset type, and each value is a list of columns.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#excluded_dataset_columns PersonalizeRecommender#excluded_dataset_columns}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#excluded_dataset_columns PersonalizeRecommender#excluded_dataset_columns}
 	ExcludedDatasetColumns interface{} `field:"optional" json:"excludedDatasetColumns" yaml:"excludedDatasetColumns"`
 }
 

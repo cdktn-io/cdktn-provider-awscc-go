@@ -51,6 +51,10 @@ func (e *jsiiProxy_EcsDaemonTaskDefinitionVolumesOutputReference) validatePutHos
 	return nil
 }
 
+func (e *jsiiProxy_EcsDaemonTaskDefinitionVolumesOutputReference) validatePutLogDriverVolumeConfigurationParameters(value *EcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsDaemonTaskDefinitionVolumesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

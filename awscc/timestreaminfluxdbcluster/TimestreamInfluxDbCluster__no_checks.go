@@ -147,6 +147,10 @@ func (j *jsiiProxy_TimestreamInfluxDbCluster) validateSetFailoverModeParameters(
 	return nil
 }
 
+func (j *jsiiProxy_TimestreamInfluxDbCluster) validateSetKmsKeyIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_TimestreamInfluxDbCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

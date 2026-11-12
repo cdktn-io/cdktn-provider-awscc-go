@@ -7,11 +7,11 @@ package ec2ipaminternetregistryassociation
 type Ec2IpamInternetRegistryAssociationTags struct {
 	// The key of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#key Ec2IpamInternetRegistryAssociation#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_ipam_internet_registry_association#key Ec2IpamInternetRegistryAssociation#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#value Ec2IpamInternetRegistryAssociation#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_ipam_internet_registry_association#value Ec2IpamInternetRegistryAssociation#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

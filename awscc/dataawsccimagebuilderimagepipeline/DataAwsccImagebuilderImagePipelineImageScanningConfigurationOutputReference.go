@@ -32,8 +32,10 @@ type DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference
 	// Experimental.
 	Fqn() *string
 	ImageScanningEnabled() cdktn.IResolvable
+	ImageScanningTypes() *[]*string
 	InternalValue() *DataAwsccImagebuilderImagePipelineImageScanningConfiguration
 	SetInternalValue(val *DataAwsccImagebuilderImagePipelineImageScanningConfiguration)
+	ScanResultCondition() DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -141,11 +143,31 @@ func (j *jsiiProxy_DataAwsccImagebuilderImagePipelineImageScanningConfigurationO
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference) ImageScanningTypes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"imageScanningTypes",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference) InternalValue() *DataAwsccImagebuilderImagePipelineImageScanningConfiguration {
 	var returns *DataAwsccImagebuilderImagePipelineImageScanningConfiguration
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference) ScanResultCondition() DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference {
+	var returns DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference
+	_jsii_.Get(
+		j,
+		"scanResultCondition",
 		&returns,
 	)
 	return returns

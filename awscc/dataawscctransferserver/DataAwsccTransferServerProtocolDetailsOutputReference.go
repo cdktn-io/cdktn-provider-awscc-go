@@ -36,6 +36,7 @@ type DataAwsccTransferServerProtocolDetailsOutputReference interface {
 	PassiveIp() *string
 	ProxyConfig() DataAwsccTransferServerProtocolDetailsProxyConfigOutputReference
 	SetStatOption() *string
+	SftpPorts() DataAwsccTransferServerProtocolDetailsSftpPortsList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -169,6 +170,16 @@ func (j *jsiiProxy_DataAwsccTransferServerProtocolDetailsOutputReference) SetSta
 	_jsii_.Get(
 		j,
 		"setStatOption",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccTransferServerProtocolDetailsOutputReference) SftpPorts() DataAwsccTransferServerProtocolDetailsSftpPortsList {
+	var returns DataAwsccTransferServerProtocolDetailsSftpPortsList
+	_jsii_.Get(
+		j,
+		"sftpPorts",
 		&returns,
 	)
 	return returns

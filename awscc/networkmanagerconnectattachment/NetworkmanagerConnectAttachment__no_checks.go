@@ -79,6 +79,10 @@ func (n *jsiiProxy_NetworkmanagerConnectAttachment) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (n *jsiiProxy_NetworkmanagerConnectAttachment) validatePutNatGatewayRulesParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkmanagerConnectAttachment) validatePutOptionsParameters(value *NetworkmanagerConnectAttachmentOptions) error {
 	return nil
 }
@@ -124,6 +128,10 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachment) validateSetEdgeLocationParam
 }
 
 func (j *jsiiProxy_NetworkmanagerConnectAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerConnectAttachment) validateSetNatGatewaySupportParameters(val *string) error {
 	return nil
 }
 

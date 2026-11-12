@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/autoscalingplans_scaling_plans awscc_autoscalingplans_scaling_plans}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/autoscalingplans_scaling_plans awscc_autoscalingplans_scaling_plans}.
 type DataAwsccAutoscalingplansScalingPlans interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAutoscalingplansScalingPlans) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/autoscalingplans_scaling_plans awscc_autoscalingplans_scaling_plans} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/autoscalingplans_scaling_plans awscc_autoscalingplans_scaling_plans} Data Source.
 func NewDataAwsccAutoscalingplansScalingPlans(scope constructs.Construct, id *string, config *DataAwsccAutoscalingplansScalingPlansConfig) DataAwsccAutoscalingplansScalingPlans {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAutoscalingplansScalingPlans(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/autoscalingplans_scaling_plans awscc_autoscalingplans_scaling_plans} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/autoscalingplans_scaling_plans awscc_autoscalingplans_scaling_plans} Data Source.
 func NewDataAwsccAutoscalingplansScalingPlans_Override(d DataAwsccAutoscalingplansScalingPlans, scope constructs.Construct, id *string, config *DataAwsccAutoscalingplansScalingPlansConfig) {
 	_init_.Initialize()
 

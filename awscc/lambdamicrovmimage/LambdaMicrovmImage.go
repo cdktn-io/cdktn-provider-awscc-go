@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_microvm_image awscc_lambda_microvm_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/lambda_microvm_image awscc_lambda_microvm_image}.
 type LambdaMicrovmImage interface {
 	cdktn.TerraformResource
 	AdditionalOsCapabilities() *[]*string
@@ -68,6 +68,9 @@ type LambdaMicrovmImage interface {
 	HooksInput() interface{}
 	Id() *string
 	ImageArn() *string
+	KmsKeyIdentifier() *string
+	SetKmsKeyIdentifier(val *string)
+	KmsKeyIdentifierInput() *string
 	LatestActiveImageVersion() *string
 	LatestFailedImageVersion() *string
 	// Experimental.
@@ -202,6 +205,7 @@ type LambdaMicrovmImage interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetKmsKeyIdentifier()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -543,6 +547,26 @@ func (j *jsiiProxy_LambdaMicrovmImage) ImageArn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_LambdaMicrovmImage) KmsKeyIdentifier() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyIdentifier",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaMicrovmImage) KmsKeyIdentifierInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyIdentifierInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_LambdaMicrovmImage) LatestActiveImageVersion() *string {
 	var returns *string
 	_jsii_.Get(
@@ -744,7 +768,7 @@ func (j *jsiiProxy_LambdaMicrovmImage) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_microvm_image awscc_lambda_microvm_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/lambda_microvm_image awscc_lambda_microvm_image} Resource.
 func NewLambdaMicrovmImage(scope constructs.Construct, id *string, config *LambdaMicrovmImageConfig) LambdaMicrovmImage {
 	_init_.Initialize()
 
@@ -762,7 +786,7 @@ func NewLambdaMicrovmImage(scope constructs.Construct, id *string, config *Lambd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_microvm_image awscc_lambda_microvm_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/lambda_microvm_image awscc_lambda_microvm_image} Resource.
 func NewLambdaMicrovmImage_Override(l LambdaMicrovmImage, scope constructs.Construct, id *string, config *LambdaMicrovmImageConfig) {
 	_init_.Initialize()
 
@@ -873,6 +897,17 @@ func (j *jsiiProxy_LambdaMicrovmImage)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LambdaMicrovmImage)SetKmsKeyIdentifier(val *string) {
+	if err := j.validateSetKmsKeyIdentifierParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kmsKeyIdentifier",
 		val,
 	)
 }
@@ -1372,6 +1407,14 @@ func (l *jsiiProxy_LambdaMicrovmImage) RegisterProviderFeatureUsage(feature cdkt
 		l,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (l *jsiiProxy_LambdaMicrovmImage) ResetKmsKeyIdentifier() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetKmsKeyIdentifier",
+		nil, // no parameters
 	)
 }
 

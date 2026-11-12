@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentcoreGatewayRuleConditionsOutputReference) validat
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayRuleConditionsOutputReference) validatePutMatchModelsParameters(value *BedrockagentcoreGatewayRuleConditionsMatchModels) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayRuleConditionsOutputReference) validatePutMatchPathsParameters(value *BedrockagentcoreGatewayRuleConditionsMatchPaths) error {
 	return nil
 }

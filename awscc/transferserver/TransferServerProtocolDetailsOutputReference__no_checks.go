@@ -51,6 +51,10 @@ func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) validatePutProx
 	return nil
 }
 
+func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) validatePutSftpPortsParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

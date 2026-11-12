@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition}.
 type CustomerprofilesCalculatedAttributeDefinition interface {
 	cdktn.TerraformResource
 	AttributeDetails() CustomerprofilesCalculatedAttributeDefinitionAttributeDetailsOutputReference
@@ -48,6 +48,8 @@ type CustomerprofilesCalculatedAttributeDefinition interface {
 	DomainName() *string
 	SetDomainName(val *string)
 	DomainNameInput() *string
+	Filter() CustomerprofilesCalculatedAttributeDefinitionFilterOutputReference
+	FilterInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -171,6 +173,7 @@ type CustomerprofilesCalculatedAttributeDefinition interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutAttributeDetails(value *CustomerprofilesCalculatedAttributeDefinitionAttributeDetails)
 	PutConditions(value *CustomerprofilesCalculatedAttributeDefinitionConditions)
+	PutFilter(value *CustomerprofilesCalculatedAttributeDefinitionFilter)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -188,6 +191,7 @@ type CustomerprofilesCalculatedAttributeDefinition interface {
 	ResetConditions()
 	ResetDescription()
 	ResetDisplayName()
+	ResetFilter()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -395,6 +399,26 @@ func (j *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) DomainNameInpu
 	_jsii_.Get(
 		j,
 		"domainNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) Filter() CustomerprofilesCalculatedAttributeDefinitionFilterOutputReference {
+	var returns CustomerprofilesCalculatedAttributeDefinitionFilterOutputReference
+	_jsii_.Get(
+		j,
+		"filter",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) FilterInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"filterInput",
 		&returns,
 	)
 	return returns
@@ -611,7 +635,7 @@ func (j *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) UseHistoricalD
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Resource.
 func NewCustomerprofilesCalculatedAttributeDefinition(scope constructs.Construct, id *string, config *CustomerprofilesCalculatedAttributeDefinitionConfig) CustomerprofilesCalculatedAttributeDefinition {
 	_init_.Initialize()
 
@@ -629,7 +653,7 @@ func NewCustomerprofilesCalculatedAttributeDefinition(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Resource.
 func NewCustomerprofilesCalculatedAttributeDefinition_Override(c CustomerprofilesCalculatedAttributeDefinition, scope constructs.Construct, id *string, config *CustomerprofilesCalculatedAttributeDefinitionConfig) {
 	_init_.Initialize()
 
@@ -1165,6 +1189,17 @@ func (c *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) PutConditions(
 	)
 }
 
+func (c *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) PutFilter(value *CustomerprofilesCalculatedAttributeDefinitionFilter) {
+	if err := c.validatePutFilterParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putFilter",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) PutTags(value interface{}) {
 	if err := c.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1207,6 +1242,14 @@ func (c *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) ResetDisplayNa
 	_jsii_.InvokeVoid(
 		c,
 		"resetDisplayName",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) ResetFilter() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetFilter",
 		nil, // no parameters
 	)
 }

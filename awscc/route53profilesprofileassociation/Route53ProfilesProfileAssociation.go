@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53profiles_profile_association awscc_route53profiles_profile_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association awscc_route53profiles_profile_association}.
 type Route53ProfilesProfileAssociation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -52,6 +52,9 @@ type Route53ProfilesProfileAssociation interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Priority() *float64
+	SetPriority(val *float64)
+	PriorityInput() *float64
 	ProfileAssociationId() *string
 	ProfileId() *string
 	SetProfileId(val *string)
@@ -174,6 +177,7 @@ type Route53ProfilesProfileAssociation interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPriority()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -352,6 +356,26 @@ func (j *jsiiProxy_Route53ProfilesProfileAssociation) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_Route53ProfilesProfileAssociation) Priority() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"priority",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Route53ProfilesProfileAssociation) PriorityInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"priorityInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Route53ProfilesProfileAssociation) ProfileAssociationId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -483,7 +507,7 @@ func (j *jsiiProxy_Route53ProfilesProfileAssociation) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53profiles_profile_association awscc_route53profiles_profile_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association awscc_route53profiles_profile_association} Resource.
 func NewRoute53ProfilesProfileAssociation(scope constructs.Construct, id *string, config *Route53ProfilesProfileAssociationConfig) Route53ProfilesProfileAssociation {
 	_init_.Initialize()
 
@@ -501,7 +525,7 @@ func NewRoute53ProfilesProfileAssociation(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53profiles_profile_association awscc_route53profiles_profile_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association awscc_route53profiles_profile_association} Resource.
 func NewRoute53ProfilesProfileAssociation_Override(r Route53ProfilesProfileAssociation, scope constructs.Construct, id *string, config *Route53ProfilesProfileAssociationConfig) {
 	_init_.Initialize()
 
@@ -579,6 +603,17 @@ func (j *jsiiProxy_Route53ProfilesProfileAssociation)SetName(val *string) {
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Route53ProfilesProfileAssociation)SetPriority(val *float64) {
+	if err := j.validateSetPriorityParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"priority",
 		val,
 	)
 }
@@ -1027,6 +1062,14 @@ func (r *jsiiProxy_Route53ProfilesProfileAssociation) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_Route53ProfilesProfileAssociation) ResetPriority() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetPriority",
 		nil, // no parameters
 	)
 }

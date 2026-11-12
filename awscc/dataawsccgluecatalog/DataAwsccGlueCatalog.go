@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/glue_catalog awscc_glue_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_catalog awscc_glue_catalog}.
 type DataAwsccGlueCatalog interface {
 	cdktn.TerraformDataSource
 	AllowFullTableExternalDataAccess() *string
@@ -28,7 +28,7 @@ type DataAwsccGlueCatalog interface {
 	SetCount(val interface{})
 	CreateDatabaseDefaultPermissions() DataAwsccGlueCatalogCreateDatabaseDefaultPermissionsList
 	CreateTableDefaultPermissions() DataAwsccGlueCatalogCreateTableDefaultPermissionsList
-	CreateTime() *float64
+	CreateTime() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -70,7 +70,7 @@ type DataAwsccGlueCatalog interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
-	UpdateTime() *float64
+	UpdateTime() *string
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
@@ -220,8 +220,8 @@ func (j *jsiiProxy_DataAwsccGlueCatalog) CreateTableDefaultPermissions() DataAws
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsccGlueCatalog) CreateTime() *float64 {
-	var returns *float64
+func (j *jsiiProxy_DataAwsccGlueCatalog) CreateTime() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
 		"createTime",
@@ -440,8 +440,8 @@ func (j *jsiiProxy_DataAwsccGlueCatalog) TerraformResourceType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsccGlueCatalog) UpdateTime() *float64 {
-	var returns *float64
+func (j *jsiiProxy_DataAwsccGlueCatalog) UpdateTime() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
 		"updateTime",
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccGlueCatalog) UpdateTime() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/glue_catalog awscc_glue_catalog} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_catalog awscc_glue_catalog} Data Source.
 func NewDataAwsccGlueCatalog(scope constructs.Construct, id *string, config *DataAwsccGlueCatalogConfig) DataAwsccGlueCatalog {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccGlueCatalog(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/glue_catalog awscc_glue_catalog} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_catalog awscc_glue_catalog} Data Source.
 func NewDataAwsccGlueCatalog_Override(d DataAwsccGlueCatalog, scope constructs.Construct, id *string, config *DataAwsccGlueCatalogConfig) {
 	_init_.Initialize()
 

@@ -13,6 +13,8 @@ import (
 
 type DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference interface {
 	cdktn.ComplexObject
+	AzureDevOpsCapabilities() DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference
+	AzureDevOpsRepository() DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepositoryOutputReference
 	BitbucketCapabilities() DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketCapabilitiesOutputReference
 	BitbucketRepository() DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketRepositoryOutputReference
 	// the index of the complex object in a list.
@@ -85,6 +87,26 @@ type DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputR
 // The jsii proxy struct for DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference
 type jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) AzureDevOpsCapabilities() DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference {
+	var returns DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference
+	_jsii_.Get(
+		j,
+		"azureDevOpsCapabilities",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) AzureDevOpsRepository() DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepositoryOutputReference {
+	var returns DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepositoryOutputReference
+	_jsii_.Get(
+		j,
+		"azureDevOpsRepository",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) BitbucketCapabilities() DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketCapabilitiesOutputReference {

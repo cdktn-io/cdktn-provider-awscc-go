@@ -67,6 +67,10 @@ func (j *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationResto
 	return nil
 }
 
+func (j *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfigurationOutputReference) validateSetSnapshotArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfigurationOutputReference) validateSetSnapshotNameParameters(val *string) error {
 	return nil
 }

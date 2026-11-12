@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/storagegateway_smb_file_shares awscc_storagegateway_smb_file_shares}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/storagegateway_smb_file_shares awscc_storagegateway_smb_file_shares}.
 type DataAwsccStoragegatewaySmbFileShares interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccStoragegatewaySmbFileShares) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/storagegateway_smb_file_shares awscc_storagegateway_smb_file_shares} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/storagegateway_smb_file_shares awscc_storagegateway_smb_file_shares} Data Source.
 func NewDataAwsccStoragegatewaySmbFileShares(scope constructs.Construct, id *string, config *DataAwsccStoragegatewaySmbFileSharesConfig) DataAwsccStoragegatewaySmbFileShares {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccStoragegatewaySmbFileShares(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/storagegateway_smb_file_shares awscc_storagegateway_smb_file_shares} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/storagegateway_smb_file_shares awscc_storagegateway_smb_file_shares} Data Source.
 func NewDataAwsccStoragegatewaySmbFileShares_Override(d DataAwsccStoragegatewaySmbFileShares, scope constructs.Construct, id *string, config *DataAwsccStoragegatewaySmbFileSharesConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/appfabric_ingestion awscc_appfabric_ingestion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appfabric_ingestion awscc_appfabric_ingestion}.
 type DataAwsccAppfabricIngestion interface {
 	cdktn.TerraformDataSource
 	App() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccAppfabricIngestion) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/appfabric_ingestion awscc_appfabric_ingestion} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appfabric_ingestion awscc_appfabric_ingestion} Data Source.
 func NewDataAwsccAppfabricIngestion(scope constructs.Construct, id *string, config *DataAwsccAppfabricIngestionConfig) DataAwsccAppfabricIngestion {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccAppfabricIngestion(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/appfabric_ingestion awscc_appfabric_ingestion} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appfabric_ingestion awscc_appfabric_ingestion} Data Source.
 func NewDataAwsccAppfabricIngestion_Override(d DataAwsccAppfabricIngestion, scope constructs.Construct, id *string, config *DataAwsccAppfabricIngestionConfig) {
 	_init_.Initialize()
 

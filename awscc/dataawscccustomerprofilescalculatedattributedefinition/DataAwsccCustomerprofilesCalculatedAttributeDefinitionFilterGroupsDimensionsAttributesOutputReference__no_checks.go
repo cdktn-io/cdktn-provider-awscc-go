@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawscccustomerprofilescalculatedattributedefinition
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateSetInternalValueParameters(val *DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributes) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectKey *string) error {
+	return nil
+}
+

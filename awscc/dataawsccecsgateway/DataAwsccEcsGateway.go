@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_gateway awscc_ecs_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_gateway awscc_ecs_gateway}.
 type DataAwsccEcsGateway interface {
 	cdktn.TerraformDataSource
 	AccessType() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccEcsGateway) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_gateway awscc_ecs_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_gateway awscc_ecs_gateway} Data Source.
 func NewDataAwsccEcsGateway(scope constructs.Construct, id *string, config *DataAwsccEcsGatewayConfig) DataAwsccEcsGateway {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccEcsGateway(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_gateway awscc_ecs_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_gateway awscc_ecs_gateway} Data Source.
 func NewDataAwsccEcsGateway_Override(d DataAwsccEcsGateway, scope constructs.Construct, id *string, config *DataAwsccEcsGatewayConfig) {
 	_init_.Initialize()
 

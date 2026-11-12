@@ -118,6 +118,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useLatestRestorableTime", GoGetter: "UseLatestRestorableTime"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroupIds", GoGetter: "VpcSecurityGroupIds"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+			_jsii_.MemberProperty{JsiiProperty: "withExpressConfiguration", GoGetter: "WithExpressConfiguration"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAwsccRdsDbCluster{}

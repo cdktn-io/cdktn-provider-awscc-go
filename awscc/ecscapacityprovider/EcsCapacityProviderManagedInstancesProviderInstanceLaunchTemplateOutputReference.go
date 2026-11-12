@@ -55,6 +55,9 @@ type EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputRefe
 	MonitoringInput() *string
 	NetworkConfiguration() EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateNetworkConfigurationOutputReference
 	NetworkConfigurationInput() interface{}
+	NitroEnclavesEnabled() interface{}
+	SetNitroEnclavesEnabled(val interface{})
+	NitroEnclavesEnabledInput() interface{}
 	StorageConfiguration() EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationOutputReference
 	StorageConfigurationInput() interface{}
 	// Experimental.
@@ -103,6 +106,7 @@ type EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputRefe
 	ResetLocalStorageConfiguration()
 	ResetMonitoring()
 	ResetNetworkConfiguration()
+	ResetNitroEnclavesEnabled()
 	ResetStorageConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -349,6 +353,26 @@ func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemp
 	return returns
 }
 
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) NitroEnclavesEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"nitroEnclavesEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) NitroEnclavesEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"nitroEnclavesEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) StorageConfiguration() EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationOutputReference {
 	var returns EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationOutputReference
 	_jsii_.Get(
@@ -501,6 +525,17 @@ func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemp
 	_jsii_.Set(
 		j,
 		"monitoring",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference)SetNitroEnclavesEnabled(val interface{}) {
+	if err := j.validateSetNitroEnclavesEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"nitroEnclavesEnabled",
 		val,
 	)
 }
@@ -836,6 +871,14 @@ func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemp
 	_jsii_.InvokeVoid(
 		e,
 		"resetNetworkConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) ResetNitroEnclavesEnabled() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetNitroEnclavesEnabled",
 		nil, // no parameters
 	)
 }

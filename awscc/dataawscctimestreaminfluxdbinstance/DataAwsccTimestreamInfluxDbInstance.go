@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_instance awscc_timestream_influx_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_instance awscc_timestream_influx_db_instance}.
 type DataAwsccTimestreamInfluxDbInstance interface {
 	cdktn.TerraformDataSource
 	AllocatedStorage() *float64
@@ -27,6 +27,7 @@ type DataAwsccTimestreamInfluxDbInstance interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DbClusterId() *string
 	DbInstanceType() *string
 	DbParameterGroupIdentifier() *string
 	DbStorageType() *string
@@ -49,6 +50,7 @@ type DataAwsccTimestreamInfluxDbInstance interface {
 	IdInput() *string
 	InfluxAuthParametersSecretArn() *string
 	InfluxDbInstanceId() *string
+	KmsKeyId() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -221,6 +223,16 @@ func (j *jsiiProxy_DataAwsccTimestreamInfluxDbInstance) Count() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccTimestreamInfluxDbInstance) DbClusterId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dbClusterId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccTimestreamInfluxDbInstance) DbInstanceType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -346,6 +358,16 @@ func (j *jsiiProxy_DataAwsccTimestreamInfluxDbInstance) InfluxDbInstanceId() *st
 	_jsii_.Get(
 		j,
 		"influxDbInstanceId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccTimestreamInfluxDbInstance) KmsKeyId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyId",
 		&returns,
 	)
 	return returns
@@ -572,7 +594,7 @@ func (j *jsiiProxy_DataAwsccTimestreamInfluxDbInstance) VpcSubnetIds() *[]*strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_instance awscc_timestream_influx_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_instance awscc_timestream_influx_db_instance} Data Source.
 func NewDataAwsccTimestreamInfluxDbInstance(scope constructs.Construct, id *string, config *DataAwsccTimestreamInfluxDbInstanceConfig) DataAwsccTimestreamInfluxDbInstance {
 	_init_.Initialize()
 
@@ -590,7 +612,7 @@ func NewDataAwsccTimestreamInfluxDbInstance(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_instance awscc_timestream_influx_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_instance awscc_timestream_influx_db_instance} Data Source.
 func NewDataAwsccTimestreamInfluxDbInstance_Override(d DataAwsccTimestreamInfluxDbInstance, scope constructs.Construct, id *string, config *DataAwsccTimestreamInfluxDbInstanceConfig) {
 	_init_.Initialize()
 

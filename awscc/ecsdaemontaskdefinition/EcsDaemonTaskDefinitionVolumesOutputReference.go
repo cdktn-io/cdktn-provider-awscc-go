@@ -34,6 +34,8 @@ type EcsDaemonTaskDefinitionVolumesOutputReference interface {
 	HostInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	LogDriverVolumeConfiguration() EcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference
+	LogDriverVolumeConfigurationInput() interface{}
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -70,7 +72,9 @@ type EcsDaemonTaskDefinitionVolumesOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHost(value *EcsDaemonTaskDefinitionVolumesHost)
+	PutLogDriverVolumeConfiguration(value *EcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration)
 	ResetHost()
+	ResetLogDriverVolumeConfiguration()
 	ResetName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_EcsDaemonTaskDefinitionVolumesOutputReference) InternalValue(
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsDaemonTaskDefinitionVolumesOutputReference) LogDriverVolumeConfiguration() EcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference {
+	var returns EcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"logDriverVolumeConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsDaemonTaskDefinitionVolumesOutputReference) LogDriverVolumeConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"logDriverVolumeConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -488,10 +512,29 @@ func (e *jsiiProxy_EcsDaemonTaskDefinitionVolumesOutputReference) PutHost(value 
 	)
 }
 
+func (e *jsiiProxy_EcsDaemonTaskDefinitionVolumesOutputReference) PutLogDriverVolumeConfiguration(value *EcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration) {
+	if err := e.validatePutLogDriverVolumeConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putLogDriverVolumeConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EcsDaemonTaskDefinitionVolumesOutputReference) ResetHost() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetHost",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsDaemonTaskDefinitionVolumesOutputReference) ResetLogDriverVolumeConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetLogDriverVolumeConfiguration",
 		nil, // no parameters
 	)
 }

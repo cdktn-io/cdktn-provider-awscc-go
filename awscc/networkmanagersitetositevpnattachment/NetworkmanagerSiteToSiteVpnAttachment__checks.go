@@ -215,6 +215,37 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateOverrideLogica
 	return nil
 }
 
+func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validatePutNatGatewayRulesParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*NetworkmanagerSiteToSiteVpnAttachmentNatGatewayRules:
+		value := value.(*[]*NetworkmanagerSiteToSiteVpnAttachmentNatGatewayRules)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*NetworkmanagerSiteToSiteVpnAttachmentNatGatewayRules:
+		value_ := value.([]*NetworkmanagerSiteToSiteVpnAttachmentNatGatewayRules)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NetworkmanagerSiteToSiteVpnAttachmentNatGatewayRules; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validatePutTagsParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -395,6 +426,34 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateSetCountParame
 func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateSetNatGatewaySupportParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateSetNatSystemRouteSupportParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
 	}
 
 	return nil

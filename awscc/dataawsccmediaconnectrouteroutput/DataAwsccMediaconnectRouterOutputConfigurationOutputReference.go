@@ -34,6 +34,7 @@ type DataAwsccMediaconnectRouterOutputConfigurationOutputReference interface {
 	SetInternalValue(val *DataAwsccMediaconnectRouterOutputConfiguration)
 	MediaConnectFlow() DataAwsccMediaconnectRouterOutputConfigurationMediaConnectFlowOutputReference
 	MediaLiveInput() DataAwsccMediaconnectRouterOutputConfigurationMediaLiveInputOutputReference
+	SourceEndpoint() DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointOutputReference
 	Standard() DataAwsccMediaconnectRouterOutputConfigurationStandardOutputReference
 	// Experimental.
 	TerraformAttribute() *string
@@ -147,6 +148,16 @@ func (j *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationOutputReference
 	_jsii_.Get(
 		j,
 		"mediaLiveInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationOutputReference) SourceEndpoint() DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointOutputReference {
+	var returns DataAwsccMediaconnectRouterOutputConfigurationSourceEndpointOutputReference
+	_jsii_.Get(
+		j,
+		"sourceEndpoint",
 		&returns,
 	)
 	return returns

@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteT
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) validatePutFallbackParameters(value *BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitFallback) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -68,6 +72,10 @@ func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteT
 }
 
 func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) validateSetMetadataParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) validateSetModelParameters(val *string) error {
 	return nil
 }
 

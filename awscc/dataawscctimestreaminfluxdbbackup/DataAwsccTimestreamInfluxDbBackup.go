@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_backup awscc_timestream_influx_db_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_backup awscc_timestream_influx_db_backup}.
 type DataAwsccTimestreamInfluxDbBackup interface {
 	cdktn.TerraformDataSource
 	AllocatedStorage() *float64
@@ -583,7 +583,7 @@ func (j *jsiiProxy_DataAwsccTimestreamInfluxDbBackup) VpcSubnetIds() *[]*string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_backup awscc_timestream_influx_db_backup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_backup awscc_timestream_influx_db_backup} Data Source.
 func NewDataAwsccTimestreamInfluxDbBackup(scope constructs.Construct, id *string, config *DataAwsccTimestreamInfluxDbBackupConfig) DataAwsccTimestreamInfluxDbBackup {
 	_init_.Initialize()
 
@@ -601,7 +601,7 @@ func NewDataAwsccTimestreamInfluxDbBackup(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_backup awscc_timestream_influx_db_backup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_backup awscc_timestream_influx_db_backup} Data Source.
 func NewDataAwsccTimestreamInfluxDbBackup_Override(d DataAwsccTimestreamInfluxDbBackup, scope constructs.Construct, id *string, config *DataAwsccTimestreamInfluxDbBackupConfig) {
 	_init_.Initialize()
 

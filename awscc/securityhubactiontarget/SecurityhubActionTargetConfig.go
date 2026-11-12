@@ -24,15 +24,15 @@ type SecurityhubActionTargetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID for the custom action target. Can contain up to 20 alphanumeric characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#action_target_id SecurityhubActionTarget#action_target_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_action_target#action_target_id SecurityhubActionTarget#action_target_id}
 	ActionTargetId *string `field:"required" json:"actionTargetId" yaml:"actionTargetId"`
 	// The description for the custom action target.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#description SecurityhubActionTarget#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_action_target#description SecurityhubActionTarget#description}
 	Description *string `field:"required" json:"description" yaml:"description"`
 	// The name of the custom action target. Can contain up to 20 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#name SecurityhubActionTarget#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_action_target#name SecurityhubActionTarget#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

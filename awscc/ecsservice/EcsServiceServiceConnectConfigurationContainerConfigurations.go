@@ -5,7 +5,7 @@ package ecsservice
 
 
 type EcsServiceServiceConnectConfigurationContainerConfigurations struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_service#log_level EcsService#log_level}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecs_service#log_level EcsService#log_level}.
 	LogLevel *string `field:"optional" json:"logLevel" yaml:"logLevel"`
 }
 

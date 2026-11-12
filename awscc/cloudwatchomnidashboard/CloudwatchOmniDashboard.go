@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard awscc_cloudwatch_omni_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard awscc_cloudwatch_omni_dashboard}.
 type CloudwatchOmniDashboard interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -527,7 +527,7 @@ func (j *jsiiProxy_CloudwatchOmniDashboard) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard awscc_cloudwatch_omni_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard awscc_cloudwatch_omni_dashboard} Resource.
 func NewCloudwatchOmniDashboard(scope constructs.Construct, id *string, config *CloudwatchOmniDashboardConfig) CloudwatchOmniDashboard {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewCloudwatchOmniDashboard(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard awscc_cloudwatch_omni_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard awscc_cloudwatch_omni_dashboard} Resource.
 func NewCloudwatchOmniDashboard_Override(c CloudwatchOmniDashboard, scope constructs.Construct, id *string, config *CloudwatchOmniDashboardConfig) {
 	_init_.Initialize()
 

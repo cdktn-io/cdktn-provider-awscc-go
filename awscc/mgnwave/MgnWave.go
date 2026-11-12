@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mgn_wave awscc_mgn_wave}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_wave awscc_mgn_wave}.
 type MgnWave interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -492,7 +492,7 @@ func (j *jsiiProxy_MgnWave) WaveId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mgn_wave awscc_mgn_wave} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_wave awscc_mgn_wave} Resource.
 func NewMgnWave(scope constructs.Construct, id *string, config *MgnWaveConfig) MgnWave {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewMgnWave(scope constructs.Construct, id *string, config *MgnWaveConfig) M
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mgn_wave awscc_mgn_wave} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_wave awscc_mgn_wave} Resource.
 func NewMgnWave_Override(m MgnWave, scope constructs.Construct, id *string, config *MgnWaveConfig) {
 	_init_.Initialize()
 

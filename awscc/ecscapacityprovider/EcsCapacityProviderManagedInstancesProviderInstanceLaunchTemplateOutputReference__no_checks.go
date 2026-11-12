@@ -103,6 +103,10 @@ func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemp
 	return nil
 }
 
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) validateSetNitroEnclavesEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

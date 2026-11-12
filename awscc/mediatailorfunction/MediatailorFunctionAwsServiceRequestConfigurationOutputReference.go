@@ -16,6 +16,8 @@ type MediatailorFunctionAwsServiceRequestConfigurationOutputReference interface 
 	Body() *string
 	SetBody(val *string)
 	BodyInput() *string
+	Cache() MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference
+	CacheInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -91,7 +93,9 @@ type MediatailorFunctionAwsServiceRequestConfigurationOutputReference interface 
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCache(value *MediatailorFunctionAwsServiceRequestConfigurationCache)
 	ResetBody()
+	ResetCache()
 	ResetHeaders()
 	ResetMethodType()
 	ResetOutput()
@@ -130,6 +134,26 @@ func (j *jsiiProxy_MediatailorFunctionAwsServiceRequestConfigurationOutputRefere
 	_jsii_.Get(
 		j,
 		"bodyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediatailorFunctionAwsServiceRequestConfigurationOutputReference) Cache() MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference {
+	var returns MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference
+	_jsii_.Get(
+		j,
+		"cache",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediatailorFunctionAwsServiceRequestConfigurationOutputReference) CacheInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"cacheInput",
 		&returns,
 	)
 	return returns
@@ -733,10 +757,29 @@ func (m *jsiiProxy_MediatailorFunctionAwsServiceRequestConfigurationOutputRefere
 	return returns
 }
 
+func (m *jsiiProxy_MediatailorFunctionAwsServiceRequestConfigurationOutputReference) PutCache(value *MediatailorFunctionAwsServiceRequestConfigurationCache) {
+	if err := m.validatePutCacheParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putCache",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MediatailorFunctionAwsServiceRequestConfigurationOutputReference) ResetBody() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetBody",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediatailorFunctionAwsServiceRequestConfigurationOutputReference) ResetCache() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetCache",
 		nil, // no parameters
 	)
 }

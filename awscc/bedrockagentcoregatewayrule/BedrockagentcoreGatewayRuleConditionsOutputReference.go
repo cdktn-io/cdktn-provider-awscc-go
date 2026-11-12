@@ -32,6 +32,8 @@ type BedrockagentcoreGatewayRuleConditionsOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	MatchModels() BedrockagentcoreGatewayRuleConditionsMatchModelsOutputReference
+	MatchModelsInput() interface{}
 	MatchPaths() BedrockagentcoreGatewayRuleConditionsMatchPathsOutputReference
 	MatchPathsInput() interface{}
 	MatchPrincipals() BedrockagentcoreGatewayRuleConditionsMatchPrincipalsOutputReference
@@ -68,8 +70,10 @@ type BedrockagentcoreGatewayRuleConditionsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutMatchModels(value *BedrockagentcoreGatewayRuleConditionsMatchModels)
 	PutMatchPaths(value *BedrockagentcoreGatewayRuleConditionsMatchPaths)
 	PutMatchPrincipals(value *BedrockagentcoreGatewayRuleConditionsMatchPrincipals)
+	ResetMatchModels()
 	ResetMatchPaths()
 	ResetMatchPrincipals()
 	// Produce the Token's value at resolution time.
@@ -132,6 +136,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayRuleConditionsOutputReference) Interna
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleConditionsOutputReference) MatchModels() BedrockagentcoreGatewayRuleConditionsMatchModelsOutputReference {
+	var returns BedrockagentcoreGatewayRuleConditionsMatchModelsOutputReference
+	_jsii_.Get(
+		j,
+		"matchModels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleConditionsOutputReference) MatchModelsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"matchModelsInput",
 		&returns,
 	)
 	return returns
@@ -466,6 +490,17 @@ func (b *jsiiProxy_BedrockagentcoreGatewayRuleConditionsOutputReference) Interpo
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayRuleConditionsOutputReference) PutMatchModels(value *BedrockagentcoreGatewayRuleConditionsMatchModels) {
+	if err := b.validatePutMatchModelsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putMatchModels",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayRuleConditionsOutputReference) PutMatchPaths(value *BedrockagentcoreGatewayRuleConditionsMatchPaths) {
 	if err := b.validatePutMatchPathsParameters(value); err != nil {
 		panic(err)
@@ -485,6 +520,14 @@ func (b *jsiiProxy_BedrockagentcoreGatewayRuleConditionsOutputReference) PutMatc
 		b,
 		"putMatchPrincipals",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayRuleConditionsOutputReference) ResetMatchModels() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMatchModels",
+		nil, // no parameters
 	)
 }
 

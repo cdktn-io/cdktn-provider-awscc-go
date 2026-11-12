@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/iot_ota_updates awscc_iot_ota_updates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/iot_ota_updates awscc_iot_ota_updates}.
 type DataAwsccIotOtaUpdates interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotOtaUpdates) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/iot_ota_updates awscc_iot_ota_updates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/iot_ota_updates awscc_iot_ota_updates} Data Source.
 func NewDataAwsccIotOtaUpdates(scope constructs.Construct, id *string, config *DataAwsccIotOtaUpdatesConfig) DataAwsccIotOtaUpdates {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotOtaUpdates(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/iot_ota_updates awscc_iot_ota_updates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/iot_ota_updates awscc_iot_ota_updates} Data Source.
 func NewDataAwsccIotOtaUpdates_Override(d DataAwsccIotOtaUpdates, scope constructs.Construct, id *string, config *DataAwsccIotOtaUpdatesConfig) {
 	_init_.Initialize()
 

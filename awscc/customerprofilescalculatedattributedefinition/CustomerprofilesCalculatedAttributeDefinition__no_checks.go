@@ -87,6 +87,10 @@ func (c *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) validatePutCon
 	return nil
 }
 
+func (c *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) validatePutFilterParameters(value *CustomerprofilesCalculatedAttributeDefinitionFilter) error {
+	return nil
+}
+
 func (c *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

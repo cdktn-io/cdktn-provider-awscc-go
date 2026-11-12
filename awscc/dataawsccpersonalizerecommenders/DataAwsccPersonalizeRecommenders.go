@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/personalize_recommenders awscc_personalize_recommenders}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/personalize_recommenders awscc_personalize_recommenders}.
 type DataAwsccPersonalizeRecommenders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPersonalizeRecommenders) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/personalize_recommenders awscc_personalize_recommenders} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/personalize_recommenders awscc_personalize_recommenders} Data Source.
 func NewDataAwsccPersonalizeRecommenders(scope constructs.Construct, id *string, config *DataAwsccPersonalizeRecommendersConfig) DataAwsccPersonalizeRecommenders {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPersonalizeRecommenders(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/personalize_recommenders awscc_personalize_recommenders} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/personalize_recommenders awscc_personalize_recommenders} Data Source.
 func NewDataAwsccPersonalizeRecommenders_Override(d DataAwsccPersonalizeRecommenders, scope constructs.Construct, id *string, config *DataAwsccPersonalizeRecommendersConfig) {
 	_init_.Initialize()
 

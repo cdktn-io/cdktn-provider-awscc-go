@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityagent_private_connection awscc_securityagent_private_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityagent_private_connection awscc_securityagent_private_connection}.
 type SecurityagentPrivateConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -549,7 +549,7 @@ func (j *jsiiProxy_SecurityagentPrivateConnection) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityagent_private_connection awscc_securityagent_private_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityagent_private_connection awscc_securityagent_private_connection} Resource.
 func NewSecurityagentPrivateConnection(scope constructs.Construct, id *string, config *SecurityagentPrivateConnectionConfig) SecurityagentPrivateConnection {
 	_init_.Initialize()
 
@@ -567,7 +567,7 @@ func NewSecurityagentPrivateConnection(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityagent_private_connection awscc_securityagent_private_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityagent_private_connection awscc_securityagent_private_connection} Resource.
 func NewSecurityagentPrivateConnection_Override(s SecurityagentPrivateConnection, scope constructs.Construct, id *string, config *SecurityagentPrivateConnectionConfig) {
 	_init_.Initialize()
 

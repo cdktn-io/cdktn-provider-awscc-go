@@ -5,9 +5,11 @@ package bedrockagentcoregatewayrule
 
 
 type BedrockagentcoreGatewayRuleConditions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrockagentcore_gateway_rule#match_paths BedrockagentcoreGatewayRule#match_paths}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_gateway_rule#match_models BedrockagentcoreGatewayRule#match_models}.
+	MatchModels *BedrockagentcoreGatewayRuleConditionsMatchModels `field:"optional" json:"matchModels" yaml:"matchModels"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_gateway_rule#match_paths BedrockagentcoreGatewayRule#match_paths}.
 	MatchPaths *BedrockagentcoreGatewayRuleConditionsMatchPaths `field:"optional" json:"matchPaths" yaml:"matchPaths"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrockagentcore_gateway_rule#match_principals BedrockagentcoreGatewayRule#match_principals}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_gateway_rule#match_principals BedrockagentcoreGatewayRule#match_principals}.
 	MatchPrincipals *BedrockagentcoreGatewayRuleConditionsMatchPrincipals `field:"optional" json:"matchPrincipals" yaml:"matchPrincipals"`
 }
 

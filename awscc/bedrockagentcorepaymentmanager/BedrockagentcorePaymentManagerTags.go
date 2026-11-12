@@ -7,11 +7,11 @@ package bedrockagentcorepaymentmanager
 type BedrockagentcorePaymentManagerTags struct {
 	// The key name of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrockagentcore_payment_manager#key BedrockagentcorePaymentManager#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_manager#key BedrockagentcorePaymentManager#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrockagentcore_payment_manager#value BedrockagentcorePaymentManager#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_manager#value BedrockagentcorePaymentManager#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

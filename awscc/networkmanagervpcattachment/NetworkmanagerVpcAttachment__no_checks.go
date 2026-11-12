@@ -79,6 +79,10 @@ func (n *jsiiProxy_NetworkmanagerVpcAttachment) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func (n *jsiiProxy_NetworkmanagerVpcAttachment) validatePutNatGatewayRulesParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkmanagerVpcAttachment) validatePutOptionsParameters(value *NetworkmanagerVpcAttachmentOptions) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachment) validateSetCountParameters(val i
 }
 
 func (j *jsiiProxy_NetworkmanagerVpcAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerVpcAttachment) validateSetNatGatewaySupportParameters(val *string) error {
 	return nil
 }
 

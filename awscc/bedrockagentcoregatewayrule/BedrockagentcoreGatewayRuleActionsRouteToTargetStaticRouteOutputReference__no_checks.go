@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOut
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) validatePutFallbackParameters(value *BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteFallback) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -60,6 +64,10 @@ func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOut
 }
 
 func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) validateSetModelParameters(val *string) error {
 	return nil
 }
 

@@ -38,6 +38,9 @@ type CleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3Outpu
 	KeyPrefix() *string
 	SetKeyPrefix(val *string)
 	KeyPrefixInput() *string
+	ResultFormat() *string
+	SetResultFormat(val *string)
+	ResultFormatInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type CleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3Outpu
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBucket()
 	ResetKeyPrefix()
+	ResetResultFormat()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -177,6 +181,26 @@ func (j *jsiiProxy_CleanroomsMembershipDefaultJobResultConfigurationOutputConfig
 	return returns
 }
 
+func (j *jsiiProxy_CleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3OutputReference) ResultFormat() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resultFormat",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3OutputReference) ResultFormatInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resultFormatInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3OutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -276,6 +300,17 @@ func (j *jsiiProxy_CleanroomsMembershipDefaultJobResultConfigurationOutputConfig
 	_jsii_.Set(
 		j,
 		"keyPrefix",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3OutputReference)SetResultFormat(val *string) {
+	if err := j.validateSetResultFormatParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resultFormat",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (c *jsiiProxy_CleanroomsMembershipDefaultJobResultConfigurationOutputConfig
 	_jsii_.InvokeVoid(
 		c,
 		"resetKeyPrefix",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3OutputReference) ResetResultFormat() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetResultFormat",
 		nil, // no parameters
 	)
 }

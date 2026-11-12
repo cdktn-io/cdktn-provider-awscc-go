@@ -24,7 +24,7 @@ type MediaconvertCertificateAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ARN of the ACM certificate to associate with MediaConvert.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconvert_certificate_association#arn MediaconvertCertificateAssociation#arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconvert_certificate_association#arn MediaconvertCertificateAssociation#arn}
 	Arn *string `field:"required" json:"arn" yaml:"arn"`
 }
 

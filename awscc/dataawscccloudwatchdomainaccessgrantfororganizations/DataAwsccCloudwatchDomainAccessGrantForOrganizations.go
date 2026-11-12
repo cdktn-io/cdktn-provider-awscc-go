@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_domain_access_grant_for_organizations awscc_cloudwatch_domain_access_grant_for_organizations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_domain_access_grant_for_organizations awscc_cloudwatch_domain_access_grant_for_organizations}.
 type DataAwsccCloudwatchDomainAccessGrantForOrganizations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchDomainAccessGrantForOrganizations) Terrafo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_domain_access_grant_for_organizations awscc_cloudwatch_domain_access_grant_for_organizations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_domain_access_grant_for_organizations awscc_cloudwatch_domain_access_grant_for_organizations} Data Source.
 func NewDataAwsccCloudwatchDomainAccessGrantForOrganizations(scope constructs.Construct, id *string, config *DataAwsccCloudwatchDomainAccessGrantForOrganizationsConfig) DataAwsccCloudwatchDomainAccessGrantForOrganizations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudwatchDomainAccessGrantForOrganizations(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_domain_access_grant_for_organizations awscc_cloudwatch_domain_access_grant_for_organizations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_domain_access_grant_for_organizations awscc_cloudwatch_domain_access_grant_for_organizations} Data Source.
 func NewDataAwsccCloudwatchDomainAccessGrantForOrganizations_Override(d DataAwsccCloudwatchDomainAccessGrantForOrganizations, scope constructs.Construct, id *string, config *DataAwsccCloudwatchDomainAccessGrantForOrganizationsConfig) {
 	_init_.Initialize()
 

@@ -87,6 +87,10 @@ func (c *jsiiProxy_CustomerprofilesEventTrigger) validatePutEventTriggerLimitsPa
 	return nil
 }
 
+func (c *jsiiProxy_CustomerprofilesEventTrigger) validatePutIntentFilterDefinitionParameters(value *CustomerprofilesEventTriggerIntentFilterDefinition) error {
+	return nil
+}
+
 func (c *jsiiProxy_CustomerprofilesEventTrigger) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

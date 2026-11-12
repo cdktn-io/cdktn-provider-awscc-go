@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/batch_quota_share awscc_batch_quota_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/batch_quota_share awscc_batch_quota_share}.
 type BatchQuotaShare interface {
 	cdktn.TerraformResource
 	CapacityLimits() BatchQuotaShareCapacityLimitsList
@@ -179,6 +179,7 @@ type BatchQuotaShare interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetQuotaShareName()
 	ResetState()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
@@ -529,7 +530,7 @@ func (j *jsiiProxy_BatchQuotaShare) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/batch_quota_share awscc_batch_quota_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/batch_quota_share awscc_batch_quota_share} Resource.
 func NewBatchQuotaShare(scope constructs.Construct, id *string, config *BatchQuotaShareConfig) BatchQuotaShare {
 	_init_.Initialize()
 
@@ -547,7 +548,7 @@ func NewBatchQuotaShare(scope constructs.Construct, id *string, config *BatchQuo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/batch_quota_share awscc_batch_quota_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/batch_quota_share awscc_batch_quota_share} Resource.
 func NewBatchQuotaShare_Override(b BatchQuotaShare, scope constructs.Construct, id *string, config *BatchQuotaShareConfig) {
 	_init_.Initialize()
 
@@ -1087,6 +1088,14 @@ func (b *jsiiProxy_BatchQuotaShare) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BatchQuotaShare) ResetQuotaShareName() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetQuotaShareName",
 		nil, // no parameters
 	)
 }

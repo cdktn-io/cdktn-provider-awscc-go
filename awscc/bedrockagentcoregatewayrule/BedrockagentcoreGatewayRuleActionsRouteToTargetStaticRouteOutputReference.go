@@ -28,10 +28,15 @@ type BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference i
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Fallback() BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteFallbackOutputReference
+	FallbackInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Model() *string
+	SetModel(val *string)
+	ModelInput() *string
 	TargetName() *string
 	SetTargetName(val *string)
 	TargetNameInput() *string
@@ -67,6 +72,9 @@ type BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference i
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutFallback(value *BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteFallback)
+	ResetFallback()
+	ResetModel()
 	ResetTargetName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -113,6 +121,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOut
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) Fallback() BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteFallbackOutputReference {
+	var returns BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteFallbackOutputReference
+	_jsii_.Get(
+		j,
+		"fallback",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) FallbackInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"fallbackInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -128,6 +156,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOut
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) Model() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"model",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) ModelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modelInput",
 		&returns,
 	)
 	return returns
@@ -230,6 +278,17 @@ func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOut
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference)SetModel(val *string) {
+	if err := j.validateSetModelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"model",
 		val,
 	)
 }
@@ -451,6 +510,33 @@ func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOut
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) PutFallback(value *BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteFallback) {
+	if err := b.validatePutFallbackParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putFallback",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) ResetFallback() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetFallback",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) ResetModel() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetModel",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRouteOutputReference) ResetTargetName() {

@@ -34,6 +34,7 @@ type DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfigurati
 	InternalValue() *DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3
 	SetInternalValue(val *DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3)
 	KeyPrefix() *string
+	ResultFormat() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -146,6 +147,16 @@ func (j *jsiiProxy_DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOut
 	_jsii_.Get(
 		j,
 		"keyPrefix",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccCleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3OutputReference) ResultFormat() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resultFormat",
 		&returns,
 	)
 	return returns

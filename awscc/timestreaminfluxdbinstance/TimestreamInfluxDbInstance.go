@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/timestream_influx_db_instance awscc_timestream_influx_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/timestream_influx_db_instance awscc_timestream_influx_db_instance}.
 type TimestreamInfluxDbInstance interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -35,6 +35,7 @@ type TimestreamInfluxDbInstance interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DbClusterId() *string
 	DbInstanceType() *string
 	SetDbInstanceType(val *string)
 	DbInstanceTypeInput() *string
@@ -63,6 +64,9 @@ type TimestreamInfluxDbInstance interface {
 	Id() *string
 	InfluxAuthParametersSecretArn() *string
 	InfluxDbInstanceId() *string
+	KmsKeyId() *string
+	SetKmsKeyId(val *string)
+	KmsKeyIdInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -222,6 +226,7 @@ type TimestreamInfluxDbInstance interface {
 	ResetDbParameterGroupIdentifier()
 	ResetDbStorageType()
 	ResetDeploymentType()
+	ResetKmsKeyId()
 	ResetLogDeliveryConfiguration()
 	ResetMaintenanceSchedule()
 	ResetName()
@@ -359,6 +364,16 @@ func (j *jsiiProxy_TimestreamInfluxDbInstance) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TimestreamInfluxDbInstance) DbClusterId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dbClusterId",
 		&returns,
 	)
 	return returns
@@ -519,6 +534,26 @@ func (j *jsiiProxy_TimestreamInfluxDbInstance) InfluxDbInstanceId() *string {
 	_jsii_.Get(
 		j,
 		"influxDbInstanceId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TimestreamInfluxDbInstance) KmsKeyId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TimestreamInfluxDbInstance) KmsKeyIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyIdInput",
 		&returns,
 	)
 	return returns
@@ -875,7 +910,7 @@ func (j *jsiiProxy_TimestreamInfluxDbInstance) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/timestream_influx_db_instance awscc_timestream_influx_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/timestream_influx_db_instance awscc_timestream_influx_db_instance} Resource.
 func NewTimestreamInfluxDbInstance(scope constructs.Construct, id *string, config *TimestreamInfluxDbInstanceConfig) TimestreamInfluxDbInstance {
 	_init_.Initialize()
 
@@ -893,7 +928,7 @@ func NewTimestreamInfluxDbInstance(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/timestream_influx_db_instance awscc_timestream_influx_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/timestream_influx_db_instance awscc_timestream_influx_db_instance} Resource.
 func NewTimestreamInfluxDbInstance_Override(t TimestreamInfluxDbInstance, scope constructs.Construct, id *string, config *TimestreamInfluxDbInstanceConfig) {
 	_init_.Initialize()
 
@@ -1004,6 +1039,17 @@ func (j *jsiiProxy_TimestreamInfluxDbInstance)SetForEach(val cdktn.ITerraformIte
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TimestreamInfluxDbInstance)SetKmsKeyId(val *string) {
+	if err := j.validateSetKmsKeyIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kmsKeyId",
 		val,
 	)
 }
@@ -1594,6 +1640,14 @@ func (t *jsiiProxy_TimestreamInfluxDbInstance) ResetDeploymentType() {
 	_jsii_.InvokeVoid(
 		t,
 		"resetDeploymentType",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TimestreamInfluxDbInstance) ResetKmsKeyId() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetKmsKeyId",
 		nil, // no parameters
 	)
 }

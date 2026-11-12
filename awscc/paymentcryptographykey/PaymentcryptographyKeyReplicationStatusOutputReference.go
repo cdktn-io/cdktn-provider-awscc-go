@@ -32,8 +32,8 @@ type PaymentcryptographyKeyReplicationStatusOutputReference interface {
 	Fqn() *string
 	InternalValue() *PaymentcryptographyKeyReplicationStatus
 	SetInternalValue(val *PaymentcryptographyKeyReplicationStatus)
-	KmsKeyArn() *string
-	KmsKeyId() *string
+	KmsEncryptionKeyArn() *string
+	KmsEncryptionKeyId() *string
 	Status() *string
 	StatusMessage() *string
 	// Experimental.
@@ -133,21 +133,21 @@ func (j *jsiiProxy_PaymentcryptographyKeyReplicationStatusOutputReference) Inter
 	return returns
 }
 
-func (j *jsiiProxy_PaymentcryptographyKeyReplicationStatusOutputReference) KmsKeyArn() *string {
+func (j *jsiiProxy_PaymentcryptographyKeyReplicationStatusOutputReference) KmsEncryptionKeyArn() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"kmsKeyArn",
+		"kmsEncryptionKeyArn",
 		&returns,
 	)
 	return returns
 }
 
-func (j *jsiiProxy_PaymentcryptographyKeyReplicationStatusOutputReference) KmsKeyId() *string {
+func (j *jsiiProxy_PaymentcryptographyKeyReplicationStatusOutputReference) KmsEncryptionKeyId() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"kmsKeyId",
+		"kmsEncryptionKeyId",
 		&returns,
 	)
 	return returns

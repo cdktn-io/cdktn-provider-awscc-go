@@ -334,6 +334,93 @@ func init() {
 		reflect.TypeOf((*SecurityagentAgentSpaceIntegratedResourcesProviderResources)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.securityagentAgentSpace.SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilities",
+		reflect.TypeOf((*SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilities)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.securityagentAgentSpace.SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference",
+		reflect.TypeOf((*SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "leaveComments", GoGetter: "LeaveComments"},
+			_jsii_.MemberProperty{JsiiProperty: "leaveCommentsInput", GoGetter: "LeaveCommentsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "remediateCode", GoGetter: "RemediateCode"},
+			_jsii_.MemberProperty{JsiiProperty: "remediateCodeInput", GoGetter: "RemediateCodeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetLeaveComments", GoMethod: "ResetLeaveComments"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRemediateCode", GoMethod: "ResetRemediateCode"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.securityagentAgentSpace.SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepository",
+		reflect.TypeOf((*SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepository)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.securityagentAgentSpace.SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepositoryOutputReference",
+		reflect.TypeOf((*SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepositoryOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "organization", GoGetter: "Organization"},
+			_jsii_.MemberProperty{JsiiProperty: "organizationInput", GoGetter: "OrganizationInput"},
+			_jsii_.MemberProperty{JsiiProperty: "project", GoGetter: "Project"},
+			_jsii_.MemberProperty{JsiiProperty: "projectInput", GoGetter: "ProjectInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOrganization", GoMethod: "ResetOrganization"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProject", GoMethod: "ResetProject"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepositoryOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.securityagentAgentSpace.SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketCapabilities",
 		reflect.TypeOf((*SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketCapabilities)(nil)).Elem(),
 	)
@@ -707,6 +794,10 @@ func init() {
 		"@cdktn/provider-awscc.securityagentAgentSpace.SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference",
 		reflect.TypeOf((*SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "azureDevOpsCapabilities", GoGetter: "AzureDevOpsCapabilities"},
+			_jsii_.MemberProperty{JsiiProperty: "azureDevOpsCapabilitiesInput", GoGetter: "AzureDevOpsCapabilitiesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "azureDevOpsRepository", GoGetter: "AzureDevOpsRepository"},
+			_jsii_.MemberProperty{JsiiProperty: "azureDevOpsRepositoryInput", GoGetter: "AzureDevOpsRepositoryInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bitbucketCapabilities", GoGetter: "BitbucketCapabilities"},
 			_jsii_.MemberProperty{JsiiProperty: "bitbucketCapabilitiesInput", GoGetter: "BitbucketCapabilitiesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bitbucketRepository", GoGetter: "BitbucketRepository"},
@@ -740,6 +831,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putAzureDevOpsCapabilities", GoMethod: "PutAzureDevOpsCapabilities"},
+			_jsii_.MemberMethod{JsiiMethod: "putAzureDevOpsRepository", GoMethod: "PutAzureDevOpsRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "putBitbucketCapabilities", GoMethod: "PutBitbucketCapabilities"},
 			_jsii_.MemberMethod{JsiiMethod: "putBitbucketRepository", GoMethod: "PutBitbucketRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "putConfluenceCapabilities", GoMethod: "PutConfluenceCapabilities"},
@@ -748,6 +841,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putGitHubRepository", GoMethod: "PutGitHubRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "putGitLabCapabilities", GoMethod: "PutGitLabCapabilities"},
 			_jsii_.MemberMethod{JsiiMethod: "putGitLabRepository", GoMethod: "PutGitLabRepository"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAzureDevOpsCapabilities", GoMethod: "ResetAzureDevOpsCapabilities"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAzureDevOpsRepository", GoMethod: "ResetAzureDevOpsRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBitbucketCapabilities", GoMethod: "ResetBitbucketCapabilities"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBitbucketRepository", GoMethod: "ResetBitbucketRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "resetConfluenceCapabilities", GoMethod: "ResetConfluenceCapabilities"},

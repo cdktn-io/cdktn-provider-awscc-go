@@ -131,6 +131,10 @@ func (j *jsiiProxy_TransferWorkflow) validateSetProvisionersParameters(val *[]in
 	return nil
 }
 
+func (j *jsiiProxy_TransferWorkflow) validateSetStructuredLogDestinationsParameters(val *[]*string) error {
+	return nil
+}
+
 func validateNewTransferWorkflowParameters(scope constructs.Construct, id *string, config *TransferWorkflowConfig) error {
 	return nil
 }

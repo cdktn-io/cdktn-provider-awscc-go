@@ -87,6 +87,10 @@ func (g *jsiiProxy_GameliftGameSessionQueue) validatePutFilterConfigurationParam
 	return nil
 }
 
+func (g *jsiiProxy_GameliftGameSessionQueue) validatePutLogConfigurationParameters(value *GameliftGameSessionQueueLogConfiguration) error {
+	return nil
+}
+
 func (g *jsiiProxy_GameliftGameSessionQueue) validatePutPlayerLatencyPoliciesParameters(value interface{}) error {
 	return nil
 }

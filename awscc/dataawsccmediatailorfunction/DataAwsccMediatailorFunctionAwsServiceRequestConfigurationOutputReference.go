@@ -14,6 +14,7 @@ import (
 type DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference interface {
 	cdktn.ComplexObject
 	Body() *string
+	Cache() DataAwsccMediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -93,6 +94,16 @@ func (j *jsiiProxy_DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOut
 	_jsii_.Get(
 		j,
 		"body",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference) Cache() DataAwsccMediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference {
+	var returns DataAwsccMediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference
+	_jsii_.Get(
+		j,
+		"cache",
 		&returns,
 	)
 	return returns

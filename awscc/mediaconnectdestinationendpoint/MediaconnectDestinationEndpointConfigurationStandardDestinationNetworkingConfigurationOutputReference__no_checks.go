@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package mediaconnectdestinationendpoint
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validatePutPublicParameters(value *MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationPublic) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validatePutVpcParameters(value *MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationVpc) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_MediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewMediaconnectDestinationEndpointConfigurationStandardDestinationNetworkingConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_transit_gateway_attachment_nat_configuration awscc_ec2_transit_gateway_attachment_nat_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_transit_gateway_attachment_nat_configuration awscc_ec2_transit_gateway_attachment_nat_configuration}.
 type DataAwsccEc2TransitGatewayAttachmentNatConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayAttachmentNatConfiguration) Transit
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_transit_gateway_attachment_nat_configuration awscc_ec2_transit_gateway_attachment_nat_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_transit_gateway_attachment_nat_configuration awscc_ec2_transit_gateway_attachment_nat_configuration} Data Source.
 func NewDataAwsccEc2TransitGatewayAttachmentNatConfiguration(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayAttachmentNatConfigurationConfig) DataAwsccEc2TransitGatewayAttachmentNatConfiguration {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccEc2TransitGatewayAttachmentNatConfiguration(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_transit_gateway_attachment_nat_configuration awscc_ec2_transit_gateway_attachment_nat_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_transit_gateway_attachment_nat_configuration awscc_ec2_transit_gateway_attachment_nat_configuration} Data Source.
 func NewDataAwsccEc2TransitGatewayAttachmentNatConfiguration_Override(d DataAwsccEc2TransitGatewayAttachmentNatConfiguration, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayAttachmentNatConfigurationConfig) {
 	_init_.Initialize()
 

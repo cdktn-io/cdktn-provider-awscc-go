@@ -30,6 +30,8 @@ type CleanroomsConfiguredTableTableReferenceOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Databricks() CleanroomsConfiguredTableTableReferenceDatabricksOutputReference
+	DatabricksInput() interface{}
 	// Experimental.
 	Fqn() *string
 	Glue() CleanroomsConfiguredTableTableReferenceGlueOutputReference
@@ -71,9 +73,11 @@ type CleanroomsConfiguredTableTableReferenceOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAthena(value *CleanroomsConfiguredTableTableReferenceAthena)
+	PutDatabricks(value *CleanroomsConfiguredTableTableReferenceDatabricks)
 	PutGlue(value *CleanroomsConfiguredTableTableReferenceGlue)
 	PutSnowflake(value *CleanroomsConfiguredTableTableReferenceSnowflake)
 	ResetAthena()
+	ResetDatabricks()
 	ResetGlue()
 	ResetSnowflake()
 	// Produce the Token's value at resolution time.
@@ -136,6 +140,26 @@ func (j *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) Creat
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) Databricks() CleanroomsConfiguredTableTableReferenceDatabricksOutputReference {
+	var returns CleanroomsConfiguredTableTableReferenceDatabricksOutputReference
+	_jsii_.Get(
+		j,
+		"databricks",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) DatabricksInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"databricksInput",
 		&returns,
 	)
 	return returns
@@ -501,6 +525,17 @@ func (c *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) PutAt
 	)
 }
 
+func (c *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) PutDatabricks(value *CleanroomsConfiguredTableTableReferenceDatabricks) {
+	if err := c.validatePutDatabricksParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putDatabricks",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) PutGlue(value *CleanroomsConfiguredTableTableReferenceGlue) {
 	if err := c.validatePutGlueParameters(value); err != nil {
 		panic(err)
@@ -527,6 +562,14 @@ func (c *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) Reset
 	_jsii_.InvokeVoid(
 		c,
 		"resetAthena",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) ResetDatabricks() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDatabricks",
 		nil, // no parameters
 	)
 }

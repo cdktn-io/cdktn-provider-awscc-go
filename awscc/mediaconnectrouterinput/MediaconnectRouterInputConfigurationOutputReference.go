@@ -28,6 +28,8 @@ type MediaconnectRouterInputConfigurationOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DestinationEndpoint() MediaconnectRouterInputConfigurationDestinationEndpointOutputReference
+	DestinationEndpointInput() interface{}
 	Failover() MediaconnectRouterInputConfigurationFailoverOutputReference
 	FailoverInput() interface{}
 	// Experimental.
@@ -74,11 +76,13 @@ type MediaconnectRouterInputConfigurationOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDestinationEndpoint(value *MediaconnectRouterInputConfigurationDestinationEndpoint)
 	PutFailover(value *MediaconnectRouterInputConfigurationFailover)
 	PutMediaConnectFlow(value *MediaconnectRouterInputConfigurationMediaConnectFlow)
 	PutMediaLiveChannel(value *MediaconnectRouterInputConfigurationMediaLiveChannel)
 	PutMerge(value *MediaconnectRouterInputConfigurationMerge)
 	PutStandard(value *MediaconnectRouterInputConfigurationStandard)
+	ResetDestinationEndpoint()
 	ResetFailover()
 	ResetMediaConnectFlow()
 	ResetMediaLiveChannel()
@@ -124,6 +128,26 @@ func (j *jsiiProxy_MediaconnectRouterInputConfigurationOutputReference) Creation
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectRouterInputConfigurationOutputReference) DestinationEndpoint() MediaconnectRouterInputConfigurationDestinationEndpointOutputReference {
+	var returns MediaconnectRouterInputConfigurationDestinationEndpointOutputReference
+	_jsii_.Get(
+		j,
+		"destinationEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectRouterInputConfigurationOutputReference) DestinationEndpointInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"destinationEndpointInput",
 		&returns,
 	)
 	return returns
@@ -538,6 +562,17 @@ func (m *jsiiProxy_MediaconnectRouterInputConfigurationOutputReference) Interpol
 	return returns
 }
 
+func (m *jsiiProxy_MediaconnectRouterInputConfigurationOutputReference) PutDestinationEndpoint(value *MediaconnectRouterInputConfigurationDestinationEndpoint) {
+	if err := m.validatePutDestinationEndpointParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putDestinationEndpoint",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MediaconnectRouterInputConfigurationOutputReference) PutFailover(value *MediaconnectRouterInputConfigurationFailover) {
 	if err := m.validatePutFailoverParameters(value); err != nil {
 		panic(err)
@@ -590,6 +625,14 @@ func (m *jsiiProxy_MediaconnectRouterInputConfigurationOutputReference) PutStand
 		m,
 		"putStandard",
 		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MediaconnectRouterInputConfigurationOutputReference) ResetDestinationEndpoint() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDestinationEndpoint",
+		nil, // no parameters
 	)
 }
 

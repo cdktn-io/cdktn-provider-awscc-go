@@ -47,6 +47,10 @@ func (m *jsiiProxy_MediatailorFunctionAwsServiceRequestConfigurationOutputRefere
 	return nil
 }
 
+func (m *jsiiProxy_MediatailorFunctionAwsServiceRequestConfigurationOutputReference) validatePutCacheParameters(value *MediatailorFunctionAwsServiceRequestConfigurationCache) error {
+	return nil
+}
+
 func (m *jsiiProxy_MediatailorFunctionAwsServiceRequestConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

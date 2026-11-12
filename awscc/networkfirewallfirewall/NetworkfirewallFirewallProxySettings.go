@@ -5,7 +5,7 @@ package networkfirewallfirewall
 
 
 type NetworkfirewallFirewallProxySettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkfirewall_firewall#listener_properties NetworkfirewallFirewall#listener_properties}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall#listener_properties NetworkfirewallFirewall#listener_properties}.
 	ListenerProperties interface{} `field:"optional" json:"listenerProperties" yaml:"listenerProperties"`
 }
 

@@ -7,11 +7,11 @@ package autoscalingplansscalingplan
 type AutoscalingplansScalingPlanApplicationSourceTagFilters struct {
 	// The tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/autoscalingplans_scaling_plan#key AutoscalingplansScalingPlan#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/autoscalingplans_scaling_plan#key AutoscalingplansScalingPlan#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag values (0 to 20).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/autoscalingplans_scaling_plan#values AutoscalingplansScalingPlan#values}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/autoscalingplans_scaling_plan#values AutoscalingplansScalingPlan#values}
 	Values *[]*string `field:"optional" json:"values" yaml:"values"`
 }
 

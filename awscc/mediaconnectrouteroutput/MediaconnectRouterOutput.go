@@ -12,10 +12,11 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_output awscc_mediaconnect_router_output}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_output awscc_mediaconnect_router_output}.
 type MediaconnectRouterOutput interface {
 	cdktn.TerraformResource
 	Arn() *string
+	AssociatedSourceEndpointArns() *[]*string
 	AvailabilityZone() *string
 	SetAvailabilityZone(val *string)
 	AvailabilityZoneInput() *string
@@ -233,6 +234,16 @@ func (j *jsiiProxy_MediaconnectRouterOutput) Arn() *string {
 	_jsii_.Get(
 		j,
 		"arn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectRouterOutput) AssociatedSourceEndpointArns() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"associatedSourceEndpointArns",
 		&returns,
 	)
 	return returns
@@ -689,7 +700,7 @@ func (j *jsiiProxy_MediaconnectRouterOutput) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_output awscc_mediaconnect_router_output} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_output awscc_mediaconnect_router_output} Resource.
 func NewMediaconnectRouterOutput(scope constructs.Construct, id *string, config *MediaconnectRouterOutputConfig) MediaconnectRouterOutput {
 	_init_.Initialize()
 
@@ -707,7 +718,7 @@ func NewMediaconnectRouterOutput(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_output awscc_mediaconnect_router_output} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_output awscc_mediaconnect_router_output} Resource.
 func NewMediaconnectRouterOutput_Override(m MediaconnectRouterOutput, scope constructs.Construct, id *string, config *MediaconnectRouterOutputConfig) {
 	_init_.Initialize()
 

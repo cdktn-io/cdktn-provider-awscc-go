@@ -7,11 +7,11 @@ package bedrockretrievalinstruction
 type BedrockRetrievalInstructionTags struct {
 	// The key name of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#key BedrockRetrievalInstruction#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrock_retrieval_instruction#key BedrockRetrievalInstruction#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#value BedrockRetrievalInstruction#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrock_retrieval_instruction#value BedrockRetrievalInstruction#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

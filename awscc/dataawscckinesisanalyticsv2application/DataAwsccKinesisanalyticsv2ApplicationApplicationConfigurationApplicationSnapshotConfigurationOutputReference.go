@@ -32,6 +32,7 @@ type DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSn
 	Fqn() *string
 	InternalValue() *DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfiguration
 	SetInternalValue(val *DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfiguration)
+	SnapshotMode() *string
 	SnapshotsEnabled() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
@@ -125,6 +126,16 @@ func (j *jsiiProxy_DataAwsccKinesisanalyticsv2ApplicationApplicationConfiguratio
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationApplicationSnapshotConfigurationOutputReference) SnapshotMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"snapshotMode",
 		&returns,
 	)
 	return returns

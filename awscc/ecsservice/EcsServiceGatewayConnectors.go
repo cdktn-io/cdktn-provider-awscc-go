@@ -5,11 +5,11 @@ package ecsservice
 
 
 type EcsServiceGatewayConnectors struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_service#filters EcsService#filters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecs_service#filters EcsService#filters}.
 	Filters *EcsServiceGatewayConnectorsFilters `field:"optional" json:"filters" yaml:"filters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_service#health_check EcsService#health_check}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecs_service#health_check EcsService#health_check}.
 	HealthCheck *EcsServiceGatewayConnectorsHealthCheck `field:"optional" json:"healthCheck" yaml:"healthCheck"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_service#port_name EcsService#port_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecs_service#port_name EcsService#port_name}.
 	PortName *string `field:"optional" json:"portName" yaml:"portName"`
 }
 

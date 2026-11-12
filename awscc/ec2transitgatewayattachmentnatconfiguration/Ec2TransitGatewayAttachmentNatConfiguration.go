@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_transit_gateway_attachment_nat_configuration awscc_ec2_transit_gateway_attachment_nat_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_transit_gateway_attachment_nat_configuration awscc_ec2_transit_gateway_attachment_nat_configuration}.
 type Ec2TransitGatewayAttachmentNatConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_Ec2TransitGatewayAttachmentNatConfiguration) TransitGatewayAt
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_transit_gateway_attachment_nat_configuration awscc_ec2_transit_gateway_attachment_nat_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_transit_gateway_attachment_nat_configuration awscc_ec2_transit_gateway_attachment_nat_configuration} Resource.
 func NewEc2TransitGatewayAttachmentNatConfiguration(scope constructs.Construct, id *string, config *Ec2TransitGatewayAttachmentNatConfigurationConfig) Ec2TransitGatewayAttachmentNatConfiguration {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewEc2TransitGatewayAttachmentNatConfiguration(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_transit_gateway_attachment_nat_configuration awscc_ec2_transit_gateway_attachment_nat_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_transit_gateway_attachment_nat_configuration awscc_ec2_transit_gateway_attachment_nat_configuration} Resource.
 func NewEc2TransitGatewayAttachmentNatConfiguration_Override(e Ec2TransitGatewayAttachmentNatConfiguration, scope constructs.Construct, id *string, config *Ec2TransitGatewayAttachmentNatConfigurationConfig) {
 	_init_.Initialize()
 

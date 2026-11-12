@@ -215,6 +215,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUseLatestRestorableTime", GoMethod: "ResetUseLatestRestorableTime"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVpcSecurityGroupIds", GoMethod: "ResetVpcSecurityGroupIds"},
+			_jsii_.MemberMethod{JsiiMethod: "resetWithExpressConfiguration", GoMethod: "ResetWithExpressConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "restoreToTime", GoGetter: "RestoreToTime"},
 			_jsii_.MemberProperty{JsiiProperty: "restoreToTimeInput", GoGetter: "RestoreToTimeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "restoreType", GoGetter: "RestoreType"},
@@ -253,6 +254,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroupIds", GoGetter: "VpcSecurityGroupIds"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroupIdsInput", GoGetter: "VpcSecurityGroupIdsInput"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+			_jsii_.MemberProperty{JsiiProperty: "withExpressConfiguration", GoGetter: "WithExpressConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "withExpressConfigurationInput", GoGetter: "WithExpressConfigurationInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_RdsDbCluster{}

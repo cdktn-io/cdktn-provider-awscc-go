@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/opensearchservice_domain awscc_opensearchservice_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/opensearchservice_domain awscc_opensearchservice_domain}.
 type OpensearchserviceDomain interface {
 	cdktn.TerraformResource
 	AcceptedWarnings() *[]*string
@@ -1056,7 +1056,7 @@ func (j *jsiiProxy_OpensearchserviceDomain) VpcOptionsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/opensearchservice_domain awscc_opensearchservice_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/opensearchservice_domain awscc_opensearchservice_domain} Resource.
 func NewOpensearchserviceDomain(scope constructs.Construct, id *string, config *OpensearchserviceDomainConfig) OpensearchserviceDomain {
 	_init_.Initialize()
 
@@ -1074,7 +1074,7 @@ func NewOpensearchserviceDomain(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/opensearchservice_domain awscc_opensearchservice_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/opensearchservice_domain awscc_opensearchservice_domain} Resource.
 func NewOpensearchserviceDomain_Override(o OpensearchserviceDomain, scope constructs.Construct, id *string, config *OpensearchserviceDomainConfig) {
 	_init_.Initialize()
 

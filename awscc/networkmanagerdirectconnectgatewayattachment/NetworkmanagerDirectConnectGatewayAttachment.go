@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment}.
 type NetworkmanagerDirectConnectGatewayAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -59,6 +59,14 @@ type NetworkmanagerDirectConnectGatewayAttachment interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	NatGatewayRules() NetworkmanagerDirectConnectGatewayAttachmentNatGatewayRulesList
+	NatGatewayRulesInput() interface{}
+	NatGatewaySupport() *string
+	SetNatGatewaySupport(val *string)
+	NatGatewaySupportInput() *string
+	NatSystemRouteSupport() interface{}
+	SetNatSystemRouteSupport(val interface{})
+	NatSystemRouteSupportInput() interface{}
 	NetworkFunctionGroupName() *string
 	// The tree node.
 	Node() constructs.Node
@@ -169,6 +177,7 @@ type NetworkmanagerDirectConnectGatewayAttachment interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutNatGatewayRules(value interface{})
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -183,6 +192,9 @@ type NetworkmanagerDirectConnectGatewayAttachment interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetNatGatewayRules()
+	ResetNatGatewaySupport()
+	ResetNatSystemRouteSupport()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -435,6 +447,66 @@ func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) Lifecycle() *cd
 	return returns
 }
 
+func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) NatGatewayRules() NetworkmanagerDirectConnectGatewayAttachmentNatGatewayRulesList {
+	var returns NetworkmanagerDirectConnectGatewayAttachmentNatGatewayRulesList
+	_jsii_.Get(
+		j,
+		"natGatewayRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) NatGatewayRulesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"natGatewayRulesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) NatGatewaySupport() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"natGatewaySupport",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) NatGatewaySupportInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"natGatewaySupportInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) NatSystemRouteSupport() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"natSystemRouteSupport",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) NatSystemRouteSupportInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"natSystemRouteSupportInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) NetworkFunctionGroupName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -626,7 +698,7 @@ func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) UpdatedAt() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Resource.
 func NewNetworkmanagerDirectConnectGatewayAttachment(scope constructs.Construct, id *string, config *NetworkmanagerDirectConnectGatewayAttachmentConfig) NetworkmanagerDirectConnectGatewayAttachment {
 	_init_.Initialize()
 
@@ -644,7 +716,7 @@ func NewNetworkmanagerDirectConnectGatewayAttachment(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Resource.
 func NewNetworkmanagerDirectConnectGatewayAttachment_Override(n NetworkmanagerDirectConnectGatewayAttachment, scope constructs.Construct, id *string, config *NetworkmanagerDirectConnectGatewayAttachmentConfig) {
 	_init_.Initialize()
 
@@ -733,6 +805,28 @@ func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment)SetLifecycle(val
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment)SetNatGatewaySupport(val *string) {
+	if err := j.validateSetNatGatewaySupportParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"natGatewaySupport",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment)SetNatSystemRouteSupport(val interface{}) {
+	if err := j.validateSetNatSystemRouteSupportParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"natSystemRouteSupport",
 		val,
 	)
 }
@@ -1136,6 +1230,17 @@ func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) OverrideLogical
 	)
 }
 
+func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) PutNatGatewayRules(value interface{}) {
+	if err := n.validatePutNatGatewayRulesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putNatGatewayRules",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) PutTags(value interface{}) {
 	if err := n.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1155,6 +1260,30 @@ func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) RegisterProvide
 		n,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) ResetNatGatewayRules() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNatGatewayRules",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) ResetNatGatewaySupport() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNatGatewaySupport",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) ResetNatSystemRouteSupport() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNatSystemRouteSupport",
+		nil, // no parameters
 	)
 }
 

@@ -33,6 +33,7 @@ type DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference interface {
 	Host() DataAwsccEcsDaemonTaskDefinitionVolumesHostOutputReference
 	InternalValue() *DataAwsccEcsDaemonTaskDefinitionVolumes
 	SetInternalValue(val *DataAwsccEcsDaemonTaskDefinitionVolumes)
+	LogDriverVolumeConfiguration() DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference
 	Name() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -136,6 +137,16 @@ func (j *jsiiProxy_DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference) Inter
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference) LogDriverVolumeConfiguration() DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference {
+	var returns DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"logDriverVolumeConfiguration",
 		&returns,
 	)
 	return returns

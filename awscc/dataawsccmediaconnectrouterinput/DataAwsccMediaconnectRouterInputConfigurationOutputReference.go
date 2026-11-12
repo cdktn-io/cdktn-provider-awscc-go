@@ -28,6 +28,7 @@ type DataAwsccMediaconnectRouterInputConfigurationOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DestinationEndpoint() DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointOutputReference
 	Failover() DataAwsccMediaconnectRouterInputConfigurationFailoverOutputReference
 	// Experimental.
 	Fqn() *string
@@ -109,6 +110,16 @@ func (j *jsiiProxy_DataAwsccMediaconnectRouterInputConfigurationOutputReference)
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectRouterInputConfigurationOutputReference) DestinationEndpoint() DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointOutputReference {
+	var returns DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointOutputReference
+	_jsii_.Get(
+		j,
+		"destinationEndpoint",
 		&returns,
 	)
 	return returns

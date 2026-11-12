@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccsecurityagentagentspace
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateSetInternalValueParameters(val *DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilities) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccSecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

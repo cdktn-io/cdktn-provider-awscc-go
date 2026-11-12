@@ -5,9 +5,9 @@ package bcmpricingcalculatorbillestimate
 
 
 type BcmpricingcalculatorBillEstimateTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bcmpricingcalculator_bill_estimate#key BcmpricingcalculatorBillEstimate#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bcmpricingcalculator_bill_estimate#key BcmpricingcalculatorBillEstimate#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bcmpricingcalculator_bill_estimate#value BcmpricingcalculatorBillEstimate#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bcmpricingcalculator_bill_estimate#value BcmpricingcalculatorBillEstimate#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -143,6 +143,10 @@ func (j *jsiiProxy_TimestreamInfluxDbInstance) validateSetDeploymentTypeParamete
 	return nil
 }
 
+func (j *jsiiProxy_TimestreamInfluxDbInstance) validateSetKmsKeyIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_TimestreamInfluxDbInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

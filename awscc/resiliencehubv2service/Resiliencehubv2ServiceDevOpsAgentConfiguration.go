@@ -7,7 +7,7 @@ package resiliencehubv2service
 type Resiliencehubv2ServiceDevOpsAgentConfiguration struct {
 	// The ARN of the DevOps Agent Agent Space to link to this service.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#agent_space_arn Resiliencehubv2Service#agent_space_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/resiliencehubv2_service#agent_space_arn Resiliencehubv2Service#agent_space_arn}
 	AgentSpaceArn *string `field:"optional" json:"agentSpaceArn" yaml:"agentSpaceArn"`
 }
 

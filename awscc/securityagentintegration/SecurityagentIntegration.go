@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityagent_integration awscc_securityagent_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityagent_integration awscc_securityagent_integration}.
 type SecurityagentIntegration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -552,7 +552,7 @@ func (j *jsiiProxy_SecurityagentIntegration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityagent_integration awscc_securityagent_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityagent_integration awscc_securityagent_integration} Resource.
 func NewSecurityagentIntegration(scope constructs.Construct, id *string, config *SecurityagentIntegrationConfig) SecurityagentIntegration {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewSecurityagentIntegration(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityagent_integration awscc_securityagent_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityagent_integration awscc_securityagent_integration} Resource.
 func NewSecurityagentIntegration_Override(s SecurityagentIntegration, scope constructs.Construct, id *string, config *SecurityagentIntegrationConfig) {
 	_init_.Initialize()
 

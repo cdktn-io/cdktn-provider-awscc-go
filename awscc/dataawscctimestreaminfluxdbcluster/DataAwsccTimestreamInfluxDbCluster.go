@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster}.
 type DataAwsccTimestreamInfluxDbCluster interface {
 	cdktn.TerraformDataSource
 	AllocatedStorage() *float64
@@ -34,6 +34,7 @@ type DataAwsccTimestreamInfluxDbCluster interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	DeploymentType() *string
+	EffectiveDbParameterGroupIdentifier() *string
 	Endpoint() *string
 	EngineType() *string
 	FailoverMode() *string
@@ -50,12 +51,15 @@ type DataAwsccTimestreamInfluxDbCluster interface {
 	IdInput() *string
 	InfluxAuthParametersSecretArn() *string
 	InfluxDbClusterId() *string
+	KmsKeyId() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogDeliveryConfiguration() DataAwsccTimestreamInfluxDbClusterLogDeliveryConfigurationOutputReference
 	MaintenanceSchedule() DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference
+	MemberCount() *float64
+	MemberModeCounts() DataAwsccTimestreamInfluxDbClusterMemberModeCountsList
 	Name() *string
 	NetworkType() *string
 	NextMaintenanceTime() *string
@@ -262,6 +266,16 @@ func (j *jsiiProxy_DataAwsccTimestreamInfluxDbCluster) DeploymentType() *string 
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccTimestreamInfluxDbCluster) EffectiveDbParameterGroupIdentifier() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"effectiveDbParameterGroupIdentifier",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccTimestreamInfluxDbCluster) Endpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -362,6 +376,16 @@ func (j *jsiiProxy_DataAwsccTimestreamInfluxDbCluster) InfluxDbClusterId() *stri
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccTimestreamInfluxDbCluster) KmsKeyId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccTimestreamInfluxDbCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -387,6 +411,26 @@ func (j *jsiiProxy_DataAwsccTimestreamInfluxDbCluster) MaintenanceSchedule() Dat
 	_jsii_.Get(
 		j,
 		"maintenanceSchedule",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccTimestreamInfluxDbCluster) MemberCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"memberCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccTimestreamInfluxDbCluster) MemberModeCounts() DataAwsccTimestreamInfluxDbClusterMemberModeCountsList {
+	var returns DataAwsccTimestreamInfluxDbClusterMemberModeCountsList
+	_jsii_.Get(
+		j,
+		"memberModeCounts",
 		&returns,
 	)
 	return returns
@@ -583,7 +627,7 @@ func (j *jsiiProxy_DataAwsccTimestreamInfluxDbCluster) VpcSubnetIds() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Data Source.
 func NewDataAwsccTimestreamInfluxDbCluster(scope constructs.Construct, id *string, config *DataAwsccTimestreamInfluxDbClusterConfig) DataAwsccTimestreamInfluxDbCluster {
 	_init_.Initialize()
 
@@ -601,7 +645,7 @@ func NewDataAwsccTimestreamInfluxDbCluster(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Data Source.
 func NewDataAwsccTimestreamInfluxDbCluster_Override(d DataAwsccTimestreamInfluxDbCluster, scope constructs.Construct, id *string, config *DataAwsccTimestreamInfluxDbClusterConfig) {
 	_init_.Initialize()
 

@@ -7,7 +7,7 @@ package iototaupdate
 type IotOtaUpdateAwsJobAbortConfig struct {
 	// The list of criteria that determine when and how to abort the job.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_ota_update#abort_criteria_list IotOtaUpdate#abort_criteria_list}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/iot_ota_update#abort_criteria_list IotOtaUpdate#abort_criteria_list}
 	AbortCriteriaList interface{} `field:"optional" json:"abortCriteriaList" yaml:"abortCriteriaList"`
 }
 

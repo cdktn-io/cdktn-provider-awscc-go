@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization awscc_cloudwatch_domain_access_grant_for_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization awscc_cloudwatch_domain_access_grant_for_organization}.
 type CloudwatchDomainAccessGrantForOrganization interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -537,7 +537,7 @@ func (j *jsiiProxy_CloudwatchDomainAccessGrantForOrganization) UpdatedAt() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization awscc_cloudwatch_domain_access_grant_for_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization awscc_cloudwatch_domain_access_grant_for_organization} Resource.
 func NewCloudwatchDomainAccessGrantForOrganization(scope constructs.Construct, id *string, config *CloudwatchDomainAccessGrantForOrganizationConfig) CloudwatchDomainAccessGrantForOrganization {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewCloudwatchDomainAccessGrantForOrganization(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization awscc_cloudwatch_domain_access_grant_for_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization awscc_cloudwatch_domain_access_grant_for_organization} Resource.
 func NewCloudwatchDomainAccessGrantForOrganization_Override(c CloudwatchDomainAccessGrantForOrganization, scope constructs.Construct, id *string, config *CloudwatchDomainAccessGrantForOrganizationConfig) {
 	_init_.Initialize()
 

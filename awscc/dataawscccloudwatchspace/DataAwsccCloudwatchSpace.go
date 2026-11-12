@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_space awscc_cloudwatch_space}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_space awscc_cloudwatch_space}.
 type DataAwsccCloudwatchSpace interface {
 	cdktn.TerraformDataSource
 	AgentCoreEvaluationRoleArn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchSpace) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_space awscc_cloudwatch_space} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_space awscc_cloudwatch_space} Data Source.
 func NewDataAwsccCloudwatchSpace(scope constructs.Construct, id *string, config *DataAwsccCloudwatchSpaceConfig) DataAwsccCloudwatchSpace {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccCloudwatchSpace(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_space awscc_cloudwatch_space} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_space awscc_cloudwatch_space} Data Source.
 func NewDataAwsccCloudwatchSpace_Override(d DataAwsccCloudwatchSpace, scope constructs.Construct, id *string, config *DataAwsccCloudwatchSpaceConfig) {
 	_init_.Initialize()
 

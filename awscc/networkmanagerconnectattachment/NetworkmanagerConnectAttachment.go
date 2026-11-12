@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}.
 type NetworkmanagerConnectAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -56,6 +56,12 @@ type NetworkmanagerConnectAttachment interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	NatGatewayRules() NetworkmanagerConnectAttachmentNatGatewayRulesList
+	NatGatewayRulesInput() interface{}
+	NatGatewaySupport() *string
+	SetNatGatewaySupport(val *string)
+	NatGatewaySupportInput() *string
+	NatSystemRouteSupport() cdktn.IResolvable
 	NetworkFunctionGroupName() *string
 	SetNetworkFunctionGroupName(val *string)
 	NetworkFunctionGroupNameInput() *string
@@ -173,6 +179,7 @@ type NetworkmanagerConnectAttachment interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutNatGatewayRules(value interface{})
 	PutOptions(value *NetworkmanagerConnectAttachmentOptions)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -188,6 +195,8 @@ type NetworkmanagerConnectAttachment interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetNatGatewayRules()
+	ResetNatGatewaySupport()
 	ResetNetworkFunctionGroupName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -416,6 +425,56 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachment) Lifecycle() *cdktn.Terraform
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerConnectAttachment) NatGatewayRules() NetworkmanagerConnectAttachmentNatGatewayRulesList {
+	var returns NetworkmanagerConnectAttachmentNatGatewayRulesList
+	_jsii_.Get(
+		j,
+		"natGatewayRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerConnectAttachment) NatGatewayRulesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"natGatewayRulesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerConnectAttachment) NatGatewaySupport() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"natGatewaySupport",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerConnectAttachment) NatGatewaySupportInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"natGatewaySupportInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerConnectAttachment) NatSystemRouteSupport() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"natSystemRouteSupport",
 		&returns,
 	)
 	return returns
@@ -662,7 +721,7 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachment) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Resource.
 func NewNetworkmanagerConnectAttachment(scope constructs.Construct, id *string, config *NetworkmanagerConnectAttachmentConfig) NetworkmanagerConnectAttachment {
 	_init_.Initialize()
 
@@ -680,7 +739,7 @@ func NewNetworkmanagerConnectAttachment(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Resource.
 func NewNetworkmanagerConnectAttachment_Override(n NetworkmanagerConnectAttachment, scope constructs.Construct, id *string, config *NetworkmanagerConnectAttachmentConfig) {
 	_init_.Initialize()
 
@@ -758,6 +817,17 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachment)SetLifecycle(val *cdktn.Terra
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkmanagerConnectAttachment)SetNatGatewaySupport(val *string) {
+	if err := j.validateSetNatGatewaySupportParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"natGatewaySupport",
 		val,
 	)
 }
@@ -1183,6 +1253,17 @@ func (n *jsiiProxy_NetworkmanagerConnectAttachment) OverrideLogicalId(newLogical
 	)
 }
 
+func (n *jsiiProxy_NetworkmanagerConnectAttachment) PutNatGatewayRules(value interface{}) {
+	if err := n.validatePutNatGatewayRulesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putNatGatewayRules",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkmanagerConnectAttachment) PutOptions(value *NetworkmanagerConnectAttachmentOptions) {
 	if err := n.validatePutOptionsParameters(value); err != nil {
 		panic(err)
@@ -1213,6 +1294,22 @@ func (n *jsiiProxy_NetworkmanagerConnectAttachment) RegisterProviderFeatureUsage
 		n,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerConnectAttachment) ResetNatGatewayRules() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNatGatewayRules",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerConnectAttachment) ResetNatGatewaySupport() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNatGatewaySupport",
+		nil, // no parameters
 	)
 }
 

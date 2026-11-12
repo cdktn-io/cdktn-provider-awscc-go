@@ -123,6 +123,10 @@ func (j *jsiiProxy_Route53ProfilesProfileAssociation) validateSetNameParameters(
 	return nil
 }
 
+func (j *jsiiProxy_Route53ProfilesProfileAssociation) validateSetPriorityParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_Route53ProfilesProfileAssociation) validateSetProfileIdParameters(val *string) error {
 	return nil
 }

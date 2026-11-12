@@ -29,11 +29,13 @@ type DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTraffi
 	// Experimental.
 	CreationStack() *[]*string
 	Description() *string
+	Fallback() DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitFallbackOutputReference
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplit
 	SetInternalValue(val *DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplit)
 	Metadata() cdktn.StringMap
+	Model() *string
 	Name() *string
 	TargetName() *string
 	// Experimental.
@@ -124,6 +126,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetWeigh
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) Fallback() DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitFallbackOutputReference {
+	var returns DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitFallbackOutputReference
+	_jsii_.Get(
+		j,
+		"fallback",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -149,6 +161,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetWeigh
 	_jsii_.Get(
 		j,
 		"metadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) Model() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"model",
 		&returns,
 	)
 	return returns

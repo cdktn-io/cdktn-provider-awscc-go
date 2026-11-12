@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/dms_migration_project awscc_dms_migration_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dms_migration_project awscc_dms_migration_project}.
 type DmsMigrationProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -615,7 +615,7 @@ func (j *jsiiProxy_DmsMigrationProject) TransformationRulesInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/dms_migration_project awscc_dms_migration_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dms_migration_project awscc_dms_migration_project} Resource.
 func NewDmsMigrationProject(scope constructs.Construct, id *string, config *DmsMigrationProjectConfig) DmsMigrationProject {
 	_init_.Initialize()
 
@@ -633,7 +633,7 @@ func NewDmsMigrationProject(scope constructs.Construct, id *string, config *DmsM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/dms_migration_project awscc_dms_migration_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dms_migration_project awscc_dms_migration_project} Resource.
 func NewDmsMigrationProject_Override(d DmsMigrationProject, scope constructs.Construct, id *string, config *DmsMigrationProjectConfig) {
 	_init_.Initialize()
 

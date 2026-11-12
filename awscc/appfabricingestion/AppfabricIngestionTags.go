@@ -7,11 +7,11 @@ package appfabricingestion
 type AppfabricIngestionTags struct {
 	// Tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appfabric_ingestion#key AppfabricIngestion#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_ingestion#key AppfabricIngestion#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// Tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appfabric_ingestion#value AppfabricIngestion#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_ingestion#value AppfabricIngestion#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

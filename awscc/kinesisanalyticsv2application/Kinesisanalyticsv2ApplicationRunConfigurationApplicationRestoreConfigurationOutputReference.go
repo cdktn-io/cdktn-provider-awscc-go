@@ -35,6 +35,9 @@ type Kinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfiguratio
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	SnapshotArn() *string
+	SetSnapshotArn(val *string)
+	SnapshotArnInput() *string
 	SnapshotName() *string
 	SetSnapshotName(val *string)
 	SnapshotNameInput() *string
@@ -71,6 +74,7 @@ type Kinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfiguratio
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetApplicationRestoreType()
+	ResetSnapshotArn()
 	ResetSnapshotName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationResto
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfigurationOutputReference) SnapshotArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"snapshotArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfigurationOutputReference) SnapshotArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"snapshotArnInput",
 		&returns,
 	)
 	return returns
@@ -265,6 +289,17 @@ func (j *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationResto
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfigurationOutputReference)SetSnapshotArn(val *string) {
+	if err := j.validateSetSnapshotArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"snapshotArn",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (k *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationResto
 	_jsii_.InvokeVoid(
 		k,
 		"resetApplicationRestoreType",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfigurationOutputReference) ResetSnapshotArn() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetSnapshotArn",
 		nil, // no parameters
 	)
 }

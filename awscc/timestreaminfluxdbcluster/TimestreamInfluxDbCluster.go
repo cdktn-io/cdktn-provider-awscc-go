@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster}.
 type TimestreamInfluxDbCluster interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -50,6 +50,7 @@ type TimestreamInfluxDbCluster interface {
 	DeploymentType() *string
 	SetDeploymentType(val *string)
 	DeploymentTypeInput() *string
+	EffectiveDbParameterGroupIdentifier() *string
 	Endpoint() *string
 	EngineType() *string
 	FailoverMode() *string
@@ -66,6 +67,9 @@ type TimestreamInfluxDbCluster interface {
 	Id() *string
 	InfluxAuthParametersSecretArn() *string
 	InfluxDbClusterId() *string
+	KmsKeyId() *string
+	SetKmsKeyId(val *string)
+	KmsKeyIdInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -74,6 +78,8 @@ type TimestreamInfluxDbCluster interface {
 	LogDeliveryConfigurationInput() interface{}
 	MaintenanceSchedule() TimestreamInfluxDbClusterMaintenanceScheduleOutputReference
 	MaintenanceScheduleInput() interface{}
+	MemberCount() *float64
+	MemberModeCounts() TimestreamInfluxDbClusterMemberModeCountsList
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -226,6 +232,7 @@ type TimestreamInfluxDbCluster interface {
 	ResetDbStorageType()
 	ResetDeploymentType()
 	ResetFailoverMode()
+	ResetKmsKeyId()
 	ResetLogDeliveryConfiguration()
 	ResetMaintenanceSchedule()
 	ResetName()
@@ -448,6 +455,16 @@ func (j *jsiiProxy_TimestreamInfluxDbCluster) DeploymentTypeInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_TimestreamInfluxDbCluster) EffectiveDbParameterGroupIdentifier() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"effectiveDbParameterGroupIdentifier",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_TimestreamInfluxDbCluster) Endpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -548,6 +565,26 @@ func (j *jsiiProxy_TimestreamInfluxDbCluster) InfluxDbClusterId() *string {
 	return returns
 }
 
+func (j *jsiiProxy_TimestreamInfluxDbCluster) KmsKeyId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TimestreamInfluxDbCluster) KmsKeyIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_TimestreamInfluxDbCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -593,6 +630,26 @@ func (j *jsiiProxy_TimestreamInfluxDbCluster) MaintenanceScheduleInput() interfa
 	_jsii_.Get(
 		j,
 		"maintenanceScheduleInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TimestreamInfluxDbCluster) MemberCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"memberCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TimestreamInfluxDbCluster) MemberModeCounts() TimestreamInfluxDbClusterMemberModeCountsList {
+	var returns TimestreamInfluxDbClusterMemberModeCountsList
+	_jsii_.Get(
+		j,
+		"memberModeCounts",
 		&returns,
 	)
 	return returns
@@ -899,7 +956,7 @@ func (j *jsiiProxy_TimestreamInfluxDbCluster) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Resource.
 func NewTimestreamInfluxDbCluster(scope constructs.Construct, id *string, config *TimestreamInfluxDbClusterConfig) TimestreamInfluxDbCluster {
 	_init_.Initialize()
 
@@ -917,7 +974,7 @@ func NewTimestreamInfluxDbCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Resource.
 func NewTimestreamInfluxDbCluster_Override(t TimestreamInfluxDbCluster, scope constructs.Construct, id *string, config *TimestreamInfluxDbClusterConfig) {
 	_init_.Initialize()
 
@@ -1039,6 +1096,17 @@ func (j *jsiiProxy_TimestreamInfluxDbCluster)SetForEach(val cdktn.ITerraformIter
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TimestreamInfluxDbCluster)SetKmsKeyId(val *string) {
+	if err := j.validateSetKmsKeyIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kmsKeyId",
 		val,
 	)
 }
@@ -1637,6 +1705,14 @@ func (t *jsiiProxy_TimestreamInfluxDbCluster) ResetFailoverMode() {
 	_jsii_.InvokeVoid(
 		t,
 		"resetFailoverMode",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TimestreamInfluxDbCluster) ResetKmsKeyId() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetKmsKeyId",
 		nil, // no parameters
 	)
 }

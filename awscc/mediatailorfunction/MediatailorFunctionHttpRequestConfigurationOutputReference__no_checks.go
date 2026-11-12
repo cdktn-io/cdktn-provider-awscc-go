@@ -47,6 +47,10 @@ func (m *jsiiProxy_MediatailorFunctionHttpRequestConfigurationOutputReference) v
 	return nil
 }
 
+func (m *jsiiProxy_MediatailorFunctionHttpRequestConfigurationOutputReference) validatePutCacheParameters(value *MediatailorFunctionHttpRequestConfigurationCache) error {
+	return nil
+}
+
 func (m *jsiiProxy_MediatailorFunctionHttpRequestConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

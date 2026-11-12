@@ -9,7 +9,7 @@ type IotOtaUpdateAwsJobPresignedUrlConfig struct {
 	//
 	// Valid values are 60 - 3600, the default value is 1800 seconds.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_ota_update#expires_in_sec IotOtaUpdate#expires_in_sec}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/iot_ota_update#expires_in_sec IotOtaUpdate#expires_in_sec}
 	ExpiresInSec *float64 `field:"optional" json:"expiresInSec" yaml:"expiresInSec"`
 }
 

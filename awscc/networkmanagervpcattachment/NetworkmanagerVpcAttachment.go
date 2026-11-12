@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}.
 type NetworkmanagerVpcAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -54,6 +54,12 @@ type NetworkmanagerVpcAttachment interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	NatGatewayRules() NetworkmanagerVpcAttachmentNatGatewayRulesList
+	NatGatewayRulesInput() interface{}
+	NatGatewaySupport() *string
+	SetNatGatewaySupport(val *string)
+	NatGatewaySupportInput() *string
+	NatSystemRouteSupport() cdktn.IResolvable
 	NetworkFunctionGroupName() *string
 	// The tree node.
 	Node() constructs.Node
@@ -172,6 +178,7 @@ type NetworkmanagerVpcAttachment interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutNatGatewayRules(value interface{})
 	PutOptions(value *NetworkmanagerVpcAttachmentOptions)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -187,6 +194,8 @@ type NetworkmanagerVpcAttachment interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetNatGatewayRules()
+	ResetNatGatewaySupport()
 	ResetOptions()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -405,6 +414,56 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachment) Lifecycle() *cdktn.TerraformReso
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerVpcAttachment) NatGatewayRules() NetworkmanagerVpcAttachmentNatGatewayRulesList {
+	var returns NetworkmanagerVpcAttachmentNatGatewayRulesList
+	_jsii_.Get(
+		j,
+		"natGatewayRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerVpcAttachment) NatGatewayRulesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"natGatewayRulesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerVpcAttachment) NatGatewaySupport() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"natGatewaySupport",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerVpcAttachment) NatGatewaySupportInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"natGatewaySupportInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkmanagerVpcAttachment) NatSystemRouteSupport() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"natSystemRouteSupport",
 		&returns,
 	)
 	return returns
@@ -661,7 +720,7 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachment) VpcArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource.
 func NewNetworkmanagerVpcAttachment(scope constructs.Construct, id *string, config *NetworkmanagerVpcAttachmentConfig) NetworkmanagerVpcAttachment {
 	_init_.Initialize()
 
@@ -679,7 +738,7 @@ func NewNetworkmanagerVpcAttachment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource.
 func NewNetworkmanagerVpcAttachment_Override(n NetworkmanagerVpcAttachment, scope constructs.Construct, id *string, config *NetworkmanagerVpcAttachmentConfig) {
 	_init_.Initialize()
 
@@ -746,6 +805,17 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachment)SetLifecycle(val *cdktn.Terraform
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkmanagerVpcAttachment)SetNatGatewaySupport(val *string) {
+	if err := j.validateSetNatGatewaySupportParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"natGatewaySupport",
 		val,
 	)
 }
@@ -1171,6 +1241,17 @@ func (n *jsiiProxy_NetworkmanagerVpcAttachment) OverrideLogicalId(newLogicalId *
 	)
 }
 
+func (n *jsiiProxy_NetworkmanagerVpcAttachment) PutNatGatewayRules(value interface{}) {
+	if err := n.validatePutNatGatewayRulesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putNatGatewayRules",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkmanagerVpcAttachment) PutOptions(value *NetworkmanagerVpcAttachmentOptions) {
 	if err := n.validatePutOptionsParameters(value); err != nil {
 		panic(err)
@@ -1201,6 +1282,22 @@ func (n *jsiiProxy_NetworkmanagerVpcAttachment) RegisterProviderFeatureUsage(fea
 		n,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerVpcAttachment) ResetNatGatewayRules() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNatGatewayRules",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkmanagerVpcAttachment) ResetNatGatewaySupport() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNatGatewaySupport",
+		nil, // no parameters
 	)
 }
 

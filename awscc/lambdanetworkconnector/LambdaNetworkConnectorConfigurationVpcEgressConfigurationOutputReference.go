@@ -31,9 +31,6 @@ type LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference in
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	ElasticIpConfiguration() *string
-	SetElasticIpConfiguration(val *string)
-	ElasticIpConfigurationInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -79,7 +76,6 @@ type LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference in
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetElasticIpConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -140,26 +136,6 @@ func (j *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutp
 	_jsii_.Get(
 		j,
 		"creationStack",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference) ElasticIpConfiguration() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"elasticIpConfiguration",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference) ElasticIpConfigurationInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"elasticIpConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -322,17 +298,6 @@ func (j *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutp
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
-		val,
-	)
-}
-
-func (j *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference)SetElasticIpConfiguration(val *string) {
-	if err := j.validateSetElasticIpConfigurationParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"elasticIpConfiguration",
 		val,
 	)
 }
@@ -587,14 +552,6 @@ func (l *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutp
 	)
 
 	return returns
-}
-
-func (l *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference) ResetElasticIpConfiguration() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetElasticIpConfiguration",
-		nil, // no parameters
-	)
 }
 
 func (l *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

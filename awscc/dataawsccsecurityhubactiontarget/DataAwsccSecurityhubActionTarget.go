@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/securityhub_action_target awscc_securityhub_action_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/securityhub_action_target awscc_securityhub_action_target}.
 type DataAwsccSecurityhubActionTarget interface {
 	cdktn.TerraformDataSource
 	ActionTargetArn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubActionTarget) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/securityhub_action_target awscc_securityhub_action_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/securityhub_action_target awscc_securityhub_action_target} Data Source.
 func NewDataAwsccSecurityhubActionTarget(scope constructs.Construct, id *string, config *DataAwsccSecurityhubActionTargetConfig) DataAwsccSecurityhubActionTarget {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccSecurityhubActionTarget(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/securityhub_action_target awscc_securityhub_action_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/securityhub_action_target awscc_securityhub_action_target} Data Source.
 func NewDataAwsccSecurityhubActionTarget_Override(d DataAwsccSecurityhubActionTarget, scope constructs.Construct, id *string, config *DataAwsccSecurityhubActionTargetConfig) {
 	_init_.Initialize()
 

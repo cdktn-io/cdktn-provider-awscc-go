@@ -7,7 +7,7 @@ package ecsgateway
 type EcsGatewayConfigurationHostSharedAlbAccessLogsDestination struct {
 	// The S3 destination for gateway ALB access logs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#s3 EcsGateway#s3}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecs_gateway#s3 EcsGateway#s3}
 	S3 *EcsGatewayConfigurationHostSharedAlbAccessLogsDestinationS3 `field:"optional" json:"s3" yaml:"s3"`
 }
 

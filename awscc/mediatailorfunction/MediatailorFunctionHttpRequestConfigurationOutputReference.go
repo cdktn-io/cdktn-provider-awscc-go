@@ -16,6 +16,8 @@ type MediatailorFunctionHttpRequestConfigurationOutputReference interface {
 	Body() *string
 	SetBody(val *string)
 	BodyInput() *string
+	Cache() MediatailorFunctionHttpRequestConfigurationCacheOutputReference
+	CacheInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -85,7 +87,9 @@ type MediatailorFunctionHttpRequestConfigurationOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCache(value *MediatailorFunctionHttpRequestConfigurationCache)
 	ResetBody()
+	ResetCache()
 	ResetHeaders()
 	ResetMethodType()
 	ResetOutput()
@@ -122,6 +126,26 @@ func (j *jsiiProxy_MediatailorFunctionHttpRequestConfigurationOutputReference) B
 	_jsii_.Get(
 		j,
 		"bodyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediatailorFunctionHttpRequestConfigurationOutputReference) Cache() MediatailorFunctionHttpRequestConfigurationCacheOutputReference {
+	var returns MediatailorFunctionHttpRequestConfigurationCacheOutputReference
+	_jsii_.Get(
+		j,
+		"cache",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediatailorFunctionHttpRequestConfigurationOutputReference) CacheInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"cacheInput",
 		&returns,
 	)
 	return returns
@@ -663,10 +687,29 @@ func (m *jsiiProxy_MediatailorFunctionHttpRequestConfigurationOutputReference) I
 	return returns
 }
 
+func (m *jsiiProxy_MediatailorFunctionHttpRequestConfigurationOutputReference) PutCache(value *MediatailorFunctionHttpRequestConfigurationCache) {
+	if err := m.validatePutCacheParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putCache",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MediatailorFunctionHttpRequestConfigurationOutputReference) ResetBody() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetBody",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediatailorFunctionHttpRequestConfigurationOutputReference) ResetCache() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetCache",
 		nil, // no parameters
 	)
 }

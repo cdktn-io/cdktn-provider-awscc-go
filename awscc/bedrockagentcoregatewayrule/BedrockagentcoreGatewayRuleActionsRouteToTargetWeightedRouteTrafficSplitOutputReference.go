@@ -31,6 +31,8 @@ type BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOut
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	Fallback() BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitFallbackOutputReference
+	FallbackInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -38,6 +40,9 @@ type BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOut
 	Metadata() *map[string]*string
 	SetMetadata(val *map[string]*string)
 	MetadataInput() *map[string]*string
+	Model() *string
+	SetModel(val *string)
+	ModelInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -79,8 +84,11 @@ type BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOut
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutFallback(value *BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitFallback)
 	ResetDescription()
+	ResetFallback()
 	ResetMetadata()
+	ResetModel()
 	ResetName()
 	ResetTargetName()
 	ResetWeight()
@@ -149,6 +157,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteT
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) Fallback() BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitFallbackOutputReference {
+	var returns BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitFallbackOutputReference
+	_jsii_.Get(
+		j,
+		"fallback",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) FallbackInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"fallbackInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -184,6 +212,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteT
 	_jsii_.Get(
 		j,
 		"metadataInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) Model() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"model",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) ModelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modelInput",
 		&returns,
 	)
 	return returns
@@ -348,6 +396,17 @@ func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteT
 	_jsii_.Set(
 		j,
 		"metadata",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference)SetModel(val *string) {
+	if err := j.validateSetModelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"model",
 		val,
 	)
 }
@@ -593,6 +652,17 @@ func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteT
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) PutFallback(value *BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitFallback) {
+	if err := b.validatePutFallbackParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putFallback",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) ResetDescription() {
 	_jsii_.InvokeVoid(
 		b,
@@ -601,10 +671,26 @@ func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteT
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) ResetFallback() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetFallback",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) ResetMetadata() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetMetadata",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRouteTrafficSplitOutputReference) ResetModel() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetModel",
 		nil, // no parameters
 	)
 }

@@ -359,6 +359,10 @@ func (j *jsiiProxy_RdsDbCluster) validateSetVpcSecurityGroupIdsParameters(val *[
 	return nil
 }
 
+func (j *jsiiProxy_RdsDbCluster) validateSetWithExpressConfigurationParameters(val interface{}) error {
+	return nil
+}
+
 func validateNewRdsDbClusterParameters(scope constructs.Construct, id *string, config *RdsDbClusterConfig) error {
 	return nil
 }

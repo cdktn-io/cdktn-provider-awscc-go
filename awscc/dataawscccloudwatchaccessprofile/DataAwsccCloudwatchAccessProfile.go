@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_access_profile awscc_cloudwatch_access_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_access_profile awscc_cloudwatch_access_profile}.
 type DataAwsccCloudwatchAccessProfile interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchAccessProfile) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_access_profile awscc_cloudwatch_access_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_access_profile awscc_cloudwatch_access_profile} Data Source.
 func NewDataAwsccCloudwatchAccessProfile(scope constructs.Construct, id *string, config *DataAwsccCloudwatchAccessProfileConfig) DataAwsccCloudwatchAccessProfile {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccCloudwatchAccessProfile(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_access_profile awscc_cloudwatch_access_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_access_profile awscc_cloudwatch_access_profile} Data Source.
 func NewDataAwsccCloudwatchAccessProfile_Override(d DataAwsccCloudwatchAccessProfile, scope constructs.Construct, id *string, config *DataAwsccCloudwatchAccessProfileConfig) {
 	_init_.Initialize()
 

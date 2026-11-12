@@ -17,6 +17,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "associatedDestinationEndpointArns", GoGetter: "AssociatedDestinationEndpointArns"},
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZone", GoGetter: "AvailabilityZone"},
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZoneInput", GoGetter: "AvailabilityZoneInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
@@ -116,6 +117,177 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfiguration",
 		reflect.TypeOf((*MediaconnectRouterInputConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint",
+		reflect.TypeOf((*MediaconnectRouterInputConfigurationDestinationEndpoint)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference",
+		reflect.TypeOf((*MediaconnectRouterInputConfigurationDestinationEndpointOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "endpointLifecycleManagement", GoGetter: "EndpointLifecycleManagement"},
+			_jsii_.MemberProperty{JsiiProperty: "endpointLifecycleManagementInput", GoGetter: "EndpointLifecycleManagementInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putSourceTransitDecryption", GoMethod: "PutSourceTransitDecryption"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEndpointLifecycleManagement", GoMethod: "ResetEndpointLifecycleManagement"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSourceTransitDecryption", GoMethod: "ResetSourceTransitDecryption"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSourceTransitDecryptionType", GoMethod: "ResetSourceTransitDecryptionType"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceTransitDecryption", GoGetter: "SourceTransitDecryption"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceTransitDecryptionInput", GoGetter: "SourceTransitDecryptionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceTransitDecryptionType", GoGetter: "SourceTransitDecryptionType"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceTransitDecryptionTypeInput", GoGetter: "SourceTransitDecryptionTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_MediaconnectRouterInputConfigurationDestinationEndpointOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption",
+		reflect.TypeOf((*MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference",
+		reflect.TypeOf((*MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "automatic", GoGetter: "Automatic"},
+			_jsii_.MemberProperty{JsiiProperty: "automaticInput", GoGetter: "AutomaticInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putSecretsManager", GoMethod: "PutSecretsManager"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAutomatic", GoMethod: "ResetAutomatic"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSecretsManager", GoMethod: "ResetSecretsManager"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "secretsManager", GoGetter: "SecretsManager"},
+			_jsii_.MemberProperty{JsiiProperty: "secretsManagerInput", GoGetter: "SecretsManagerInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager",
+		reflect.TypeOf((*MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret",
+		reflect.TypeOf((*MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference",
+		reflect.TypeOf((*MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSecretArn", GoMethod: "ResetSecretArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "secretArn", GoGetter: "SecretArn"},
+			_jsii_.MemberProperty{JsiiProperty: "secretArnInput", GoGetter: "SecretArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference",
+		reflect.TypeOf((*MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionSecret", GoGetter: "EncryptionSecret"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionSecretInput", GoGetter: "EncryptionSecretInput"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionSecretType", GoGetter: "EncryptionSecretType"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionSecretTypeInput", GoGetter: "EncryptionSecretTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putEncryptionSecret", GoMethod: "PutEncryptionSecret"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEncryptionSecret", GoMethod: "ResetEncryptionSecret"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEncryptionSecretType", GoMethod: "ResetEncryptionSecretType"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover",
@@ -1141,6 +1313,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "destinationEndpoint", GoGetter: "DestinationEndpoint"},
+			_jsii_.MemberProperty{JsiiProperty: "destinationEndpointInput", GoGetter: "DestinationEndpointInput"},
 			_jsii_.MemberProperty{JsiiProperty: "failover", GoGetter: "Failover"},
 			_jsii_.MemberProperty{JsiiProperty: "failoverInput", GoGetter: "FailoverInput"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
@@ -1162,11 +1336,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "mediaLiveChannelInput", GoGetter: "MediaLiveChannelInput"},
 			_jsii_.MemberProperty{JsiiProperty: "merge", GoGetter: "Merge"},
 			_jsii_.MemberProperty{JsiiProperty: "mergeInput", GoGetter: "MergeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putDestinationEndpoint", GoMethod: "PutDestinationEndpoint"},
 			_jsii_.MemberMethod{JsiiMethod: "putFailover", GoMethod: "PutFailover"},
 			_jsii_.MemberMethod{JsiiMethod: "putMediaConnectFlow", GoMethod: "PutMediaConnectFlow"},
 			_jsii_.MemberMethod{JsiiMethod: "putMediaLiveChannel", GoMethod: "PutMediaLiveChannel"},
 			_jsii_.MemberMethod{JsiiMethod: "putMerge", GoMethod: "PutMerge"},
 			_jsii_.MemberMethod{JsiiMethod: "putStandard", GoMethod: "PutStandard"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDestinationEndpoint", GoMethod: "ResetDestinationEndpoint"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFailover", GoMethod: "ResetFailover"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMediaConnectFlow", GoMethod: "ResetMediaConnectFlow"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMediaLiveChannel", GoMethod: "ResetMediaLiveChannel"},

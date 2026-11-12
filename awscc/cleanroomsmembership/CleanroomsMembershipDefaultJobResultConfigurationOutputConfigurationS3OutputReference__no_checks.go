@@ -71,6 +71,10 @@ func (j *jsiiProxy_CleanroomsMembershipDefaultJobResultConfigurationOutputConfig
 	return nil
 }
 
+func (j *jsiiProxy_CleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3OutputReference) validateSetResultFormatParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CleanroomsMembershipDefaultJobResultConfigurationOutputConfigurationS3OutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

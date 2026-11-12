@@ -35,8 +35,13 @@ type ImagebuilderImageImageScanningConfigurationOutputReference interface {
 	ImageScanningEnabled() interface{}
 	SetImageScanningEnabled(val interface{})
 	ImageScanningEnabledInput() interface{}
+	ImageScanningTypes() *[]*string
+	SetImageScanningTypes(val *[]*string)
+	ImageScanningTypesInput() *[]*string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	ScanResultCondition() ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference
+	ScanResultConditionInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,8 +75,11 @@ type ImagebuilderImageImageScanningConfigurationOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEcrConfiguration(value *ImagebuilderImageImageScanningConfigurationEcrConfiguration)
+	PutScanResultCondition(value *ImagebuilderImageImageScanningConfigurationScanResultCondition)
 	ResetEcrConfiguration()
 	ResetImageScanningEnabled()
+	ResetImageScanningTypes()
+	ResetScanResultCondition()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -167,11 +175,51 @@ func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) I
 	return returns
 }
 
+func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) ImageScanningTypes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"imageScanningTypes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) ImageScanningTypesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"imageScanningTypesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) InternalValue() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) ScanResultCondition() ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference {
+	var returns ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference
+	_jsii_.Get(
+		j,
+		"scanResultCondition",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) ScanResultConditionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"scanResultConditionInput",
 		&returns,
 	)
 	return returns
@@ -254,6 +302,17 @@ func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference)Se
 	_jsii_.Set(
 		j,
 		"imageScanningEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference)SetImageScanningTypes(val *[]*string) {
+	if err := j.validateSetImageScanningTypesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"imageScanningTypes",
 		val,
 	)
 }
@@ -488,6 +547,17 @@ func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) P
 	)
 }
 
+func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) PutScanResultCondition(value *ImagebuilderImageImageScanningConfigurationScanResultCondition) {
+	if err := i.validatePutScanResultConditionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putScanResultCondition",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) ResetEcrConfiguration() {
 	_jsii_.InvokeVoid(
 		i,
@@ -500,6 +570,22 @@ func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) R
 	_jsii_.InvokeVoid(
 		i,
 		"resetImageScanningEnabled",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) ResetImageScanningTypes() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetImageScanningTypes",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_ImagebuilderImageImageScanningConfigurationOutputReference) ResetScanResultCondition() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetScanResultCondition",
 		nil, // no parameters
 	)
 }

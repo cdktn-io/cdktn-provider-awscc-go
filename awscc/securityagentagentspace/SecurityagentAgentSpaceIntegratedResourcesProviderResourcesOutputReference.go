@@ -13,6 +13,10 @@ import (
 
 type SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference interface {
 	cdktn.ComplexObject
+	AzureDevOpsCapabilities() SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference
+	AzureDevOpsCapabilitiesInput() interface{}
+	AzureDevOpsRepository() SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepositoryOutputReference
+	AzureDevOpsRepositoryInput() interface{}
 	BitbucketCapabilities() SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketCapabilitiesOutputReference
 	BitbucketCapabilitiesInput() interface{}
 	BitbucketRepository() SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketRepositoryOutputReference
@@ -80,6 +84,8 @@ type SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference 
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAzureDevOpsCapabilities(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilities)
+	PutAzureDevOpsRepository(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepository)
 	PutBitbucketCapabilities(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketCapabilities)
 	PutBitbucketRepository(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketRepository)
 	PutConfluenceCapabilities(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluenceCapabilities)
@@ -88,6 +94,8 @@ type SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference 
 	PutGitHubRepository(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitHubRepository)
 	PutGitLabCapabilities(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitLabCapabilities)
 	PutGitLabRepository(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitLabRepository)
+	ResetAzureDevOpsCapabilities()
+	ResetAzureDevOpsRepository()
 	ResetBitbucketCapabilities()
 	ResetBitbucketRepository()
 	ResetConfluenceCapabilities()
@@ -109,6 +117,46 @@ type SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference 
 // The jsii proxy struct for SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference
 type jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) AzureDevOpsCapabilities() SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference {
+	var returns SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilitiesOutputReference
+	_jsii_.Get(
+		j,
+		"azureDevOpsCapabilities",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) AzureDevOpsCapabilitiesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"azureDevOpsCapabilitiesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) AzureDevOpsRepository() SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepositoryOutputReference {
+	var returns SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepositoryOutputReference
+	_jsii_.Get(
+		j,
+		"azureDevOpsRepository",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) AzureDevOpsRepositoryInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"azureDevOpsRepositoryInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) BitbucketCapabilities() SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketCapabilitiesOutputReference {
@@ -610,6 +658,28 @@ func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOu
 	return returns
 }
 
+func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) PutAzureDevOpsCapabilities(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsCapabilities) {
+	if err := s.validatePutAzureDevOpsCapabilitiesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putAzureDevOpsCapabilities",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) PutAzureDevOpsRepository(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesAzureDevOpsRepository) {
+	if err := s.validatePutAzureDevOpsRepositoryParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putAzureDevOpsRepository",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) PutBitbucketCapabilities(value *SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucketCapabilities) {
 	if err := s.validatePutBitbucketCapabilitiesParameters(value); err != nil {
 		panic(err)
@@ -695,6 +765,22 @@ func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOu
 		s,
 		"putGitLabRepository",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) ResetAzureDevOpsCapabilities() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetAzureDevOpsCapabilities",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecurityagentAgentSpaceIntegratedResourcesProviderResourcesOutputReference) ResetAzureDevOpsRepository() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetAzureDevOpsRepository",
+		nil, // no parameters
 	)
 }
 

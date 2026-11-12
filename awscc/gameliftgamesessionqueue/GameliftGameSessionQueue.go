@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue awscc_gamelift_game_session_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue awscc_gamelift_game_session_queue}.
 type GameliftGameSessionQueue interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -52,6 +52,8 @@ type GameliftGameSessionQueue interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	LogConfiguration() GameliftGameSessionQueueLogConfigurationOutputReference
+	LogConfigurationInput() interface{}
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -166,6 +168,7 @@ type GameliftGameSessionQueue interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutDestinations(value interface{})
 	PutFilterConfiguration(value *GameliftGameSessionQueueFilterConfiguration)
+	PutLogConfiguration(value *GameliftGameSessionQueueLogConfiguration)
 	PutPlayerLatencyPolicies(value interface{})
 	PutPriorityConfiguration(value *GameliftGameSessionQueuePriorityConfiguration)
 	PutTags(value interface{})
@@ -185,6 +188,7 @@ type GameliftGameSessionQueue interface {
 	ResetCustomEventData()
 	ResetDestinations()
 	ResetFilterConfiguration()
+	ResetLogConfiguration()
 	ResetNotificationTarget()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -390,6 +394,26 @@ func (j *jsiiProxy_GameliftGameSessionQueue) Lifecycle() *cdktn.TerraformResourc
 	return returns
 }
 
+func (j *jsiiProxy_GameliftGameSessionQueue) LogConfiguration() GameliftGameSessionQueueLogConfigurationOutputReference {
+	var returns GameliftGameSessionQueueLogConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"logConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GameliftGameSessionQueue) LogConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"logConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GameliftGameSessionQueue) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -581,7 +605,7 @@ func (j *jsiiProxy_GameliftGameSessionQueue) TimeoutInSecondsInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue awscc_gamelift_game_session_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue awscc_gamelift_game_session_queue} Resource.
 func NewGameliftGameSessionQueue(scope constructs.Construct, id *string, config *GameliftGameSessionQueueConfig) GameliftGameSessionQueue {
 	_init_.Initialize()
 
@@ -599,7 +623,7 @@ func NewGameliftGameSessionQueue(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue awscc_gamelift_game_session_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue awscc_gamelift_game_session_queue} Resource.
 func NewGameliftGameSessionQueue_Override(g GameliftGameSessionQueue, scope constructs.Construct, id *string, config *GameliftGameSessionQueueConfig) {
 	_init_.Initialize()
 
@@ -1113,6 +1137,17 @@ func (g *jsiiProxy_GameliftGameSessionQueue) PutFilterConfiguration(value *Gamel
 	)
 }
 
+func (g *jsiiProxy_GameliftGameSessionQueue) PutLogConfiguration(value *GameliftGameSessionQueueLogConfiguration) {
+	if err := g.validatePutLogConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putLogConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GameliftGameSessionQueue) PutPlayerLatencyPolicies(value interface{}) {
 	if err := g.validatePutPlayerLatencyPoliciesParameters(value); err != nil {
 		panic(err)
@@ -1177,6 +1212,14 @@ func (g *jsiiProxy_GameliftGameSessionQueue) ResetFilterConfiguration() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetFilterConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GameliftGameSessionQueue) ResetLogConfiguration() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLogConfiguration",
 		nil, // no parameters
 	)
 }

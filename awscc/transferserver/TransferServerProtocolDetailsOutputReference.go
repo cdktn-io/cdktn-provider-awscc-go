@@ -43,6 +43,8 @@ type TransferServerProtocolDetailsOutputReference interface {
 	SetStatOption() *string
 	SetSetStatOption(val *string)
 	SetStatOptionInput() *string
+	SftpPorts() TransferServerProtocolDetailsSftpPortsList
+	SftpPortsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -79,10 +81,12 @@ type TransferServerProtocolDetailsOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutProxyConfig(value *TransferServerProtocolDetailsProxyConfig)
+	PutSftpPorts(value interface{})
 	ResetAs2Transports()
 	ResetPassiveIp()
 	ResetProxyConfig()
 	ResetSetStatOption()
+	ResetSftpPorts()
 	ResetTlsSessionResumptionMode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -224,6 +228,26 @@ func (j *jsiiProxy_TransferServerProtocolDetailsOutputReference) SetStatOptionIn
 	_jsii_.Get(
 		j,
 		"setStatOptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferServerProtocolDetailsOutputReference) SftpPorts() TransferServerProtocolDetailsSftpPortsList {
+	var returns TransferServerProtocolDetailsSftpPortsList
+	_jsii_.Get(
+		j,
+		"sftpPorts",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferServerProtocolDetailsOutputReference) SftpPortsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sftpPortsInput",
 		&returns,
 	)
 	return returns
@@ -593,6 +617,17 @@ func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) PutProxyConfig(
 	)
 }
 
+func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) PutSftpPorts(value interface{}) {
+	if err := t.validatePutSftpPortsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"putSftpPorts",
+		[]interface{}{value},
+	)
+}
+
 func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) ResetAs2Transports() {
 	_jsii_.InvokeVoid(
 		t,
@@ -621,6 +656,14 @@ func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) ResetSetStatOpt
 	_jsii_.InvokeVoid(
 		t,
 		"resetSetStatOption",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) ResetSftpPorts() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetSftpPorts",
 		nil, // no parameters
 	)
 }

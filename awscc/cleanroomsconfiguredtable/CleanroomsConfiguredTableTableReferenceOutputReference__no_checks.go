@@ -51,6 +51,10 @@ func (c *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) valid
 	return nil
 }
 
+func (c *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) validatePutDatabricksParameters(value *CleanroomsConfiguredTableTableReferenceDatabricks) error {
+	return nil
+}
+
 func (c *jsiiProxy_CleanroomsConfiguredTableTableReferenceOutputReference) validatePutGlueParameters(value *CleanroomsConfiguredTableTableReferenceGlue) error {
 	return nil
 }

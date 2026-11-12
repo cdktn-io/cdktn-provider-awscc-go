@@ -7,7 +7,7 @@ package cloudwatchalarm
 type CloudwatchAlarmActionConfiguration struct {
 	// Whether the alarm's tags are included in its action notifications and state-change events.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_alarm#alarm_tags_propagation CloudwatchAlarm#alarm_tags_propagation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alarm#alarm_tags_propagation CloudwatchAlarm#alarm_tags_propagation}
 	AlarmTagsPropagation *CloudwatchAlarmActionConfigurationAlarmTagsPropagation `field:"optional" json:"alarmTagsPropagation" yaml:"alarmTagsPropagation"`
 }
 

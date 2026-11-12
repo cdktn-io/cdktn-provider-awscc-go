@@ -198,6 +198,14 @@ func (j *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationResto
 	return nil
 }
 
+func (j *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfigurationOutputReference) validateSetSnapshotArnParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_Kinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConfigurationOutputReference) validateSetSnapshotNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

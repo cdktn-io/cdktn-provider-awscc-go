@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/codebuild_projects awscc_codebuild_projects}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/codebuild_projects awscc_codebuild_projects}.
 type DataAwsccCodebuildProjects interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCodebuildProjects) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/codebuild_projects awscc_codebuild_projects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/codebuild_projects awscc_codebuild_projects} Data Source.
 func NewDataAwsccCodebuildProjects(scope constructs.Construct, id *string, config *DataAwsccCodebuildProjectsConfig) DataAwsccCodebuildProjects {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCodebuildProjects(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/codebuild_projects awscc_codebuild_projects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/codebuild_projects awscc_codebuild_projects} Data Source.
 func NewDataAwsccCodebuildProjects_Override(d DataAwsccCodebuildProjects, scope constructs.Construct, id *string, config *DataAwsccCodebuildProjectsConfig) {
 	_init_.Initialize()
 

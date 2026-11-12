@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group}.
 type DataAwsccPcsComputeNodeGroup interface {
 	cdktn.TerraformDataSource
 	AmiId() *string
@@ -46,6 +46,7 @@ type DataAwsccPcsComputeNodeGroup interface {
 	SetId(val *string)
 	IdInput() *string
 	InstanceConfigs() DataAwsccPcsComputeNodeGroupInstanceConfigsList
+	LaunchTemplateMode() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -62,8 +63,10 @@ type DataAwsccPcsComputeNodeGroup interface {
 	// Experimental.
 	RawOverrides() interface{}
 	ScalingConfiguration() DataAwsccPcsComputeNodeGroupScalingConfigurationOutputReference
+	SecurityGroupIds() *[]*string
 	SlurmConfiguration() DataAwsccPcsComputeNodeGroupSlurmConfigurationOutputReference
 	SpotOptions() DataAwsccPcsComputeNodeGroupSpotOptionsOutputReference
+	SshKeyName() *string
 	Status() *string
 	SubnetIds() *[]*string
 	Tags() cdktn.StringMap
@@ -312,6 +315,16 @@ func (j *jsiiProxy_DataAwsccPcsComputeNodeGroup) InstanceConfigs() DataAwsccPcsC
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccPcsComputeNodeGroup) LaunchTemplateMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"launchTemplateMode",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccPcsComputeNodeGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -392,6 +405,16 @@ func (j *jsiiProxy_DataAwsccPcsComputeNodeGroup) ScalingConfiguration() DataAwsc
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccPcsComputeNodeGroup) SecurityGroupIds() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"securityGroupIds",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccPcsComputeNodeGroup) SlurmConfiguration() DataAwsccPcsComputeNodeGroupSlurmConfigurationOutputReference {
 	var returns DataAwsccPcsComputeNodeGroupSlurmConfigurationOutputReference
 	_jsii_.Get(
@@ -407,6 +430,16 @@ func (j *jsiiProxy_DataAwsccPcsComputeNodeGroup) SpotOptions() DataAwsccPcsCompu
 	_jsii_.Get(
 		j,
 		"spotOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccPcsComputeNodeGroup) SshKeyName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sshKeyName",
 		&returns,
 	)
 	return returns
@@ -473,7 +506,7 @@ func (j *jsiiProxy_DataAwsccPcsComputeNodeGroup) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group} Data Source.
 func NewDataAwsccPcsComputeNodeGroup(scope constructs.Construct, id *string, config *DataAwsccPcsComputeNodeGroupConfig) DataAwsccPcsComputeNodeGroup {
 	_init_.Initialize()
 
@@ -491,7 +524,7 @@ func NewDataAwsccPcsComputeNodeGroup(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group} Data Source.
 func NewDataAwsccPcsComputeNodeGroup_Override(d DataAwsccPcsComputeNodeGroup, scope constructs.Construct, id *string, config *DataAwsccPcsComputeNodeGroupConfig) {
 	_init_.Initialize()
 
